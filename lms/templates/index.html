@@ -27,9 +27,35 @@ from openedx.core.djangolib.markup import HTML, Text
           <p class="mb-0">Don't forget to comment on Lawrence's blog post: <a href="https://blog.lawrencemcdaniel.com/" target="_blank">blog.lawrencemcdaniel.com/</a>.</p>
         </div> -->
 
+      <!-- Modal -->
+      <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+
       <div class="outer-wrapper">
-        <img src="${static.url(" images/fcc-banner.png")}" class="img-fluid" alt="FCC Banner" />
-        <div class="title">
+        <img src="${static.url("images/fcc-banner.png")}" class="img-fluid" alt="FCC Banner" />
+        <!-- <div class="title">
           <div class="heading-group">
             % if homepage_overlay_html:
             ${homepage_overlay_html | n, decode.utf8}
@@ -50,7 +76,7 @@ from openedx.core.djangolib.markup import HTML, Text
               </div>
             % endif
 
-          </div>
+          </div> -->
 
           <%include file="index_promo_video.html" />
         </div>
