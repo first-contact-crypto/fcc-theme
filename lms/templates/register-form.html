@@ -132,7 +132,7 @@ from student.models import UserProfile
       <span class="tip tip-input" id="id="username-tip>${_('Will be shown in any discussions or forums you participate in')} <strong>(${_('cannot be changed later')})</strong></span>
     </li>
 
-    <!-- % if ask_for_fullname:
+    % if ask_for_fullname:
 
     <li class="field required text" id="field-name">
       <label for="name">${_('Full Name')}</label>
@@ -140,14 +140,14 @@ from student.models import UserProfile
       <span class="tip tip-input" id="name-tip">${_("Your legal name, used for any certificates you earn.")}</span>
     </li>
 
-    % endif -->
+    % endif
 
   </ol>
 
   % endif
 </div>
 
-<!-- <div class="group group-form group-form-secondary group-form-personalinformation">
+<div class="group group-form group-form-secondary group-form-personalinformation">
   <h2 class="sr">${_("Additional Personal Information")}</h2>
 
   <ol class="list-input">
@@ -210,16 +210,16 @@ from student.models import UserProfile
       % endif
     </li>
   </ol>
-</div> -->
+</div>
 
 <div class="group group-form group-form-personalinformation2">
   <ol class="list-input">
-    <!-- % if settings.REGISTRATION_EXTRA_FIELDS['mailing_address'] != 'hidden':
-    <li class="field ${settings.REGISTRATION_EXTRA_FIELDS['mailing_address']} text" id="field-address-mailing">
+    % if settings.REGISTRATION_EXTRA_FIELDS['mailing_address'] != 'hidden':
+    <!-- <li class="field ${settings.REGISTRATION_EXTRA_FIELDS['mailing_address']} text" id="field-address-mailing">
       <label for="address-mailing">${_("Mailing Address")}</label>
       <textarea id="address-mailing" name="mailing_address" value="" ${'required aria-required="true"' if settings.REGISTRATION_EXTRA_FIELDS['mailing_address'] == 'required' else ''}></textarea>
-    </li>
-    % endif -->
+    </li> -->
+    % endif
 
     % if settings.REGISTRATION_EXTRA_FIELDS['goals'] != 'hidden':
     <li class="field ${settings.REGISTRATION_EXTRA_FIELDS['goals']} text" id="field-goals">
@@ -230,7 +230,7 @@ from student.models import UserProfile
   </ol>
 </div>
 
-<!-- <div class="group group-form group-form-accountacknowledgements">
+<div class="group group-form group-form-accountacknowledgements">
   <h2 class="sr">${_("Account Acknowledgements")}</h2>
 
   <ol class="list-input">
@@ -261,7 +261,7 @@ from student.models import UserProfile
       % endif
     </li>
   </ol>
-</div> -->
+</div>
 
 <div class="form-actions">
   <button name="submit" type="submit" id="submit" class="action action-primary action-update register-button">${_('Register')} <span class="orn-plus">+</span> ${_('Create My Account')}</button>
