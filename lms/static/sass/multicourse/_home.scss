@@ -1,4 +1,4 @@
-$homepage-bg-image: url("images/fcc-banner.png");
+// $homepage-bg-image: url("images/fcc-banner.png");
 // @import '../base/grid-settings';
 // @import 'neat/neat'; // lib - Neat
 
@@ -6,19 +6,24 @@ $homepage-bg-image: url("images/fcc-banner.png");
 // $button-size: ($baseline*2.75);
 // $course-search-input-height: ($button-size);
 
-// .home {
-//   padding: 0;
+.home {
+  //   padding: 0;
 
-//   > .container {
-//     @include box-sizing(border-box);
+  //   > .container {
+  //     @include box-sizing(border-box);
 
-//     width: flex-grid(12);
-//   }
+  //     width: flex-grid(12);
+  //   }
 
-//   > header {
-//     @include linear-gradient($homepage__header--gradient__color--alpha, $homepage__header--gradient__color--bravo);
-//     @include clearfix();
-
+  > header {
+    @include linear-gradient(
+      $homepage__header--gradient__color--alpha,
+      $homepage__header--gradient__color--bravo
+    );
+    @include clearfix();
+    background-color: $blue;
+  }
+}
 //     background-size: cover;
 //     background-image: $homepage-bg-image;
 //     box-shadow: 0 1px 0 0 $course-header-bg, inset 0 -1px 5px 0 $shadow-l1;
