@@ -1,0 +1,11 @@
+// Theming overrides for theme
+@import 'overrides';
+
+// import the rest of the application
+@import 'lms/static/sass/lms-main-v1';
+
+// import the rest of the application
+@import 'lms/static/sass/lms-main-v2';
+
+// .home>header
+@import 'multicourse/_home';
