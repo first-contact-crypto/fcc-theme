@@ -1,10 +1,13 @@
 $black: #000;
 $color: $black;
 
+.home {
+  height: auto;
+  width: 100%;
+}
+
 .home > header {
   // height: 460px;
-  height: auto;
-  width: 100% !important;
   background: url("#{$static-path}/images/fcc-banner.png");
   .outer-wrapper {
     text-align: center;
