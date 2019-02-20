@@ -1,7 +1,7 @@
 $red: #d9534f;
 
-$primary: $red;
-
-$font-family-sans-serif: cursive;
+$body-bg: $red;
+$body-color: $white;
 
 @import "edx-bootstrap/sass/open-edx/theme";
+@import "bootstrap/scss/bootstrap";
