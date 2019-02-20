@@ -59,7 +59,7 @@
     </footer>
   </div>
 % else:
-  <div class="wrapper wrapper-footer">
+  <!-- <div class="wrapper wrapper-footer">
     <footer id="footer-openedx" class="grid-container"
       ## When rendering the footer through the branding API,
       ## the direction may not be set on the parent element,
@@ -124,7 +124,7 @@
             <img src="${footer['openedx_link']['image']}" alt="${footer['openedx_link']['title']}" width="140" />
           </a>
         </p>
-      </div>
+      </div> -->
       % endif
     </footer>
   </div>
@@ -137,6 +137,6 @@
 % endif
 % if footer_css_urls:
   % for url in footer_css_urls:
-    <link rel="stylesheet" type="text/css" href="${url}"></link>
+    <!-- <link rel="stylesheet" type="text/css" href="${url}"></link> -->
   % endfor
 % endif
