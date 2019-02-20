@@ -2,11 +2,10 @@ $black: #000;
 
 .home > header {
   height: 460px;
-
+  background: $black !important;
   .outer-wrapper {
     text-align: center;
     padding-top: 120px;
-    background: $black !important;
   }
 
   h1 {
