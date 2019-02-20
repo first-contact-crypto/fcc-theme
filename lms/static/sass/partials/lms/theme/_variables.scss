@@ -1,7 +1,11 @@
-// $red: #d9534f;
+$red: #d9534f;
 
 // $body-bg: $red;
 // $body-color: $white;
+
+.global-header {
+  background: $red;
+}
 
 @import "edx-bootstrap/sass/open-edx/theme";
 @import "bootstrap/scss/bootstrap";
