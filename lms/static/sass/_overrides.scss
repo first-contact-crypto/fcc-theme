@@ -2,7 +2,8 @@ $black: #000;
 $color: $black;
 
 .home > header {
-  height: 460px;
+  // height: 460px;
+  height: auto;
   width: 100% !important;
   background: url("#{$static-path}/images/fcc-banner.png");
   .outer-wrapper {
