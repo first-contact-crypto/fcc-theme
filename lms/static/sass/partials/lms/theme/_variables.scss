@@ -1,4 +1,9 @@
+$red: #d9534f;
 
 
+
+.global-header {
+  background: $red;
+}
 
 @import "edx-bootstrap/sass/open-edx/theme";
