@@ -3,7 +3,7 @@ $color: $black;
 
 .home > header {
   height: 460px;
-  width: 100%;
+  width: 100% !important;
   background: url("#{$static-path}/images/fcc-banner.png");
   .outer-wrapper {
     text-align: center;
