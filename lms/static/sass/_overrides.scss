@@ -1,0 +1,82 @@
+$black: #000;
+
+.home > header {
+  height: 460px;
+
+  .outer-wrapper {
+    text-align: center;
+    padding-top: 120px;
+    background: $black !important;
+  }
+
+  h1 {
+    font: 60px/60px "open sans", sans-serif;
+    color: #fff;
+    padding: 0 0 15px;
+    text-shadow: 2px 2px 8px #000000;
+    text-transform: uppercase;
+  }
+
+  a {
+    transform: matrix(1, 0, 0, 1, -84, 0);
+    -webkit-transform: matrix(1, 0, 0, 1, -84, 0);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 18px;
+    line-height: 20px;
+    min-width: 168px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 168px;
+    text-shadow: 2px 2px 8px #000000;
+  }
+}
+
+.header-global,
+.header-global.slim {
+  .user-dropdown,
+  .dropdown,
+  .js-dropdown-button {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  a.user-link {
+    box-shadow: none !important;
+  }
+
+  a.user-link:active {
+    background-color: transparent !important;
+    background: none !important;
+  }
+
+  a.user-link:hover {
+    background: none !important;
+  }
+
+  .wrapper-header {
+    height: auto;
+
+    .course-header {
+      color: #fff !important;
+      width: auto !important;
+      max-width: 50%;
+      margin-top: 8px;
+      line-height: normal;
+    }
+  }
+
+  .label-username,
+  .menu-title {
+    color: #fff !important;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+
+  .nav-global li a,
+  .doc-link {
+    color: #fff !important;
+  }
+}
