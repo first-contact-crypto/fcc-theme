@@ -4,9 +4,17 @@
 $bg: #000;
 $color: #fff;
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 // +Dashboard
-  // ====================
-  .dashboard {
+// ====================
+.dashboard {
   @include clearfix();
 
   display: flex;
