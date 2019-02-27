@@ -2,7 +2,9 @@
 // ====================
 
 $bg: $black;
-$color: #fff // +Dashboard
+$color: #fff;
+
+// +Dashboard
   // ====================
   .dashboard {
   @include clearfix();
