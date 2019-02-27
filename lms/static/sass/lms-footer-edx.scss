@@ -1,8 +1,4 @@
-$black: #000;
-$white: #fff;
-
-$bg-color: #212121;
-$fg-color: #aaa;
+@import 'variables';
 
 footer {
   background: $bg-color;
