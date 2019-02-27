@@ -1,6 +1,11 @@
 $black: #000;
+$white: #fff;
+
+$bg-color: #212121;
+$fg-color: #aaa;
 
 body {
-  background-color: $black;
+  background-color: $bg-color;
+  color: $fg-color;
 }
 
