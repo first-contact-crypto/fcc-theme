@@ -1,24 +1,23 @@
+
 $static-path: '/static';
 
-$header-bg: #141414 !important;
+@font-face {
+  font-family: 'Avenir LT 55 Roman';
+  src:
+    url('#{$static-path}/utec/fonts/AvenirLTStd-Roman.woff') format('woff'),
+    url('#{$static-path}/utec/fonts/AvenirLTStd-Roman.eot') format('eot'),
+    url('#{$static-path}/utec/fonts/AvenirLTStd-Roman.ttf') format('ttf'),
+    url('#{$static-path}/utec/fonts/AvenirLTStd-Roman.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
 
+$theme-sans-font: 'Avenir LT 55 Roman';
+$header-bg: #009de1;
+$black: #2e2e2e;
+$black-80: #585858;
+$font-family-sans-serif: $theme-sans-font;
 
+$homepage-bg-image: url('#{$static-path}/utec/images/silo.jpg');
+$video-thumb-url: '#{$static-path}/utec/images/edx.png';
 
-
-
-
-// .home > header {
-//   height: 460px;
-//   // margin-top: $header_image_margin;
-//   overflow: hidden;
-
-//   .outer-wrapper {
-//     padding: 120px 0 !important;
-//   }
-
-//   .title h2 {
-//     font-style: italic;
-//     margin-bottom: 0;
-//     text-transform: lowercase;
-//   }
-// }
