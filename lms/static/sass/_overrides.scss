@@ -39,3 +39,25 @@ footer {
 .search-field {
   background: $bg-color;
 }
+
+body > div.window-wrap > header > div.main-header > div.nav-links > div.main 
+{
+  background: $bg-color;
+  color: $fg-color;
+}
+
+body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary {
+  color: $fg-color;
+}
+
+.dashboard .main-container .my-courses .course .details .enter-course
+{
+  background: $bg-color;
+  color: $fg-color;
+}
+
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more
+{
+  background: $bg-color;
+  color: $fg-color;
+}
