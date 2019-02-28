@@ -90,3 +90,7 @@ body > div.window-wrap > header > div.main-header > div.nav-links > div.secondar
   background: $bg-color;
   color: $fg-color;
 }
+
+a:not(.btn) {
+  color: $royal-blue1;
+}
