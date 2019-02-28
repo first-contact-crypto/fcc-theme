@@ -1,4 +1,7 @@
-
+body {
+  background-color: $bg-background;
+  color: $fg-color;
+}
 
 .global-header {
   box-sizing: border-box;
