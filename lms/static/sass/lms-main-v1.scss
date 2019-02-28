@@ -1,6 +1,8 @@
 $bg-color: #212121;
 $fg-color: #aaa;
 
+@import "lms/static/sass/lms-main-v1";
+
 .global-header {
   box-sizing: border-box;
   width: 100%;
@@ -13,5 +15,3 @@ $fg-color: #aaa;
   color: $fg-color;
   line-height: 1.5;
 }
-
-@import 'lms/static/sass/lms-main-v1';
