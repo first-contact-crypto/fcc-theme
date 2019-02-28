@@ -1,0 +1,14 @@
+
+
+.global-header {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0075b4;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  background: $bg-color;
+  color: $fg-color;
+  line-height: 1.5;
+}
