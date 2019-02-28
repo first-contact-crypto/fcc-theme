@@ -40,7 +40,7 @@ footer {
 
 body > div.window-wrap > header > div.main-header > div.nav-links > div.main {
   background: $bg-color;
-  color: $fg-color;
+  color: $fg-color !important;
 }
 
 body
@@ -72,4 +72,11 @@ body
 body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username
 {
   color: $fg-color !important;
+}
+
+
+
+.global-header .nav-links .main .nav-tab a
+{
+  color: $fg-color;
 }
