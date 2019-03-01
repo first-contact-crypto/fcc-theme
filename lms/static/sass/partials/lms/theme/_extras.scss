@@ -5,11 +5,11 @@ h2 {
 .global-header .nav-links .secondary .nav-item  .header-logo .course-header a {
   color: $secondary !important;
 }
-// 
+
 .global-header .header-logo .course-header {
   color: $secondary;
 }
-// 
+
 .dashboard .main-container .my-courses .course .details .enter-course {
   color: $secondary;
   background-color: $bg-color;
@@ -39,5 +39,13 @@ id:
 }
 
 body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
+  color: $secondary
+}
+
+body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
+  color: $secondary;
+}
+
+.section .section-dates {
   color: $secondary
 }
