@@ -21,6 +21,19 @@
   color: $secondary;
 }
 
+.menu-title {
+  color: $secondary;
+}
+
+.enter-course {
+
+}
+
+.dashboard .main-container .my-courses .course .details .enter-course, .wrapper-messages-primary .message.message-upsell .action-view-consent {
+    background-color: $bg-color;
+    color: $secondary;
+}
+
 // h2 {
 //   color: $secondary;
 // }
