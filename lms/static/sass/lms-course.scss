@@ -27,3 +27,12 @@ main#main > div > div > div.profile-header {
   background: $bg-color;
   color: $fg-color;
 }
+
+html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.main-container main#main div.wrapper-profile div.profile.profile-self div.wrapper-profile-sections.account-settings-container {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.main-container main#main div.wrapper-profile div.profile.profile-self div.wrapper-profile-field-account-privacy {
+  background-color: $bg-color;
+  color: $fg-color;
+}
