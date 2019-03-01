@@ -2,6 +2,12 @@ h2 {
   color: $secondary;
 }
 
-.menu-title {
+.global-header .nav-links .secondary .nav-item a {
   color: $secondary;
 }
+
+.dashboard .main-container .my-courses .course .details .enter-course {
+  color: $secondary;
+  background-color: $bg-color;
+}
+
