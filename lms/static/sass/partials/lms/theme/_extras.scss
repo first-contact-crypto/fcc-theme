@@ -51,6 +51,14 @@ h2 {
   color: $secondary;
 }
 
+body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
+  color: $secondary;
+}
+
+a.menu-title {
+  color: $secondary;
+}
+
 // h2 {
 //   color: $secondary;
 // }
