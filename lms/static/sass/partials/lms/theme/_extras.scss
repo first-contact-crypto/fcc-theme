@@ -5,7 +5,11 @@ h2 {
 .global-header .nav-links .secondary .nav-item  .header-logo .course-header a {
   color: $secondary !important;
 }
-
+// 
+.global-header .header-logo .course-header {
+  color: $secondary;
+}
+// 
 .dashboard .main-container .my-courses .course .details .enter-course {
   color: $secondary;
   background-color: $bg-color;
@@ -31,5 +35,9 @@ id:
 
 .navbar .course-tabs .pb-0 .navbar-expand {
   background: $bg-color;
-  color: $fg-color;
+  color: $secondary;
+}
+
+body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
+  color: $secondary
 }
