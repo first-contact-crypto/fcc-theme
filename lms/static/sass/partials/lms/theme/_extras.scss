@@ -87,6 +87,18 @@ body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
   color: $secondary;
 }
 
+// LOGIN
+#content > section.login.container {
+  background: $bg-color;
+  color: $fg-color;
+}
+
+// PROFILE
+#main {
+  background: $bg-color;
+  color: $fg-color;
+}
+
 
 // h2 {
 //   color: $secondary;
