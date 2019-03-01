@@ -79,6 +79,14 @@ a.menu-title {
   color: $secondary;
 }
 
+body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
+  color: $primary;
+}
+
+body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
+  color: $secondary;
+}
+
 
 // h2 {
 //   color: $secondary;
