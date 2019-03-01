@@ -35,6 +35,22 @@
     color: $secondary;
 }
 
+.global-header .nav-links .secondary .nav-item a {
+  color: $secondary;
+}
+
+h2 {
+  color: $secondary;
+}
+
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
+  color: $secondary;
+}
+
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info .info-date-block-container .info-date-block {
+  color: $secondary;
+}
+
 // h2 {
 //   color: $secondary;
 // }
