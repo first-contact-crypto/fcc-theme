@@ -8,5 +8,7 @@ $primary: $fg-color;
 $secondary: $white;
 $inverse: $bg-color;
 
+$body-color: $secondary;
+
 
 @import 'edx-bootstrap/sass/open-edx/theme';
