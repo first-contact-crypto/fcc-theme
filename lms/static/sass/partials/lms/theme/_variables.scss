@@ -1,0 +1,11 @@
+
+$silver: #c0c0c0;
+$fg-color: $silver;
+$bg-color: #212121;
+
+
+$primary: $fg-color;
+$inverse: $bg-color;
+
+
+@import 'edx-bootstrap/sass/open-edx/theme';
