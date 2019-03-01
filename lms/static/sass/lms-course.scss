@@ -1,0 +1,15 @@
+// PROFILE
+#main {
+  background: $bg-color;
+  color: $fg-color;
+}
+
+body {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+
+main#main > div > div > div.profile-header {
+  background: $bg-color;
+  color: $fg-color;
+}
