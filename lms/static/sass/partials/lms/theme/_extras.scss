@@ -2,11 +2,7 @@ h2 {
   color: $secondary;
 }
 
-.global-header .nav-links .secondary .nav-item  .header-logo .course-header a {
-  color: $secondary !important;
-}
-
-.global-header .header-logo .course-header {
+body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary {
   color: $secondary;
 }
 
@@ -48,4 +44,14 @@ body > div.window-wrap > header > div.main-header > div.nav-links > div.secondar
 
 .section .section-dates {
   color: $secondary
+}
+
+#content > section > header {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+
+#content > section > div > div.course-sidebar > div > header > div {
+  background-color: $bg-color;
+  color $fg-color;
 }
