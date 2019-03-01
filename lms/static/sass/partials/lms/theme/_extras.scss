@@ -2,7 +2,7 @@ h2 {
   color: $secondary;
 }
 
-.global-header .nav-links .secondary .nav-item a {
+.global-header .nav-links .secondary .nav-item  .header-logo .course-header a {
   color: $secondary;
 }
 
@@ -11,3 +11,20 @@ h2 {
   background-color: $bg-color;
 }
 
+.btn-primary {
+  color: $fg-color;
+  background-color: $bg-color;
+}
+
+#content > nav {
+  background: $bg-color;
+  color: $fg-color;
+}
+/*
+classes:
+  dark-theme
+  everywhere-specificity-helper dark-theme-everywhere-off 
+
+id:
+  dark-theme-everywhere-specificity-helper
+*/
