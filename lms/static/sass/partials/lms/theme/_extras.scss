@@ -28,3 +28,8 @@ classes:
 id:
   dark-theme-everywhere-specificity-helper
 */
+
+.navbar .course-tabs .pb-0 .navbar-expand {
+  background: $bg-color;
+  color: $fg-color;
+}
