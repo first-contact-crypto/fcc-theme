@@ -67,6 +67,17 @@ a.menu-title {
   color: $secondary;
 }
 
+#content > section > header > div > div > div {
+  background: $bg-color;
+}
+
+#content > section > div > div.course-sidebar > div > header > div > a:nth-child(3) > span.icon.fa.fa-thumbs-up {
+  color: $secondary;
+}
+
+#content > section > div > div.course-sidebar > div > header > div > a:nth-child(2) > span.icon.fa.fa-twitter {
+  color: $secondary;
+}
 
 
 // h2 {
