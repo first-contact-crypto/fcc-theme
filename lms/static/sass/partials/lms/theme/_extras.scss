@@ -4,6 +4,12 @@
 
 #content > section > header {
   background: $bg-color;
+  color: $fg-color;
+}
+
+#content > section > header > div > div > section {
+  background: $bg-color;
+  color: $fg-color;
 }
 
 // h2 {
