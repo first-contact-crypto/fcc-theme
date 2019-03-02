@@ -99,10 +99,17 @@ body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
 }
 
 a:not(.btn), a:visited:not(.btn) {
-	color: $light-blue;
+	color: $fg-color-blue-light;
 	font: inherit;
 	text-decoration: none;
 	transition: all 0.1s linear 0s;
+}
+
+.wrapper-footer footer#footer-openedx a {
+	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
+	border-bottom: none;
+	color: $fg-color-blue-light;
+	text-decoration: none !important;
 }
 
 
