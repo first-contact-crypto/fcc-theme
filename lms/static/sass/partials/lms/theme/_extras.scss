@@ -112,6 +112,23 @@ a:not(.btn), a:visited:not(.btn) {
 	text-decoration: none !important;
 }
 
+.global-header .header-logo .course-header {
+	float: left;
+	margin: 16px 0 0 20px;
+	font-size: 0.875rem;
+	color: $fg-color;
+	line-height: 1em;
+	display: none;
+}
+
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:hover, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:focus, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:active {
+	color: $fg-color-blue-light;
+}
+
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
+  color: $fg-color;
+}
+
 
 // h2 {
 //   color: $secondary;
