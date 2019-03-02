@@ -1,11 +1,11 @@
 $white: #fff;
-$silver: #c0c0c0;
+$silver: #C3C3C3;
 $blue: #00f;
 
 
 
 $fg-color: $silver;
-$bg-color: #212121;
+$bg-color: #1d1d1d;
 
 
 $primary: $fg-color;
@@ -38,6 +38,21 @@ html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.m
 }
 
 html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.main-container main#main div.wrapper-profile div.profile.profile-self div.wrapper-profile-sections.account-settings-container div.wrapper-profile-section-container-one {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+
+#course-success {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+
+#action-preview-select {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+
+#main > div > div > div.wrapper-profile-field-account-privacy > div > span.u-field-value {
   background-color: $bg-color;
   color: $fg-color;
 }
