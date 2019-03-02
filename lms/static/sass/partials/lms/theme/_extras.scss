@@ -129,61 +129,49 @@ a:not(.btn), a:visited:not(.btn) {
   color: $fg-color;
 }
 
+a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
+	color: $fg-color-blue-light;
+	text-decoration: underline;
+}
 
-// h2 {
-//   color: $secondary;
-// }
+.wrapper-footer footer#footer-openedx a {
+	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
+	border-bottom: none;
+	color: $fg-color-blue-light;
+	text-decoration: none !important;
+}
 
-// body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary {
-//   color: $secondary;
-// }
+.login form .field label, .register form .field label, .passwordreset form .field label, #forgot-password-modal #password-reset form .field label {
+	transition: color 0.15s ease-in-out 0s;
+	margin: 0 0 5px 0;
+	color: $fg-color-blue-light;
+}
 
-// .dashboard .main-container .my-courses .course .details .enter-course {
-//   color: $secondary;
-//   background-color: $bg-color;
-// }
+.btn-primary, .btn-brand {
+	border-color: $bg-color-blue-highlight;
+	background: $fg-color-blue-light;
+	color: $secondary;
+}
 
-// .btn-primary {
-//   color: $fg-color;
-//   background-color: $bg-color;
-// }
+.global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
+	background-color: $fg-color-blue-light;
+	color: #1d1d1d;
+	border: 1px solid #1d1d1d;
+	font-weight: 400;
+	padding: 5px 20px;
+}
 
-// #content > nav {
-//   background: $bg-color;
-//   color: $fg-color;
-// }
-// /*
-// classes:
-//   dark-theme
-//   everywhere-specificity-helper dark-theme-everywhere-off
+.login form .field .tip, .register form .field .tip, .passwordreset form .field .tip, #forgot-password-modal #password-reset form .field .tip {
+	transition: color 0.15s ease-in-out 0s;
+	display: block;
+	margin-top: 5px;
+	color: $fg-color;
+	font-size: 0.8125em;
+}
 
-// id:
-//   dark-theme-everywhere-specificity-helper
-// */
-
-// .navbar .course-tabs .pb-0 .navbar-expand {
-//   background: $bg-color;
-//   color: $secondary;
-// }
-
-// body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
-//   color: $secondary
-// }
-
-// body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
-//   color: $secondary;
-// }
-
-// .section .section-dates {
-//   color: $secondary
-// }
-
-// #content > section > header {
-//   background-color: $bg-color;
-//   color: $fg-color;
-// }
-
-// #content > section > div > div.course-sidebar > div > header > div {
-//   background-color: $bg-color;
-//   color: $fg-color;
-// }
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub {
+	font-size: 20px;
+	margin-left: 40px;
+	text-transform: lowercase;
+	color: $fg-color;
+}
