@@ -98,7 +98,12 @@ body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
   color: $fg-color;
 }
 
-
+a:not(.btn), a:visited:not(.btn) {
+	color: $light-blue;
+	font: inherit;
+	text-decoration: none;
+	transition: all 0.1s linear 0s;
+}
 
 
 // h2 {

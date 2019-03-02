@@ -1,12 +1,9 @@
 $white: #fff;
-$silver: #C3C3C3;
+$silver: #c3c3c3;
 $blue: #00f;
-
-
 
 $fg-color: $silver;
 $bg-color: #1d1d1d;
-
 
 $primary: $fg-color;
 $secondary: $white;
@@ -28,16 +25,38 @@ main#main > div > div > div.profile-header {
   color: $fg-color;
 }
 
-html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.main-container main#main div.wrapper-profile div.profile.profile-self div.wrapper-profile-sections.account-settings-container {
+html
+  body.ltr.view-profile.lang_en
+  div.window-wrap
+  div#content.content-wrapper.main-container
+  main#main
+  div.wrapper-profile
+  div.profile.profile-self
+  div.wrapper-profile-sections.account-settings-container {
   background-color: $bg-color;
   color: $fg-color;
 }
-html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.main-container main#main div.wrapper-profile div.profile.profile-self div.wrapper-profile-field-account-privacy {
+html
+  body.ltr.view-profile.lang_en
+  div.window-wrap
+  div#content.content-wrapper.main-container
+  main#main
+  div.wrapper-profile
+  div.profile.profile-self
+  div.wrapper-profile-field-account-privacy {
   background-color: $bg-color;
   color: $fg-color;
 }
 
-html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.main-container main#main div.wrapper-profile div.profile.profile-self div.wrapper-profile-sections.account-settings-container div.wrapper-profile-section-container-one {
+html
+  body.ltr.view-profile.lang_en
+  div.window-wrap
+  div#content.content-wrapper.main-container
+  main#main
+  div.wrapper-profile
+  div.profile.profile-self
+  div.wrapper-profile-sections.account-settings-container
+  div.wrapper-profile-section-container-one {
   background-color: $bg-color;
   color: $fg-color;
 }
@@ -52,7 +71,12 @@ html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.m
   color: $fg-color;
 }
 
-#main > div > div > div.wrapper-profile-field-account-privacy > div > span.u-field-value {
+#main
+  > div
+  > div
+  > div.wrapper-profile-field-account-privacy
+  > div
+  > span.u-field-value {
   background-color: $bg-color;
   color: $fg-color;
 }
@@ -61,3 +85,5 @@ html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.m
 //   background-color: $bg-color;
 //   color: $secondary;
 // }
+
+html body.ltr.None.lang_en div.window-wrap div#content.content-wrapper.main-container div#course-container.course-view.page-content-container div.page-content div.page-content-main
