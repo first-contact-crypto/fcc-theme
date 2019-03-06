@@ -1,177 +1,177 @@
-// #main > section > section {
-//   background: $bg-color;
-// }
+#main > section > section {
+  background: $bg-color;
+}
 
-// #content > section > header {
-//   background: $bg-color;
-//   color: $fg-color;
-// }
+#content > section > header {
+  background: $bg-color;
+  color: $fg-color;
+}
 
-// #content > section > header > div > div > section {
-//   background: $bg-color;
-//   color: $fg-color;
-// }
+#content > section > header > div > div > section {
+  background: $bg-color;
+  color: $fg-color;
+}
 
-// .find-courses {
-//   background: $bg-color;
-//   color: $fg-color;
-// }
+.find-courses {
+  background: $bg-color;
+  color: $fg-color;
+}
 
-// .global-header {
-//   color: $secondary;
-// }
+.global-header {
+  color: $secondary;
+}
 
-// .menu-title {
-//   color: $secondary;
-// }
+.menu-title {
+  color: $secondary;
+}
 
-// .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more {
-//   background: $bg-color;
-//   color: $secondary;
-// }
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more {
+  background: $bg-color;
+  color: $secondary;
+}
 
-// .dashboard .main-container .my-courses .course .details .enter-course, .wrapper-messages-primary .message.message-upsell .action-view-consent {
-//     background-color: $bg-color;
-//     color: $secondary;
-// }
+.dashboard .main-container .my-courses .course .details .enter-course, .wrapper-messages-primary .message.message-upsell .action-view-consent {
+    background-color: $bg-color;
+    color: $secondary;
+}
 
-// .global-header .nav-links .secondary .nav-item a {
-//   color: $secondary;
-// }
+.global-header .nav-links .secondary .nav-item a {
+  color: $secondary;
+}
 
-// h2 {
-//   color: $secondary;
-// }
+h2 {
+  color: $secondary;
+}
 
-// .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
-//   color: $secondary;
-// }
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
+  color: $secondary;
+}
 
-// .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info .info-date-block-container .info-date-block {
-//   color: $secondary;
-// }
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info .info-date-block-container .info-date-block {
+  color: $secondary;
+}
 
-// body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
-//   color: $secondary;
-// }
+body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
+  color: $secondary;
+}
 
-// a.menu-title {
-//   color: $secondary;
-// }
+a.menu-title {
+  color: $secondary;
+}
 
-// #content > section > header {
-//   color: $secondary;
-// }
+#content > section > header {
+  color: $secondary;
+}
 
-// #content > section > div > div.course-sidebar > div > header > div > a:nth-child(4) > span.icon.fa.fa-envelope {
-//   color: $secondary;
-// }
+#content > section > div > div.course-sidebar > div > header > div > a:nth-child(4) > span.icon.fa.fa-envelope {
+  color: $secondary;
+}
 
-// #content > section > header > div > div > div {
-//   background: $bg-color;
-// }
+#content > section > header > div > div > div {
+  background: $bg-color;
+}
 
-// #content > section > div > div.course-sidebar > div > header > div > a:nth-child(3) > span.icon.fa.fa-thumbs-up {
-//   color: $secondary;
-// }
+#content > section > div > div.course-sidebar > div > header > div > a:nth-child(3) > span.icon.fa.fa-thumbs-up {
+  color: $secondary;
+}
 
-// #content > section > div > div.course-sidebar > div > header > div > a:nth-child(2) > span.icon.fa.fa-twitter {
-//   color: $secondary;
-// }
+#content > section > div > div.course-sidebar > div > header > div > a:nth-child(2) > span.icon.fa.fa-twitter {
+  color: $secondary;
+}
 
-// body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
-//   color: $primary;
-// }
+body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
+  color: $primary;
+}
 
-// body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
-//   color: $secondary;
-// }
+body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
+  color: $secondary;
+}
 
-// // LOGIN
-// #content > section.login.container {
-//   background: $bg-color;
-//   color: $fg-color;
-// }
+// LOGIN
+#content > section.login.container {
+  background: $bg-color;
+  color: $fg-color;
+}
 
-// .view-register .container {
-//   background-color: $bg-color;
-//   color: $fg-color;
-// }
+.view-register .container {
+  background-color: $bg-color;
+  color: $fg-color;
+}
 
-// a:not(.btn), a:visited:not(.btn) {
-// 	color: $fg-color-blue-light;
-// 	font: inherit;
-// 	text-decoration: none;
-// 	transition: all 0.1s linear 0s;
-// }
+a:not(.btn), a:visited:not(.btn) {
+	color: $fg-color-blue-light;
+	font: inherit;
+	text-decoration: none;
+	transition: all 0.1s linear 0s;
+}
 
-// .wrapper-footer footer#footer-openedx a {
-// 	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
-// 	border-bottom: none;
-// 	color: $fg-color-blue-light;
-// 	text-decoration: none !important;
-// }
+.wrapper-footer footer#footer-openedx a {
+	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
+	border-bottom: none;
+	color: $fg-color-blue-light;
+	text-decoration: none !important;
+}
 
-// .global-header .header-logo .course-header {
-// 	float: left;
-// 	margin: 16px 0 0 20px;
-// 	font-size: 0.875rem;
-// 	color: $fg-color;
-// 	line-height: 1em;
-// 	display: none;
-// }
+.global-header .header-logo .course-header {
+	float: left;
+	margin: 16px 0 0 20px;
+	font-size: 0.875rem;
+	color: $fg-color;
+	line-height: 1em;
+	display: none;
+}
 
-// .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:hover, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:focus, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:active {
-// 	color: $fg-color-blue-light;
-// }
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:hover, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:focus, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:active {
+	color: $fg-color-blue-light;
+}
 
-// .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
-//   color: $fg-color;
-// }
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
+  color: $fg-color;
+}
 
-// a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
-// 	color: $fg-color-blue-light;
-// 	text-decoration: underline;
-// }
+a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
+	color: $fg-color-blue-light;
+	text-decoration: underline;
+}
 
-// .wrapper-footer footer#footer-openedx a {
-// 	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
-// 	border-bottom: none;
-// 	color: $fg-color-blue-light;
-// 	text-decoration: none !important;
-// }
+.wrapper-footer footer#footer-openedx a {
+	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
+	border-bottom: none;
+	color: $fg-color-blue-light;
+	text-decoration: none !important;
+}
 
-// .login form .field label, .register form .field label, .passwordreset form .field label, #forgot-password-modal #password-reset form .field label {
-// 	transition: color 0.15s ease-in-out 0s;
-// 	margin: 0 0 5px 0;
-// 	color: $fg-color-blue-light;
-// }
+.login form .field label, .register form .field label, .passwordreset form .field label, #forgot-password-modal #password-reset form .field label {
+	transition: color 0.15s ease-in-out 0s;
+	margin: 0 0 5px 0;
+	color: $fg-color-blue-light;
+}
 
-// .btn-primary, .btn-brand {
-// 	border-color: $bg-color-blue-highlight;
-// 	background: $fg-color-blue-light;
-// 	color: $secondary;
-// }
+.btn-primary, .btn-brand {
+	border-color: $bg-color-blue-highlight;
+	background: $fg-color-blue-light;
+	color: $secondary;
+}
 
-// .global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
-// 	background-color: $fg-color-blue-light;
-// 	color: #1d1d1d;
-// 	border: 1px solid #1d1d1d;
-// 	font-weight: 400;
-// 	padding: 5px 20px;
-// }
+.global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
+	background-color: $fg-color-blue-light;
+	color: #1d1d1d;
+	border: 1px solid #1d1d1d;
+	font-weight: 400;
+	padding: 5px 20px;
+}
 
-// .login form .field .tip, .register form .field .tip, .passwordreset form .field .tip, #forgot-password-modal #password-reset form .field .tip {
-// 	transition: color 0.15s ease-in-out 0s;
-// 	display: block;
-// 	margin-top: 5px;
-// 	color: $fg-color;
-// 	font-size: 0.8125em;
-// }
+.login form .field .tip, .register form .field .tip, .passwordreset form .field .tip, #forgot-password-modal #password-reset form .field .tip {
+	transition: color 0.15s ease-in-out 0s;
+	display: block;
+	margin-top: 5px;
+	color: $fg-color;
+	font-size: 0.8125em;
+}
 
-// .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub {
-// 	font-size: 20px;
-// 	margin-left: 40px;
-// 	text-transform: lowercase;
-// 	color: $fg-color;
-// }
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub {
+	font-size: 20px;
+	margin-left: 40px;
+	text-transform: lowercase;
+	color: $fg-color;
+}
