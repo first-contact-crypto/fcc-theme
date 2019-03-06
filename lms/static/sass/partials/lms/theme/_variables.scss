@@ -1,54 +1,54 @@
-// Variables
-//
-// Variables should follow the `$component-state-property-size` formula for
-// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+// // Variables
+// //
+// // Variables should follow the `$component-state-property-size` formula for
+// // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-//
-// Color system
-//
-
-
-$white: #fff;
-$silver: #C3C3C3;
-$blue: #0000ff;
-$light-blue: #55C8FF;
+// //
+// // Color system
+// //
 
 
-$fg-color: $silver;
-$bg-color: #1d1d1d;
-$fg-color-blue-light: $light-blue;
-$bg-color-blue-highlight: $blue;
-
-$primary: $fg-color;
-$secondary: $white;
-$inverse: $bg-color;
+// $white: #fff;
+// $silver: #C3C3C3;
+// $blue: #0000ff;
+// $light-blue: #55C8FF;
 
 
-// BODY
-$body-color: $secondary;
+// $fg-color: $silver;
+// $bg-color: #1d1d1d;
+// $fg-color-blue-light: $light-blue;
+// $bg-color-blue-highlight: $blue;
 
-// LINKS
-$link-color: $blue;
-$link-hover-color:      lighten($link-color, 15%);
-
-// TABLES
-$table-border-color: $blue;
-
-// BUTTONS
-$input-disabled-bg: theme-color("dark");
+// $primary: $fg-color;
+// $secondary: $white;
+// $inverse: $bg-color;
 
 
-// COMPONENTS
-$border-color: $blue;
+// // BODY
+// $body-color: $secondary;
 
-// FONTS
+// // LINKS
+// $link-color: $blue;
+// $link-hover-color:      lighten($link-color, 15%);
+
+// // TABLES
+// $table-border-color: $blue;
+
+// // BUTTONS
+// $input-disabled-bg: theme-color("dark");
 
 
-// FORMS
-$input-border-color: $blue;
+// // COMPONENTS
+// $border-color: $blue;
+
+// // FONTS
 
 
-// DROPDOWN
+// // FORMS
+// $input-border-color: $blue;
+
+
+// // DROPDOWN
 
 
 
