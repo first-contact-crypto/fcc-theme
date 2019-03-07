@@ -101,3 +101,13 @@ html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.m
 html body.ltr.view-in-course.view-courseware.courseware.lang_en div.window-wrap div#content.content-wrapper.main-container div.container div.course-wrapper section#course-content.course-content header.page-header.has-secondary {
   background-color: $bg-color;
 }
+
+
+html body.ltr.view-in-course.view-courseware.courseware.lang_en div.window-wrap div#content.content-wrapper.main-container div.container div.course-wrapper section#course-content.course-content main#main div.xblock.xblock-student_view.xblock-student_view-sequential.xmodule_display.xmodule_SequenceModule.xblock-initialized div#sequence_3dcb14ccfebe497da7825da64bd1fe28.sequence div#seq_content div.wrap-instructor-info.studio-view a.instructor-info-action {
+  background-color: $bg-color;
+}
+
+html body.ltr.view-in-course.view-courseware.courseware.lang_en div.window-wrap nav.wrapper-preview-menu {
+  background-color: $bg-color;
+  color: $secondary;
+}
