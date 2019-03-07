@@ -1,3 +1,6 @@
+@import 'lms/static/sass/lms-course';
+
+
 $white: #fff;
 $silver: #c3c3c3;
 $blue: #00f;
@@ -8,10 +11,6 @@ $bg-color: #1d1d1d;
 $primary: $fg-color;
 $secondary: $white;
 $inverse: $bg-color;
-
-
-
-@import 'lms/static/sass/lms-course';
 
 
 
@@ -99,4 +98,6 @@ html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.m
 }
 
 
-
+html body.ltr.view-in-course.view-courseware.courseware.lang_en div.window-wrap div#content.content-wrapper.main-container div.container div.course-wrapper section#course-content.course-content header.page-header.has-secondary {
+  background-color: $bg-color;
+}
