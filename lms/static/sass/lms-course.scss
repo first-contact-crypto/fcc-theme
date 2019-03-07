@@ -9,7 +9,12 @@ $primary: $fg-color;
 $secondary: $white;
 $inverse: $bg-color;
 
-PROFILE
+
+
+@import 'lms/static/sass/lms-course';
+
+
+
 #main {
   background: $bg-color;
   color: $fg-color;
@@ -94,4 +99,4 @@ html body.ltr.view-profile.lang_en div.window-wrap div#content.content-wrapper.m
 }
 
 
-@import 'lms/static/sass/lms-course';
+
