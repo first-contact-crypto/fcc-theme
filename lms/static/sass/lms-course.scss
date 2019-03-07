@@ -1,13 +1,13 @@
-$white: #fff;
-$silver: #c3c3c3;
-$blue: #00f;
+// $white: #fff;
+// $silver: #c3c3c3;
+// $blue: #00f;
 
-$fg-color: $silver;
-$bg-color: #1d1d1d;
+// $fg-color: $silver;
+// $bg-color: #1d1d1d;
 
-$primary: $fg-color;
-$secondary: $white;
-$inverse: $bg-color;
+// $primary: $fg-color;
+// $secondary: $white;
+// $inverse: $bg-color;
 
 // PROFILE
 // #main {
@@ -15,61 +15,61 @@ $inverse: $bg-color;
 //   color: $fg-color;
 // }
 
-body {
-  background-color: $bg-color;
-  color: $fg-color;
-}
+// body {
+//   background-color: $bg-color;
+//   color: $fg-color;
+// }
 
-main#main > div > div > div.profile-header {
-  background: $bg-color;
-  color: $fg-color;
-}
+// main#main > div > div > div.profile-header {
+//   background: $bg-color;
+//   color: $fg-color;
+// }
 
-html
-  body.ltr.view-profile.lang_en
-  div.window-wrap
-  div#content.content-wrapper.main-container
-  main#main
-  div.wrapper-profile
-  div.profile.profile-self
-  div.wrapper-profile-sections.account-settings-container {
-  background-color: $bg-color;
-  color: $fg-color;
-}
-html
-  body.ltr.view-profile.lang_en
-  div.window-wrap
-  div#content.content-wrapper.main-container
-  main#main
-  div.wrapper-profile
-  div.profile.profile-self
-  div.wrapper-profile-field-account-privacy {
-  background-color: $bg-color;
-  color: $fg-color;
-}
+// html
+//   body.ltr.view-profile.lang_en
+//   div.window-wrap
+//   div#content.content-wrapper.main-container
+//   main#main
+//   div.wrapper-profile
+//   div.profile.profile-self
+//   div.wrapper-profile-sections.account-settings-container {
+//   background-color: $bg-color;
+//   color: $fg-color;
+// }
+// html
+//   body.ltr.view-profile.lang_en
+//   div.window-wrap
+//   div#content.content-wrapper.main-container
+//   main#main
+//   div.wrapper-profile
+//   div.profile.profile-self
+//   div.wrapper-profile-field-account-privacy {
+//   background-color: $bg-color;
+//   color: $fg-color;
+// }
 
-html
-  body.ltr.view-profile.lang_en
-  div.window-wrap
-  div#content.content-wrapper.main-container
-  main#main
-  div.wrapper-profile
-  div.profile.profile-self
-  div.wrapper-profile-sections.account-settings-container
-  div.wrapper-profile-section-container-one {
-  background-color: $bg-color;
-  color: $fg-color;
-}
+// html
+//   body.ltr.view-profile.lang_en
+//   div.window-wrap
+//   div#content.content-wrapper.main-container
+//   main#main
+//   div.wrapper-profile
+//   div.profile.profile-self
+//   div.wrapper-profile-sections.account-settings-container
+//   div.wrapper-profile-section-container-one {
+//   background-color: $bg-color;
+//   color: $fg-color;
+// }
 
-#course-success {
-  background-color: $bg-color;
-  color: $fg-color;
-}
+// #course-success {
+//   background-color: $bg-color;
+//   color: $fg-color;
+// }
 
-#action-preview-select {
-  background-color: $bg-color;
-  color: $fg-color;
-}
+// #action-preview-select {
+//   background-color: $bg-color;
+//   color: $fg-color;
+// }
 
 // #main
 //   > div
