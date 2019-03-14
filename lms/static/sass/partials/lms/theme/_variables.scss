@@ -38,6 +38,10 @@ $theme-colors: (
 $primary: $fg-color;
 $secondary: $white;
 
+
+// from other files
+$headings-base-color: $primary;
+
 // BODY
 $body-color: $secondary;
 
