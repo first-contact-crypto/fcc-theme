@@ -175,3 +175,15 @@ a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.
 	text-transform: lowercase;
 	color: $fg-color;
 }
+
+.section-title {
+  color: $primary;
+}
+
+.subsection-text {
+  color: $primary;
+}
+
+.section-name {
+  color: $primary;
+}
