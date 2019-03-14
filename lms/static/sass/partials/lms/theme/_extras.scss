@@ -305,5 +305,10 @@ button > buttontext {
 
 
 button {
-  color: $secondary;
+  color: $primary;
+}
+
+
+.date-summary-container .date-summary .heading {
+	color: $primary;
 }
