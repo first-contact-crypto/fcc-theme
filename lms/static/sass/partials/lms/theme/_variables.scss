@@ -30,18 +30,9 @@ $primary: #c9c0bb;
 $secondary: #ddd;
 $inverse: $bg-color;
 
-$theme-colors: map-merge(
-  (
-    "primary": $primary,
-    "secondary": $secondary,
-    // "success":    $success,
-      // "info":       $info,
-      // "warning":    $warning,
-      // "danger":     $danger,
-      // "light":      $light,
-      // "dark":       $dark
-  ),
-  $theme-colors
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
 );
 
 $primary: $fg-color;
