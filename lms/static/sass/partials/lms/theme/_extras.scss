@@ -187,3 +187,7 @@ a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.
 // .section-name {
 //   color: $primary;
 // }
+
+button > buttontext {
+  color: $primary;
+}
