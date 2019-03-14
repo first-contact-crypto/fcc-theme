@@ -16,21 +16,6 @@
 // $light:         $gray-100 !default;
 // $dark:          $gray-800 !default;
 
-// $theme-colors: map-merge(
-//   (
-//     "primary":    $primary,
-//     "secondary":  $secondary,
-//     "success":    $success,
-//     "info":       $info,
-//     "warning":    $warning,
-//     "danger":     $danger,
-//     "light":      $light,
-//     "dark":       $dark
-//   ),
-//   $theme-colors
-// );
-
-
 $white: #fff;
 $silver: #C3C3C3;
 $blue: #0000ff;
@@ -42,9 +27,30 @@ $bg-color: #1d1d1d;
 $fg-color-blue-light: $light-blue;
 $bg-color-blue-highlight: $blue;
 
+$primary: #c9c0bb;
+$secondary: #ddd;
+$inverse: $bg-color;
+
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    // "success":    $success,
+    // "info":       $info,
+    // "warning":    $warning,
+    // "danger":     $danger,
+    // "light":      $light,
+    // "dark":       $dark
+  ),
+  $theme-colors
+);
+
+
+
+
 $primary: $fg-color;
 $secondary: $white;
-$inverse: $bg-color;
+
 
 
 // BODY
@@ -72,6 +78,9 @@ $input-border-color: $blue;
 
 
 // DROPDOWN
+
+// BUTTONS
+$btn-default-color: 
 
 
 
