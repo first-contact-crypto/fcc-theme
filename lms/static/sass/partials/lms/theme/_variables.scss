@@ -17,10 +17,9 @@
 // $dark:          $gray-800 !default;
 
 $white: #fff;
-$silver: #C3C3C3;
+$silver: #c3c3c3;
 $blue: #0000ff;
-$light-blue: #55C8FF;
-
+$light-blue: #55c8ff;
 
 $fg-color: $silver;
 $bg-color: #1d1d1d;
@@ -33,32 +32,27 @@ $inverse: $bg-color;
 
 $theme-colors: map-merge(
   (
-    "primary":    $primary,
-    "secondary":  $secondary,
+    "primary": $primary,
+    "secondary": $secondary,
     // "success":    $success,
-    // "info":       $info,
-    // "warning":    $warning,
-    // "danger":     $danger,
-    // "light":      $light,
-    // "dark":       $dark
+      // "info":       $info,
+      // "warning":    $warning,
+      // "danger":     $danger,
+      // "light":      $light,
+      // "dark":       $dark
   ),
   $theme-colors
 );
 
-
-
-
 $primary: $fg-color;
 $secondary: $white;
-
-
 
 // BODY
 $body-color: $secondary;
 
 // LINKS
 $link-color: $blue;
-$link-hover-color:      lighten($link-color, 15%);
+$link-hover-color: lighten($link-color, 15%);
 
 // TABLES
 $table-border-color: $blue;
@@ -66,24 +60,18 @@ $table-border-color: $blue;
 // BUTTONS
 $input-disabled-bg: theme-color("dark");
 
-
 // COMPONENTS
 $border-color: $blue;
 
 // FONTS
 
-
 // FORMS
 $input-border-color: $blue;
-
 
 // DROPDOWN
 
 // BUTTONS
-$btn-default-color: 
 
 
 
-
-
-@import 'edx-bootstrap/sass/open-edx/theme';
+@import "edx-bootstrap/sass/open-edx/theme";
