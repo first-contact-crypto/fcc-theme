@@ -223,3 +223,13 @@ button {
 .btn-link {
 	color:$fg-color;
 }
+
+
+.wrapper-course-material .course-tabs .tab a, .wrapper-course-material .course-tabs .tab a:visited {
+	padding: 10px 15px 13px 15px;
+	color: $fg-color;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 4px hidden #c9c0bb;
+}
