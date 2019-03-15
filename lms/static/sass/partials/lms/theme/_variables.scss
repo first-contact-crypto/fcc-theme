@@ -28,11 +28,14 @@ $bg-color-blue-highlight: $blue;
 
 $primary: #c9c0bb;
 $secondary: #ddd;
+$accent: $blue;
 $inverse: $bg-color;
 
 $theme-colors: (
   "primary": $primary,
-  "secondary": $secondary
+  "secondary": $secondary,
+  "accent": $accent,
+  "background": $bg-color
 );
 
 $primary: $fg-color;
