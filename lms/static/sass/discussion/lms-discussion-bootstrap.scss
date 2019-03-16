@@ -1,6 +1,6 @@
 
 // VARIABLES
-
+@import 'lms/theme/variables';
 
 
 @import 'lms/static/sass/discussion/lms-discussion-bootstrap';
@@ -8,3 +8,13 @@
 
 
 // RULES
+.forum-nav-browse-menu-wrapper {
+	border-bottom: 1px solid #d9d9d9;
+	background: #030303;
+}
+
+.btn-link .all-topics {
+	font-weight: 400;
+	color: #fff;
+	background-color: transparent;
+}
