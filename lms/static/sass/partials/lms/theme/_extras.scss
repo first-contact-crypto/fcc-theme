@@ -1,109 +1,109 @@
 html {
-  color: $primary;
+  color: $font-primary-color;
 }
 
 #main > section > section {
-  background: $bg-color;
+  background: $bg-primary-color;
 }
 
 #content > section > header {
-  background: $bg-color;
-  color: $fg-color;
+  background: $bg-primary-color;
+  color: $font-primary-color;
 }
 
 #content > section > header > div > div > section {
-  background: $bg-color;
-  color: $fg-color;
+  background: $bg-primary-color;
+  color: $font-primary-color;
 }
 
 .find-courses {
-  background: $bg-color;
-  color: $fg-color;
+  background: $bg-primary-color;
+  color: $font-primary-color;
 }
 
 .global-header {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 .menu-title {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more {
-  background: $bg-color;
-  color: $secondary;
+  background: $bg-primary-color;
+  color: $font-secondary-color;
 }
 
 .dashboard .main-container .my-courses .course .details .enter-course, .wrapper-messages-primary .message.message-upsell .action-view-consent {
-    background-color: $bg-color;
-    color: $secondary;
+    background-color: $bg-primary-color;
+    color: $font-secondary-color;
 }
 
 .global-header .nav-links .secondary .nav-item a {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 h2 {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info .info-date-block-container .info-date-block {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 a.menu-title {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 #content > section > header {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 #content > section > div > div.course-sidebar > div > header > div > a:nth-child(4) > span.icon.fa.fa-envelope {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 #content > section > header > div > div > div {
-  background: $bg-color;
+  background: $bg-primary-color;
 }
 
 #content > section > div > div.course-sidebar > div > header > div > a:nth-child(3) > span.icon.fa.fa-thumbs-up {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 #content > section > div > div.course-sidebar > div > header > div > a:nth-child(2) > span.icon.fa.fa-twitter {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
-  color: $primary;
+  color: $font-primary-color;
 }
 
 body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
-  color: $secondary;
+  color: $font-secondary-color;
 }
 
 // LOGIN
 #content > section.login.container {
-  background: $bg-color;
-  color: $fg-color;
+  background: $bg-primary-color;
+  color: $font-primary-color;
 }
 
 .view-register .container {
-  background-color: $bg-color;
-  color: $fg-color;
+  background-color: $bg-primary-color;
+  color: $font-primary-color;
 }
 
 a:not(.btn), a:visited:not(.btn) {
-	color: $fg-color-blue-light;
+	color: $font-primary-color-blue-light;
 	font: inherit;
 	text-decoration: none;
 	transition: all 0.1s linear 0s;
@@ -112,7 +112,7 @@ a:not(.btn), a:visited:not(.btn) {
 .wrapper-footer footer#footer-openedx a {
 	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
 	border-bottom: none;
-	color: $fg-color-blue-light;
+	color: $font-primary-color-blue-light;
 	text-decoration: none !important;
 }
 
@@ -120,45 +120,45 @@ a:not(.btn), a:visited:not(.btn) {
 	float: left;
 	margin: 16px 0 0 20px;
 	font-size: 0.875rem;
-	color: $fg-color;
+	color: $font-primary-color;
 	line-height: 1em;
 	display: none;
 }
 
 .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:hover, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:focus, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:active {
-	color: $fg-color-blue-light;
+	color: $font-primary-color-blue-light;
 }
 
 .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
-  color: $fg-color;
+  color: $font-primary-color;
 }
 
 a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
-	color: $fg-color-blue-light;
+	color: $font-primary-color-blue-light;
 	text-decoration: underline;
 }
 
 .wrapper-footer footer#footer-openedx a {
 	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
 	border-bottom: none;
-	color: $fg-color-blue-light;
+	color: $font-primary-color-blue-light;
 	text-decoration: none !important;
 }
 
 .login form .field label, .register form .field label, .passwordreset form .field label, #forgot-password-modal #password-reset form .field label {
 	transition: color 0.15s ease-in-out 0s;
 	margin: 0 0 5px 0;
-	color: $fg-color-blue-light;
+	color: $font-primary-color-blue-light;
 }
 
 .btn-primary, .btn-brand {
-	border-color: $bg-color-blue-highlight;
-	background: $fg-color-blue-light;
-	color: $secondary;
+	border-color: $bg-primary-color-blue-highlight;
+	background: $font-primary-color-blue-light;
+	color: $font-secondary-color;
 }
 
 .global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
-	background-color: $fg-color-blue-light;
+	background-color: $font-primary-color-blue-light;
 	color: #1d1d1d;
 	border: 1px solid #1d1d1d;
 	font-weight: 400;
@@ -169,7 +169,7 @@ a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.
 	transition: color 0.15s ease-in-out 0s;
 	display: block;
 	margin-top: 5px;
-	color: $fg-color;
+	color: $font-primary-color;
 	font-size: 0.8125em;
 }
 
@@ -177,23 +177,23 @@ a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.
 	font-size: 20px;
 	margin-left: 40px;
 	text-transform: lowercase;
-	color: $fg-color;
+	color: $font-primary-color;
 }
 
 // .section-title {
-//   color: $primary;
+//   color: $font-primary-color;
 // }
 
 // .subsection-text {
-//   color: $primary;
+//   color: $font-primary-color;
 // }
 
 // .section-name {
-//   color: $primary;
+//   color: $font-primary-color;
 // }
 
 button > buttontext {
-  color: $primary;
+  color: $font-primary-color;
 }
 
 // Course outline for visual progress waffle switch
@@ -248,11 +248,11 @@ button > buttontext {
           .subsection-text {
             .details {
               font-size: $body-font-size;
-              color: $primary;
+              color: $font-primary-color;
               margin-left: 34px;
             }
             .prerequisite {
-              color: $primary;
+              color: $font-primary-color;
               font-weight: $font-bold;
             }
           }
@@ -309,12 +309,12 @@ button > buttontext {
 
 
 button {
-  color: $primary;
+  color: $font-primary-color;
 }
 
 
 .date-summary-container .date-summary .heading {
-	color: $primary;
+	color: $font-primary-color;
 }
 
 

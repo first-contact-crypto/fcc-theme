@@ -7,7 +7,7 @@
 // Color system
 //
 
-// $primary:       $blue !default;
+// $font-primary-color:       $blue !default;
 // $secondary:     $gray-600 !default;
 // $success:       $green !default;
 // $info:          $cyan !default;
@@ -22,28 +22,53 @@ $blue: #0000ff;
 $light-blue: #55c8ff;
 
 $fg-color: $silver;
-$bg-color: #1d1d1d;
+$bg-primary-color: #1d1d1d;
 $fg-color-blue-light: $light-blue;
-$bg-color-blue-highlight: $blue;
+$bg-primary-color-blue-highlight: $blue;
 
-$primary: #c9c0bb;
+$font-primary-color: #c9c0bb;
 $secondary: #ddd;
 $accent: $blue;
-$inverse: $bg-color;
+$inverse: $bg-primary-color;
 
 $theme-colors: (
-  "primary": $primary,
+  "primary": $font-primary-color,
   "secondary": $secondary,
   "accent": $accent,
-  "background": $bg-color
+  "background": $bg-primary-color
 );
 
-$primary: $fg-color;
+$font-primary-color: $fg-color;
 $secondary: $white;
 
 
+$font-primary-color: theme("primary");
+$font-primary-color-light: lighten($font-primary-color, 15%);
+$font-primary-color-dark: darken($font-primary-color, 15%);
+
+$font-secondary-color: theme("secondary");
+$font-secondary-color-light: theme("secondary");
+$font-secondary-color-dark: darken($font-primary-color, 15%);
+
+$bg-primary-color: theme("bg-primary");
+$bg-primary-color-light: lighten($font-primary-color, 15%);
+$bg-primary-color-dark: darken($font-primary-color, 15%);
+
+$bg-secondary-color: theme("bg-secondary");
+$bg-secondary-color-light: lighten($font-primary-color, 15%);
+$bg-secondary-color-dark: darken($font-primary-color, 15%);
+
+$tab-primary-color: theme("tab-primary");
+$tab-primary-color-light: lighten($font-primary-color, 15%);
+$tab-primary-color-dark: darken($font-primary-color, 15%);
+
+$link-primary-color: theme("link-primary");
+$link-primary-color-lighten: lighten($link-primary-color, 15%);
+$link-primary-color-darken: darken($link-primary-color, 15%);
+
+
 // from other files
-$headings-base-color: $primary;
+$headings-base-color: $font-primary-color;
 
 // BODY
 $body-color: $secondary;
