@@ -35,7 +35,10 @@ $theme-colors: (
   "primary": $font-primary-color,
   "secondary": $secondary,
   "accent": $accent,
-  "background": $bg-primary-color
+  "bg-primary": $bg-primary-color,
+  "bg-secondary": $bg-primary-color,
+  "tab-primary": $font-primary-color,
+  "link-primary": $link-primary-color
 );
 
 $font-primary-color: $fg-color;
