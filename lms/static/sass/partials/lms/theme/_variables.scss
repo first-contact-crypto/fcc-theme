@@ -1,4 +1,21 @@
 // Variables
+
+
+// EDX-BOOTSTRAP _variables
+$primary: #c3c3c3;
+$secondary: #fff;
+$inverse: #1d1d1d;
+$disabled: $gray-400;
+$lightest: $gray-900;
+$light: $gray-800;
+$dark: $gray-200;
+$darker: $gray-100;
+$darkest: $white;
+
+
+
+
+
 //
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
@@ -16,98 +33,97 @@
 // $light:         $gray-100 !default;
 // $dark:          $gray-800 !default;
 
-$white: #fff;
-$silver: #c3c3c3;
-$blue: #0000ff;
-$light-blue: #55c8ff;
-$turquoise: #40e0d0;
-$sweet-blue: #1790c7;
+// $white: #fff;
+// $silver: #c3c3c3;
+// $blue: #0000ff;
+// $light-blue: #55c8ff;
+// $turquoise: #40e0d0;
 
-$fg-color: $silver;
-$bg-primary-color: #1d1d1d;
-$fg-color-blue-light: $light-blue;
-$font-primary-color-blue-highlight: $blue;
-$bg-primary-color-blue-highlight: $blue;
+// $fg-color: $silver;
+// $bg-primary-color: #1d1d1d;
+// $fg-color-blue-light: $light-blue;
+// $font-primary-color-blue-highlight: $blue;
+// $bg-primary-color-blue-highlight: $blue;
 
-$font-primary-color: #c9c0bb;
-$secondary: #ddd;
-$accent: $blue;
-$inverse: $bg-primary-color;
-$link-primary-color: $accent;
+// $font-primary-color: #c9c0bb;
+// $secondary: #ddd;
+// $accent: $blue;
+// $inverse: $bg-primary-color;
+// $link-primary-color: $accent;
 
-$theme-colors: (
-  "primary": $font-primary-color,
-  "secondary": $secondary,
-  "accent": $accent,
-  "bg-primary": $bg-primary-color,
-  "bg-secondary": $bg-primary-color,
-  "tab-primary": $font-primary-color,
-  "link-primary": $link-primary-color
-  "btn-primary": $btn-primary-color,
-  "btn-secondary": $btn-secondary-color,
-  "btn-bg-primary": $btn-bg-primary-color,
-  "btn-bg-secondary": $btn-bg-secondary-color
-);
+// $theme-colors: (
+//   "primary": $font-primary-color,
+//   "secondary": $secondary,
+//   "accent": $accent,
+//   "bg-primary": $bg-primary-color,
+//   "bg-secondary": $bg-primary-color,
+//   "tab-primary": $font-primary-color,
+//   "link-primary": $link-primary-color
+//   "btn-primary": $btn-primary-color,
+//   "btn-secondary": $btn-secondary-color,
+//   "btn-bg-primary": $btn-bg-primary-color,
+//   "btn-bg-secondary": $btn-bg-secondary-color
+// );
 
-$font-primary-color: $fg-color;
-$secondary: $white;
+// $font-primary-color: $fg-color;
+// $secondary: $white;
 
 
-$font-primary-color: map-get($theme-colors, "primary");
-$font-primary-color-light: lighten($font-primary-color, 15%);
-$font-primary-color-dark: darken($font-primary-color, 15%);
+// $font-primary-color: map-get($theme-colors, "primary");
+// $font-primary-color-light: lighten($font-primary-color, 15%);
+// $font-primary-color-dark: darken($font-primary-color, 15%);
 
-$font-secondary-color: map-get($theme-colors, "secondary");
-$font-secondary-color-light: lighten($font-secondary-color, 15%);
-$font-secondary-color-dark: darken($font-secondary-color, 15%);
+// $font-secondary-color: map-get($theme-colors, "secondary");
+// $font-secondary-color-light: lighten($font-secondary-color, 15%);
+// $font-secondary-color-dark: darken($font-secondary-color, 15%);
 
-$bg-primary-color: map-get($theme-colors, "bg-primary");
-$bg-primary-color-light: lighten($bg-primary-color, 15%);
-$bg-primary-color-dark: darken($bg-primary-color, 15%);
+// $bg-primary-color: map-get($theme-colors, "bg-primary");
+// $bg-primary-color-light: lighten($bg-primary-color, 15%);
+// $bg-primary-color-dark: darken($bg-primary-color, 15%);
 
-$bg-secondary-color: map-get($theme-colors, "bg-secondary");
-$bg-secondary-color-light: lighten($bg-secondary-color, 15%);
-$bg-secondary-color-dark: darken($bg-secondary-color, 15%);
+// $bg-secondary-color: map-get($theme-colors, "bg-secondary");
+// $bg-secondary-color-light: lighten($bg-secondary-color, 15%);
+// $bg-secondary-color-dark: darken($bg-secondary-color, 15%);
 
-$tab-primary-color: map-get($theme-colors, "tab-primary");
-$tab-primary-color-light: lighten($tab-primary-color, 15%);
-$tab-primary-color-dark: darken($tab-primary-color, 15%);
+// $tab-primary-color: map-get($theme-colors, "tab-primary");
+// $tab-primary-color-light: lighten($tab-primary-color, 15%);
+// $tab-primary-color-dark: darken($tab-primary-color, 15%);
 
-$link-primary-color: map-get($theme-colors, "link-primary");
-$link-primary-color-lighten: lighten($link-primary-color, 15%);
-$link-primary-color-darken: darken($link-primary-color, 15%);
+// $link-primary-color: map-get($theme-colors, "link-primary");
+// $link-primary-color-lighten: lighten($link-primary-color, 15%);
+// $link-primary-color-darken: darken($link-primary-color, 15%);
 
-$btn-bg-primary-color: map-get($theme-colors, "btn-primary");
-$btn-bg-primary-color-lighten: lighten($btn-bg-primary-color, 15%);
-$btn-bg-primary-color-darken: darken($btn-bg-primary-color, 15%);
+// $btn-bg-primary-color: map-get($theme-colors, "btn-primary");
+// $btn-bg-primary-color-lighten: lighten($btn-bg-primary-color, 15%);
+// $btn-bg-primary-color-darken: darken($btn-bg-primary-color, 15%);
 
-// from other files
-$headings-base-color: $font-primary-color;
+// // from other files
+// $headings-base-color: $font-primary-color;
 
-// BODY
-$body-color: $secondary;
+// // BODY
+// $body-color: $secondary;
 
-// LINKS
-$link-color: $blue;
-$link-hover-color: lighten($link-color, 15%);
+// // LINKS
+// $link-color: $blue;
+// $link-hover-color: lighten($link-color, 15%);
 
-// TABLES
-$table-border-color: $blue;
+// // TABLES
+// $table-border-color: $blue;
 
-// BUTTONS
-$input-disabled-bg: theme-color("dark");
+// // BUTTONS
+// $input-disabled-bg: theme-color("dark");
 
-// COMPONENTS
-$border-color: $blue;
+// // COMPONENTS
+// $border-color: $blue;
 
-// FONTS
+// // FONTS
 
-// FORMS
-$input-border-color: $blue;
+// // FORMS
+// $input-border-color: $blue;
 
-// DROPDOWN
+// // DROPDOWN
 
-// BUTTONS
+// // BUTTONS
 
 
 
