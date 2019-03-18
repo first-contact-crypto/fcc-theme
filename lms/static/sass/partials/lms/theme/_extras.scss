@@ -22,53 +22,53 @@ html {
 }
 
 .global-header {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 .menu-title {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more {
   background: $bg-primary-color;
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 .dashboard .main-container .my-courses .course .details .enter-course, .wrapper-messages-primary .message.message-upsell .action-view-consent {
     background-color: $bg-primary-color;
-    color: $font-secondary-color;
+    color: $secondary;
 }
 
 .global-header .nav-links .secondary .nav-item a {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 h2 {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info .info-date-block-container .info-date-block {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 body > div.window-wrap > header > div.main-header > div.nav-links > div.secondary > div:nth-child(2) > a > span.username {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 a.menu-title {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 #content > section > header {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 #content > section > div > div.course-sidebar > div > header > div > a:nth-child(4) > span.icon.fa.fa-envelope {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 #content > section > header > div > div > div {
@@ -76,11 +76,11 @@ a.menu-title {
 }
 
 #content > section > div > div.course-sidebar > div > header > div > a:nth-child(3) > span.icon.fa.fa-thumbs-up {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 #content > section > div > div.course-sidebar > div > header > div > a:nth-child(2) > span.icon.fa.fa-twitter {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 body > div.window-wrap > header > div.main-header > h1 > div > span.course-name {
@@ -88,7 +88,7 @@ body > div.window-wrap > header > div.main-header > h1 > div > span.course-name 
 }
 
 body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
-  color: $font-secondary-color;
+  color: $secondary;
 }
 
 // LOGIN
@@ -103,7 +103,7 @@ body > div.window-wrap > header > div.main-header > h1 > div > span.provider {
 }
 
 a:not(.btn), a:visited:not(.btn) {
-	color: $font-primary-color;
+	color: $font-primary-color-blue-highlight;
 	font: inherit;
 	text-decoration: none;
 	transition: all 0.1s linear 0s;
@@ -112,7 +112,7 @@ a:not(.btn), a:visited:not(.btn) {
 .wrapper-footer footer#footer-openedx a {
 	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
 	border-bottom: none;
-	color: $font-primary-color-blue-light;
+	color: $font-primary-color-blue-highlight;
 	text-decoration: none !important;
 }
 
@@ -126,7 +126,7 @@ a:not(.btn), a:visited:not(.btn) {
 }
 
 .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:hover, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:focus, .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a:active {
-	color: $font-primary-color-blue-light;
+	color: $font-primary-color-blue-highlight;
 }
 
 .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
@@ -134,31 +134,31 @@ a:not(.btn), a:visited:not(.btn) {
 }
 
 a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
-	color: $font-primary-color-blue-light;
+	color: $font-primary-color-blue-highlight;
 	text-decoration: underline;
 }
 
 .wrapper-footer footer#footer-openedx a {
 	transition: link-color 0.15s ease-in-out 0s,border 0.15s ease-in-out 0s;
 	border-bottom: none;
-	color: $font-primary-color-blue-light;
+	color: $font-primary-color-blue-highlight;
 	text-decoration: none !important;
 }
 
 .login form .field label, .register form .field label, .passwordreset form .field label, #forgot-password-modal #password-reset form .field label {
 	transition: color 0.15s ease-in-out 0s;
 	margin: 0 0 5px 0;
-	color: $font-primary-color-blue-light;
+	color: $font-primary-color-blue-highlight;
 }
 
 .btn-primary, .btn-brand {
 	border-color: $bg-primary-color-blue-highlight;
-	background: $font-primary-color-blue-light;
-	color: $font-secondary-color;
+	background: $font-primary-color-blue-highlight;
+	color: $secondary;
 }
 
 .global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
-	background-color: $font-primary-color-blue-light;
+	background-color: $font-primary-color-blue-highlight;
 	color: #1d1d1d;
 	border: 1px solid #1d1d1d;
 	font-weight: 400;
