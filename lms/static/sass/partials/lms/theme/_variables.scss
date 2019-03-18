@@ -42,27 +42,27 @@ $font-primary-color: $fg-color;
 $secondary: $white;
 
 
-$font-primary-color: theme("primary");
+$font-primary-color: map-get($theme-colors, "primary");
 $font-primary-color-light: lighten($font-primary-color, 15%);
 $font-primary-color-dark: darken($font-primary-color, 15%);
 
-$font-secondary-color: theme("secondary");
-$font-secondary-color-light: theme("secondary");
-$font-secondary-color-dark: darken($font-primary-color, 15%);
+$font-secondary-color: map-get($theme-colors, "secondary");
+$font-secondary-color-light: lighten($font-secondary-color, 15%);
+$font-secondary-color-dark: darken($font-secondary-color, 15%);
 
-$bg-primary-color: theme("bg-primary");
-$bg-primary-color-light: lighten($font-primary-color, 15%);
-$bg-primary-color-dark: darken($font-primary-color, 15%);
+$bg-primary-color: map-get($theme-colors, "bg-primary");
+$bg-primary-color-light: lighten($bg-primary-color, 15%);
+$bg-primary-color-dark: darken($bg-primary-color, 15%);
 
-$bg-secondary-color: theme("bg-secondary");
-$bg-secondary-color-light: lighten($font-primary-color, 15%);
-$bg-secondary-color-dark: darken($font-primary-color, 15%);
+$bg-secondary-color: map-get($theme-colors, "bg-secondary");
+$bg-secondary-color-light: lighten($bg-secondary-color, 15%);
+$bg-secondary-color-dark: darken($bg-secondary-color, 15%);
 
-$tab-primary-color: theme("tab-primary");
-$tab-primary-color-light: lighten($font-primary-color, 15%);
-$tab-primary-color-dark: darken($font-primary-color, 15%);
+$tab-primary-color: map-get($theme-colors, "tab-primary");
+$tab-primary-color-light: lighten($tab-primary-color, 15%);
+$tab-primary-color-dark: darken($tab-primary-color, 15%);
 
-$link-primary-color: theme("link-primary");
+$link-primary-color: map-get($theme-colors, "link-primary");
 $link-primary-color-lighten: lighten($link-primary-color, 15%);
 $link-primary-color-darken: darken($link-primary-color, 15%);
 
