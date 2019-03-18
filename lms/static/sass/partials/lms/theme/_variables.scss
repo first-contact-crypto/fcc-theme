@@ -20,6 +20,8 @@ $white: #fff;
 $silver: #c3c3c3;
 $blue: #0000ff;
 $light-blue: #55c8ff;
+$turquoise: #40e0d0;
+$sweet-blue: #1790c7;
 
 $fg-color: $silver;
 $bg-primary-color: #1d1d1d;
@@ -41,6 +43,10 @@ $theme-colors: (
   "bg-secondary": $bg-primary-color,
   "tab-primary": $font-primary-color,
   "link-primary": $link-primary-color
+  "btn-primary": $btn-primary-color,
+  "btn-secondary": $btn-secondary-color,
+  "btn-bg-primary": $btn-bg-primary-color,
+  "btn-bg-secondary": $btn-bg-secondary-color
 );
 
 $font-primary-color: $fg-color;
@@ -71,6 +77,9 @@ $link-primary-color: map-get($theme-colors, "link-primary");
 $link-primary-color-lighten: lighten($link-primary-color, 15%);
 $link-primary-color-darken: darken($link-primary-color, 15%);
 
+$btn-bg-primary-color: map-get($theme-colors, "btn-primary");
+$btn-bg-primary-color-lighten: lighten($btn-bg-primary-color, 15%);
+$btn-bg-primary-color-darken: darken($btn-bg-primary-color, 15%);
 
 // from other files
 $headings-base-color: $font-primary-color;

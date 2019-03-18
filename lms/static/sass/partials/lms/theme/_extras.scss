@@ -148,7 +148,7 @@ a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.
 .login form .field label, .register form .field label, .passwordreset form .field label, #forgot-password-modal #password-reset form .field label {
 	transition: color 0.15s ease-in-out 0s;
 	margin: 0 0 5px 0;
-	color: $font-primary-color-blue-highlight;
+	color: $sweet-blue
 }
 
 .btn-primary, .btn-brand {
@@ -323,4 +323,8 @@ button {
 	padding: 15px;
 	background-color: $bg-primary-color-light;
 	box-sizing: border-box;
+}
+
+.btn-brand {
+  background-color: $btn-bg-primary;
 }
