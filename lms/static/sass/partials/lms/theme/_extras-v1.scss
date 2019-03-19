@@ -7,3 +7,14 @@ textarea.text {
   background-color: $inverse;
   color: $secondary;
 }
+
+input[type="text"], input[type="email"], input[type="password"], textarea.text {
+	background-color: #1d1d1d;
+	color: #fff;
+}
+
+.login-register .form-field label, .financial-assistance-wrapper .financial-assistance-form .form-field label {
+	display: block;
+	margin: 0;
+	color: $secondary;
+}
