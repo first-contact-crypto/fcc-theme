@@ -1,9 +1,10 @@
 
+@import 'partials/lms/theme/variables-v1';
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea.text {
   background-color: $inverse;
   color: $secondary;
-
 }
