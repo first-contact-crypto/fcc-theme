@@ -1,5 +1,3 @@
-
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -8,32 +6,68 @@ textarea.text {
   color: $secondary;
 }
 
-input[type="text"], input[type="email"], input[type="password"], textarea.text {
-	background-color: #1d1d1d;
-	color: #fff;
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea.text {
+  background-color: #1d1d1d;
+  color: #fff;
 }
 
-.login-register .form-field label, .financial-assistance-wrapper .financial-assistance-form .form-field label {
-	display: block;
-	margin: 0;
-	color: $secondary;
+.login-register .form-field label,
+.financial-assistance-wrapper .financial-assistance-form .form-field label {
+  display: block;
+  margin: 0;
+  color: $secondary;
 }
 
 .dashboard-search-bar .search-field {
-	background: $inverse;
-	box-shadow: 0 1px 0 0 $primary,inset 0 0 3px 0 rgba(0,0,0,0.05);
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-style: normal;
+  background: $inverse;
+  box-shadow: 0 1px 0 0 $primary, inset 0 0 3px 0 rgba(0, 0, 0, 0.05);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 
-.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .action-more, .entitlement-actions-wrapper .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .entitlement-action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .entitlement-action-more {
-	font-size: 14px;
-	box-shadow: none;
-	background: $secondary;
-	background-image: none;
-	color: $primary;
-	line-height: 16px;
-	text-shadow: none;
+.dashboard
+  .main-container
+  .my-courses
+  .course
+  .details
+  .course-actions
+  .wrapper-action-more
+  .action-more,
+.dashboard
+  .main-container
+  .my-courses
+  .course
+  .details
+  .course-actions
+  .entitlement-actions-wrapper
+  .action-more,
+.entitlement-actions-wrapper
+  .dashboard
+  .main-container
+  .my-courses
+  .course
+  .details
+  .course-actions
+  .wrapper-action-more
+  .entitlement-action-more,
+.dashboard
+  .main-container
+  .my-courses
+  .course
+  .details
+  .course-actions
+  .entitlement-actions-wrapper
+  .entitlement-action-more {
+  font-size: 14px;
+  box-shadow: none;
+  background: $secondary;
+  background-image: none;
+  color: $primary;
+  line-height: 16px;
+  text-shadow: none;
 }
 
 // html, button, input, select, textarea {
@@ -41,6 +75,22 @@ input[type="text"], input[type="email"], input[type="password"], textarea.text {
 // 	color: $primary;
 // }
 
-.find-courses, .university-profile {
-	background: $inverse;
+.find-courses,
+.university-profile {
+  background: $inverse;
+}
+
+.empty-dashboard-message {
+  border: 3px solid #e4e4e4;
+  background: $primary;
+  color: $secondary;
+  padding: 40px 2px;
+  text-align: center;
+}
+
+p {
+	font-size: 24px;
+	color: $primary;
+	margin-bottom: 20px;
+	text-shadow: 0 1px rgba(255,255,255,0.6);
 }
