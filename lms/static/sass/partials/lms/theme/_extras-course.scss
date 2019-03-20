@@ -1,10 +1,27 @@
 html {
   color: $primary;
-  background: $inverse
 }
 
 body {
   color: $primary;
-  background: $inverse
+  background-color: $inverse
 }
 
+.view-profile .profile-self .wrapper-profile-field-account-privacy {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #c8c8c8;
+	background-color: $inverse;
+	padding: 15px 5%;
+	display: table;
+}
+
+.view-profile .wrapper-profile {
+	min-height: 200px;
+	background-color: $inverse;
+}
+
+.view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-message .u-field-message-notification {
+	color: $primary;
+}
