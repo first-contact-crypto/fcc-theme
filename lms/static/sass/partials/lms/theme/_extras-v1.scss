@@ -88,9 +88,14 @@ textarea.text {
   text-align: center;
 }
 
-p {
-	font-size: 24px;
+html, button, input, select, textarea {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: $primary;
-	margin-bottom: 20px;
-	text-shadow: 0 1px rgba(255,255,255,0.6);
+}
+
+h2, .home > header .title > .heading-group p, section.outside-app h1 {
+	color: $secondary;
+	font: normal 1.2em/1.2em Georgia,Cambria,"Times New Roman",Times,serif;
+	margin-bottom: 15px;
+	-webkit-font-smoothing: antialiased;
 }
