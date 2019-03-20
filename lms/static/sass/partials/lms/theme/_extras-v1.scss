@@ -35,3 +35,13 @@ input[type="text"], input[type="email"], input[type="password"], textarea.text {
 	line-height: 16px;
 	text-shadow: none;
 }
+
+html, button, input, select, textarea {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: $primary;
+}
+
+.find-courses, .university-profile {
+	background: $inverse;
+	padding-bottom: 60px;
+}
