@@ -7,24 +7,36 @@
   color: $primary;
 }
 
-button.accordion-trigger .fa, button.prerequisite-button .fa {
-	color: $primary;
+button.accordion-trigger .fa,
+button.prerequisite-button .fa {
+  color: $primary;
 }
 
 .wrapper-preview-menu {
-	margin: 0 auto;
-	padding: 15px;
-	background-color: $primary;
-	box-sizing: border-box;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: $primary;
+  box-sizing: border-box;
 }
 
 .btn-primary {
-	color: $inverse;
-	background-color: $primary;
-	border-color: $secondary;
+  color: $inverse;
+  background-color: $primary;
+  border-color: $secondary;
 }
 
-button.accordion-trigger .fa, button.prerequisite-button .fa {
-	color: $secondary;
+button.accordion-trigger .fa,
+button.prerequisite-button .fa {
+  color: $secondary;
 }
+
+h1, h2 {
+  color: $secondary;
+}
+
+h3, h4{ 
+  color: $primary;
+}
+
+
 

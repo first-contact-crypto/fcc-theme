@@ -25,3 +25,19 @@ body {
 .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-message .u-field-message-notification {
 	color: $primary;
 }
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
+	color: $secondary;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .icon {
+	color: $primary;
+}
+
+button {
+  color: $primary;
+}
+
+.hd-1, .hd-2, .hd-3, .hd-4, .hd-5, .hd-6, .hd-7, .hd-8 {
+	color: $secondary;
+}
