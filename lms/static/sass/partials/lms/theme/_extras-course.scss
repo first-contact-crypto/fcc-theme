@@ -25,3 +25,15 @@ body {
 .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-message .u-field-message-notification {
 	color: $primary;
 }
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
+	color: $secondary;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .icon {
+	color: $primary;
+}
+
+span {
+	color: $primary;
+}
