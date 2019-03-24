@@ -4,36 +4,58 @@ html {
 
 body {
   color: $primary;
-  background-color: $inverse
+  background-color: $inverse;
 }
 
 .view-profile .profile-self .wrapper-profile-field-account-privacy {
-	box-sizing: border-box;
-	width: 100%;
-	margin: 0 auto;
-	border-bottom: 1px solid #c8c8c8;
-	background-color: $inverse;
-	padding: 15px 5%;
-	display: table;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #c8c8c8;
+  background-color: $inverse;
+  padding: 15px 5%;
+  display: table;
 }
 
 .view-profile .wrapper-profile {
-	min-height: 200px;
-	background-color: $inverse;
+  min-height: 200px;
+  background-color: $inverse;
 }
 
-.view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-message .u-field-message-notification {
-	color: $primary;
+.view-profile
+  .profile-self
+  .wrapper-profile-field-account-privacy
+  .u-field-message
+  .u-field-message-notification {
+  color: $primary;
 }
 
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
-	color: $secondary;
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
+  color: $secondary;
 }
 
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .icon {
-	color: $primary;
+  color: $primary;
 }
 
 span {
-	color: $primary;
+  color: $primary;
+}
+
+.hd-1,
+.hd-2,
+.hd-3,
+.hd-4,
+.hd-5,
+.hd-6,
+.hd-7,
+.hd-8 {
+  color: $primary;
 }
