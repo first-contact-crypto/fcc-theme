@@ -1,14 +1,12 @@
-// Sample red theme to demonstrate SASS overrides
+// Sample dark theme to demonstrate SASS overrides
 
 // Theme colors
 //
 // Note: define colors needed by your theme first
 
-// Define the primary red color
-$red: #d9534f;
-
-// Make red the primary color
-$primary: $red;
+// Make the theme white on black
+$primary: #fff;
+$inverse: #000;
 
 // Theme fonts
 $font-family-sans-serif: cursive;
