@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+// STANFORD STYLE
+$header-bg: $inverse;
+$footer-bg: $inverse;
+$container-bg: $inverse;
+$content-wrapper-bg: $inverse;
+=======
 // lms - utilities - variables
 // ====================
+
 // #CONFIG:         paths and configuration
 // #UNITS:          Basic units of measurement
 // #GRID:           Grid and layout variables
@@ -17,6 +25,8 @@
 // #CONFIG
 // ----------------------------
 $static-path: '..' !default;
+
+
 // ----------------------------
 // #UNITS
 // ----------------------------
@@ -560,3 +570,4 @@ $darkGrey: rgb(136, 145, 161) !default;
 $extraDarkGrey: #3d4043 !default;
 $lightGrey1: $gray-l3 !default;
 $paleYellow: #fffcf1 !default;
+>>>>>>> a3488df07942c29ea1357ae3849bae85eb04a0fa
