@@ -12,3 +12,4 @@ For more information on building your own theme, see `Changing Themes for an Ope
 
 .. _Changing Themes for an Open edX Site: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/index.html
 .. _Red Theme: https://github.com/edx/edx-platform/tree/master/themes/red-theme
+
