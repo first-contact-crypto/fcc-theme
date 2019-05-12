@@ -476,6 +476,11 @@ $header-graphic-sub-color: $m-gray-d2;
 $header-sans-serif: 'Open Sans', Arial, Helvetica, sans-serif;
 $header_image_margin: -69px;
 
+$header-logo-width: 60px;
+$header-logo-height: 40px;
+$header-user-image-size: 40px;
+
+
 // footer
 $footer_margin: ($baseline/4) 0 ($baseline*1.5) 0;
 
@@ -506,11 +511,11 @@ $course-image-height: ($baseline*8);
 $course-info-height: ($baseline*10);
 $course-title-height: ($baseline*3.6);
 $homepage-bg-image: none;
-// $login-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
-// $register-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
-// $passwordreset-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
+$login-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
+$register-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
+$passwordreset-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
 
-// $video-thumb-url: url('#{$static-path}/images/homepage-hero-video-thumb.jpg');
+$video-thumb-url: url('#{$static-path}/images/homepage-hero-video-thumb.jpg');
 
 // dashboard elements
 $dashboard-profile-header-image: linear-gradient(-90deg, rgb(255, 255, 255), rgb(245, 245, 245));
