@@ -16,6 +16,7 @@
 // ----------------------------
 // #CONFIG
 // ----------------------------
+$static-path: '..';
 
 $primary: #eee;
 $secondary: #aaa;
@@ -505,11 +506,11 @@ $course-image-height: ($baseline*8);
 $course-info-height: ($baseline*10);
 $course-title-height: ($baseline*3.6);
 $homepage-bg-image: none;
-$login-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
-$register-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
-$passwordreset-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
+// $login-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
+// $register-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
+// $passwordreset-banner-image: url('#{$static-path}/images/edx-theme/edx-background-banner-account.png');
 
-$video-thumb-url: '#{$static-path}/images/homepage-hero-video-thumb.jpg';
+// $video-thumb-url: url('#{$static-path}/images/homepage-hero-video-thumb.jpg');
 
 // dashboard elements
 $dashboard-profile-header-image: linear-gradient(-90deg, rgb(255, 255, 255), rgb(245, 245, 245));
