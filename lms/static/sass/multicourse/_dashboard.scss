@@ -402,7 +402,7 @@
             @include float(right);
 
             &.archived {
-              @extend %btn-pl-default-base;
+              @extend %btn-pl-primary-base;
             }
           }
 
