@@ -1,0 +1,9 @@
+html,
+button,
+input,
+select,
+textarea {
+  font-family: $font-family-sans-serif;
+//   color: #222;
+color: theme('light');
+}
