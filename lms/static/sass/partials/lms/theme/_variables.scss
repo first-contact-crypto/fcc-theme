@@ -31,8 +31,23 @@ $action-primary-active-fg: $primary;
 
 $body-bg: $inverse;
 
-$gray-d1: $primary-offset;
-$gray-d3: $primary-offset;
+// $gray-d1: $primary-offset;
+// $gray-d3: $primary-offset;
+
+$gray:      $gray-600;
+$gray-l1:   tint($gray, 90%) !default;
+$gray-l2:   tint($gray, 60%) !default;
+$gray-l3:   tint($gray, 40%) !default;
+$gray-l4:   tint($gray, 20%) !default;
+$gray-l5:   tint($gray, 10%) !default;
+$gray-l6:   tint($gray, 5%) !default;
+$gray-l7:   tint($gray, 1%) !default;
+$gray-d1:   shade($gray, 80%) !default;
+$gray-d2:   shade($gray, 60%) !default;
+$gray-d3:   shade($gray, 40%) !default;
+$gray-d4: shade($gray, 20%) !default;
+
+
 
 
 
