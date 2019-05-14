@@ -1,5 +1,7 @@
 // Default bootstrap theming
 
+@import 'edx-bootstrap/sass/open-edx/theme';
+
 $blue: #0000FF;
 $royal-blue: #4169E1;
 $sky-blue: #87CEEB;
@@ -11,6 +13,30 @@ $primary: #fff;
 $primary-offset: #ccc;
 $secondary: $royal-blue;
 $inverse: #111;
+
+@import 'variables-v1';
+
+// // EDX-BOOTSTRAP
+// $primary:                 $blue !default;
+// $secondary:               $indigo !default;
+// $success:                 $green !default;
+// $info:                    $dark-blue !default;
+// $warning:                 $yellow !default;
+// $danger:                  $red !default;
+// $fill-success:              $light-green !default;
+// $fill-info:                 $light-blue !default;
+// $fill-danger:               $light-red !default;
+// $fill-warning:              $light-yellow !default;
+// $program-masters:         $slate !default;
+// $program-micro-masters:   $dark-blue !default;
+// $program-prof-cert:       $magenta !default;
+// $light:                   $gray-100 !default;
+// $dark:                    $gray-900 !default;
+// // END
+
+
+
+
 
 // // action - primary
 // $action-primary-bg: $m-blue-d3 !default;
@@ -59,6 +85,86 @@ $gray-d2:   $gray-400;
 $gray-d3:   $gray-400;
 $gray-d4:   $gray-400;
 
+
+$uxpl-blue-hover-active: rgb(6, 86, 131) !default; // wcag2a compliant
+$uxpl-green-base: rgb(0, 129, 0) !default; // wcag2a compliant
+$uxpl-green-hover-active: rgb(0, 155, 0) !default; // wcag2a compliant
+$uxpl-pink-base: rgb(194, 56, 125) !default; // wcag2a compliant
+$m-pink: $uxpl-pink-base; // uxpl pink base
+$uxpl-pink-hover-active: lighten($uxpl-pink-base, 7%) !default; // wcag2a compliant
+$uxpl-grayscale-x-back: rgb(245, 245, 245) !default; // UXPL grayscale, x-back$m-pink: $uxpl-pink-base; // uxpl pink base
+
+
+// edx-specific: marketing site variables
+// DEPRECATED: Do not continue to use these colors, instead use pattern libary and base colors above.
+$m-gray: rgb(138, 140, 143) !default; //C8F
+$m-gray-l1: rgb(151, 153, 155) !default;
+$m-gray-l2: rgb(164, 166, 168) !default;
+$m-gray-l3: rgb(177, 178, 180) !default;
+$m-gray-l4: rgb(245, 245, 245) !default;
+$m-gray-d1: rgb(111, 112, 116) !default;
+$m-gray-d2: rgb(112, 114, 118) !default;
+$m-gray-d3: rgb(100, 102, 104) !default;
+$m-gray-d4: rgb(5, 5, 5) !default;
+$m-gray-t0: rgba($m-gray, 0.125) !default;
+$m-gray-t1: rgba($m-gray, 0.25) !default;
+$m-gray-t2: rgba($m-gray, 0.5) !default;
+$m-gray-t3: rgba($m-gray, 0.75) !default;
+
+
+
+$m-blue: $blue;  // uxpl blue base
+$m-blue-l1: rgb(43, 172, 230) !default;
+$m-blue-l2: rgb(66, 181, 233) !default;
+$m-blue-l3: rgb(89, 190, 236) !default;
+// $m-blue-l4: tint($m-blue, 90%) !default;
+$m-blue-l4: rgb(89, 190, 236) !default;
+// $m-blue-l5: tint($m-blue, 95%) !default;
+$m-blue-l5: rgb(89, 190, 236) !default;
+$m-blue-l6: #4bb4fb !default;
+$m-blue-d1: rgb(23, 144, 199) !default;
+$m-blue-d2: $blue !default;
+$m-blue-d3: rgb(18, 111, 154) !default;
+$m-blue-d4: rgb(10, 74, 103) !default;
+$m-blue-d5: rgb(0, 158, 231) !default;
+$m-blue-d6: #256a97 !default;
+$m-blue-t0: rgba($m-blue, 0.125) !default;
+$m-blue-t1: rgba($m-blue, 0.25) !default;
+$m-blue-t2: rgba($m-blue, 0.5) !default;
+$m-blue-t3: rgba($m-blue, 0.75) !default;
+
+$m-pink-l1: rgb(202, 47, 115) !default;
+$m-pink-l2: rgb(211, 63, 128) !default;
+$m-pink-l3: rgb(215, 84, 142) !default;
+$m-pink-l4: tint($m-pink, 75%) !default;
+$m-pink-l5: tint($m-pink, 85%) !default;
+$m-pink-d1: rgb(160, 37, 91) !default;
+$m-pink-d2: rgb(140, 32, 79) !default;
+$m-pink-d3: rgb(119, 28, 68) !default;
+
+$m-green: $uxpl-green-base; // uxpl green base
+$m-green-s1: rgb(96, 188, 97) !default;
+$m-green-l1: tint($m-green, 20%) !default;
+$m-green-l2: tint($m-green, 40%) !default;
+$m-green-l3: tint($m-green, 60%) !default;
+$m-green-l4: tint($m-green, 90%) !default;
+$m-green-l5: tint($m-green, 95%) !default;
+$m-green-d1: shade($m-green, 20%) !default;
+$m-green-d2: shade($m-green, 40%) !default;
+$m-green-d3: shade($m-green, 60%) !default;
+$m-green-d4: shade($m-green, 90%) !default;
+$m-green-t0: rgba($m-green, 0.125) !default;
+$m-green-t1: rgba($m-green, 0.25) !default;
+$m-green-t2: rgba($m-green, 0.5) !default;
+$m-green-t3: rgba($m-green, 0.75) !default;
+
+// edx-specific: verified
+$verified-color-lvl1: $m-green !default;
+$verified-color-lvl2: $m-green-l1 !default;
+$verified-color-lvl3: $m-green-l2 !default;
+$verified-color-lvl4: $m-green-l3 !default;
+$verified-color-lvl5: $m-green-l4 !default;
+
 // font colors
 $darkest-base-font-color: $white;
 $lighter-base-font-color: $gray-200;
@@ -66,19 +172,67 @@ $lightest-base-font-color: $gray-500; // Lightest font that can be used on a whi
 $very-light-text: #000;
 $text-color: rgb(200, 200, 200) !default;
 
+$m-blue-d5: rgb(0, 158, 231) !default;
+$m-gray-l1: rgb(151, 153, 155) !default;
+$light-gray1: rgb(242, 242, 242) !default;
+$lightGrey1: $gray-l3 !default;
+$m-blue-d3: rgb(18, 111, 154) !default;
+$transparent: rgba(0, 0, 0, 0) !default; // used when color value is needed for UI width/transitions but element is transparent
+
+// social platforms
+$twitter-blue: #55acee;
+$facebook-blue: #3b5998;
+$linkedin-blue: #0077b5;
+$google-red: #d73924;
+$microsoft-black: #000;
+
+// dashboard notification messages
+$palette-info-border: #cce3f0;
+$palette-info-back: #f2f8fb;
+$palette-info-text: #0075b4;
+$palette-error-border: #ebccd1;
+$palette-error-back: #feeced;
+$palette-error-text: #b20610;
+$palette-success-border: #b9edb9;
+$palette-success-back: #ecfaec;
+$palette-success-text: #008100;
 
 
+// edx-specific: professional ed
+$professional-color-lvl1: $m-pink !default;
+$professional-color-lvl2: $m-pink-l1 !default;
+$professional-color-lvl3: $m-pink-l2 !default;
+$professional-color-lvl4: $m-pink-l3 !default;
+$professional-color-lvl5: $m-pink-l4 !default;
 
 
+// edx-specific: honor code
+$honorcode-color-lvl1: $m-blue !default;
+$honorcode-color-lvl2: tint($honorcode-color-lvl1, 33%) !default;
+
+// edx-specific: audit
+$audit-color-lvl1: rgb(221, 221, 221) !default;
+$audit-color-lvl2: tint($audit-color-lvl1, 33%) !default;
 
 
+// borders
+$border-color-1: rgb(190, 190, 190) !default;
+$border-color-2: rgb(200, 200, 200) !default;
+$border-color-3: rgb(100, 100, 100) !default;
+$border-color-4: rgb(252, 252, 252) !default;
+$border-color-l1: $m-gray-l1 !default;
+$border-color-l2: $m-gray-l2 !default;
+$border-color-l3: $m-gray-l3 !default;
+$border-color-l4: $m-gray-l4 !default;
 
-
-
-
-
-
-
+// system feedback-based colors
+$error-color: rgb(203, 7, 18) !default;
+$warning-color: rgb(255, 192, 31) !default;
+$confirm-color: rgb(0, 132, 1) !default;
+$active-color: $blue !default;
+$highlight-color: rgb(255, 255, 0) !default;
+$alert-color: rgb(212, 64, 64) !default;
+$success-color-hover: darken($success, 15%) !default;
 
 
 

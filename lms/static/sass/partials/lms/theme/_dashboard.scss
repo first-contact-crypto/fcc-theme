@@ -154,7 +154,7 @@
             .course-info {
               [class*="info-"] {
                 font: -apple-system-short-subheadline !important;
-                color: $primary-offset;
+                color: theme-color("primary");
 
                 @extend %t-title7;
 
