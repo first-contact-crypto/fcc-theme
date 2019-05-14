@@ -6,6 +6,11 @@
 // partials directly into this file so that you can break your
 // rules into modular pieces.
 
+@mixin box-sizing ($box) {
+//  content-box | border-box | inherit
+  @include prefixer(box-sizing, $box, spec);
+}
+
 @import 'mixins';
 // @import 'controls';
 // @import 'dashboard';
