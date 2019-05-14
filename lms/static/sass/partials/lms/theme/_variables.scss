@@ -34,6 +34,18 @@ $body-bg: $inverse;
 // $gray-d1: $primary-offset;
 // $gray-d3: $primary-offset;
 
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
 $gray:      $gray-600;
 $gray-l1:   tint($gray, 90%) !default;
 $gray-l2:   tint($gray, 60%) !default;
