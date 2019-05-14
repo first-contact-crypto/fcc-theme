@@ -207,8 +207,8 @@
         .dropdown-user-menu {
           border: 1px solid theme-color("secondary");
           position: absolute;
-          background-color: theme-color("inverse");
-          color: theme-color("secondary");
+          background-color: $gray-800;
+          color: $primary;
           @include right(30px);
           top: 55px;
           z-index: 10;

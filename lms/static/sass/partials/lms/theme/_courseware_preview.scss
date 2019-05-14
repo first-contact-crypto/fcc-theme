@@ -36,6 +36,7 @@
 
       .action-preview-select {
         @include margin-right($baseline);
+        background-color: $gray-900;
       }
 
       .action-preview-username-container {
