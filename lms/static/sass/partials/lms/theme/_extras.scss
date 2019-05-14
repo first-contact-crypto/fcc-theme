@@ -259,11 +259,23 @@ body {
   background: $inverse;
 }
 
+html {
+  color: $primary;
+  background: $inverse;
+}
+
+select {
+    background-color: $gray-100;
+}
+
 @import 'mixins';
 @import 'button';
 @import 'dashboard';
 @import 'reset';
 @import 'login-register';
 @import 'courseware_preview';
+@import 'bootstrap/legacy';
+@import 'course-experience';
 @import 'header';
+// @import 'forms';
 
