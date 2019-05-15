@@ -3,6 +3,10 @@ html {
     background-color: #000;
 }
 
-.global-header {
-    background: #000;
+select {
+    color: #fff;
 }
+
+
+@import 'header';
+@import 'xmodule-course-display';

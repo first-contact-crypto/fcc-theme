@@ -60,6 +60,7 @@ $action-primary-active-fg: $primary;
 
 
 $form-bg-color: $inverse;
+$container-bg: $inverse;
 
 // $gray-d1: $primary-offset;
 // $gray-d3: $primary-offset;
@@ -240,6 +241,21 @@ $success-color-hover: darken($success, 15%) !default;
 
 
 
+// From xmodule variables in common / lib / js 
+// brand button
+// $btn-brand-border-color:                  theme-color("primary") !default;
+// $btn-brand-background:                    theme-color("primary") !default;
+// $btn-brand-color:                         #fcfcfc !default;
+// $btn-brand-focus-color:                   $btn-brand-color !default;
+// $btn-brand-focus-border-color:            $uxpl-blue-hover-active !default;
+// $btn-brand-focus-background:              $uxpl-blue-hover-active !default;
+// $btn-brand-active-border-color:           theme-color("primary") !default;
+// $btn-brand-active-background:             theme-color("primary") !default;
+// $btn-brand-disabled-background:           #f2f3f3 !default;
+// $btn-brand-disabled-color:                #676666 !default;
+
+$btn-brand-background: $inverse;
+$btn-brand-color: $primary;
 
 
 
