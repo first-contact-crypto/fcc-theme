@@ -491,6 +491,8 @@ $header-graphic-sub-color: $m-gray-d2 !default;
 $header-sans-serif: 'Open Sans', Arial, Helvetica, sans-serif !default;
 $header_image_margin: -69px !default;
 
+$header-bg: $inverse;
+
 // footer
 $footer_margin: ($baseline/4) 0 ($baseline*1.5) 0 !default;
 
