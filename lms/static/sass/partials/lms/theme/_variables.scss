@@ -12,7 +12,11 @@ $medium-purple: #9370DB;
 $primary: #fff;
 $primary-offset: #ccc;
 $secondary: $royal-blue;
-$inverse: #111;
+$inverse: #000;
+
+$body-color: $primary;
+$body-bg: $inverse;
+
 
 @import 'variables-v1';
 
@@ -55,7 +59,6 @@ $action-primary-active-fg: $primary;
 // $action-prmary-disabled-fg: $white !default;
 
 
-$body-bg: $inverse;
 $form-bg-color: $inverse;
 
 // $gray-d1: $primary-offset;
