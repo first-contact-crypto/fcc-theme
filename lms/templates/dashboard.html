@@ -135,6 +135,42 @@ from student.models import CourseEnrollment
 </div>
 
 <main id="main" aria-label="Content" tabindex="-1">
+
+    <!-- Collapse buttons -->
+    <div>
+        <!-- <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
+            aria-controls="multiCollapseExample1">Toggle first element</a> -->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#badge-target"
+            aria-expanded="false" aria-controls="badge-target">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#token-target"
+            aria-expanded="false" aria-controls="token-target">Toggle both elements</button>
+    </div>
+    <!--/ Collapse buttons -->
+
+    <!-- Collapsible content -->
+    <div class="row">
+    <div class="col">
+        <div class="badge-target" id="badge-target">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="token-target" id="token-target">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--/ Collapsible content -->
+
+
+
+
     <div class="dashboard" id="dashboard-main">
       <div class="main-container">
         <div class="my-courses" id="my-courses">
