@@ -138,36 +138,30 @@ from student.models import CourseEnrollment
 
     <!-- Collapse buttons -->
     <div>
-        <!-- <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
-            aria-controls="multiCollapseExample1">Toggle first element</a> -->
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#badge-target"
-            aria-expanded="false" aria-controls="badge-target">Toggle second element</button>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#token-target"
-            aria-expanded="false" aria-controls="token-target">Toggle both elements</button>
+    <a class="btn btn-primary" data-toggle="collapse" href="#badgeTarget" aria-expanded="false" aria-controls="badgeTarget">
+        Badges
+    </a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tokenTarget"
+        aria-expanded="false" aria-controls="tokenTarget">
+        Rewards
+    </button>
     </div>
-    <!--/ Collapse buttons -->
+    <!-- / Collapse buttons -->
 
-    <!-- Collapsible content -->
-    <div class="row">
-    <div class="col">
-        <div class="badge-target" id="badge-target">
-        <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="token-target" id="token-target">
-        <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-        </div>
+    <!-- Collapsible element -->
+    <div class="collapse" id="badgeTarget">
+    <div class="mt-3">
+        <p>This is where your <b>Badges</b> are displayed!</p>
     </div>
     </div>
-    <!--/ Collapsible content -->
-
+    <!-- / Collapsible element -->
+    <!-- Collapsible element -->
+    <div class="collapse" id="tokenTarget">
+    <div class="mt-3">
+        <p>This is where your <b>Rewards</b> are displayed!</p>
+    </div>
+    </div>
+    <!-- / Collapsible element -->
 
 
 
