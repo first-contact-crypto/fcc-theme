@@ -247,6 +247,8 @@ $seq-nav-height: 50px;
 
   &.button-previous {
     order: -999;
+    color: $primary;
+    background-color: $inverse;
 
     @include media-breakpoint-up(md) {
       @include left(0);
@@ -259,6 +261,8 @@ $seq-nav-height: 50px;
 
   &.button-next {
     order: 999;
+    color: $primary;
+    background-color: $inverse;
 
     @include media-breakpoint-up(md) {
       @include right(0);
