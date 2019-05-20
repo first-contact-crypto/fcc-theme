@@ -15,10 +15,12 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    color: $primary;
 
     .navbar-nav {
       display: flex;
       flex-direction: row;
+      color: $primary;
     }
 
     .nav-item {
