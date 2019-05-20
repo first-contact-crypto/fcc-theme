@@ -217,8 +217,8 @@ $seq-nav-height: 50px;
   height: 100%;
   text-shadow: none; // overrides default button text-shadow
   background: none;  // overrides default button gradient
-  background-color: $inverse;
-  color: $primary;
+  background-color: $primary;
+  color: $inverse;
   border-color: $seq-nav-border-color;
   box-shadow: none;
   font-size: inherit;
@@ -264,7 +264,7 @@ $seq-nav-height: 50px;
   &.button-next {
     order: 999;
     color: $inverse;
-    background-color: $primary
+    background-color: $primary;
 
     @include media-breakpoint-up(md) {
       @include right(0);
