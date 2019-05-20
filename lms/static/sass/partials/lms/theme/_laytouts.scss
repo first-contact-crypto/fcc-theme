@@ -34,7 +34,7 @@
       &:hover {
         .nav-link {
           border-bottom-color: theme-color("primary");
-          color: theme-color("primary");
+          color: $primary;
         }
       }
     }
