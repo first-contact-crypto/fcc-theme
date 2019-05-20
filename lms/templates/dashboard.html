@@ -160,6 +160,19 @@ from student.models import CourseEnrollment
     <div class="collapse multi-collapse" id="multiCollapseExample1">
       <div class="card card-body">
         <p>Your <b>Badges</b> are displayed here!</p>
+        % if assertions:
+          <h3>Badges You've Earned</h3>
+          <ul>
+          % for assertion in assertions:
+              <li>
+                <!-- <img src="${assertion}" alt="Badge Achievement"> -->
+                <p>${assertion}</p>
+              </li>
+          % endfor
+          </ul>
+        % else:
+          <h4>No badges earned as yet..</h4>
+        % endif
       </div>
     </div>
   <!-- </div> -->
