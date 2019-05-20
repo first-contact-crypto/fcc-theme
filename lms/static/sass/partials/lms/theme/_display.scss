@@ -239,6 +239,8 @@ $seq-nav-height: 50px;
 
   .sequence-nav-button-label {
     display: none;
+    color: $primary;
+    background-color: $inverse;
 
     @include media-breakpoint-up(md) {
       display: inline;
