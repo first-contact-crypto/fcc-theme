@@ -13,9 +13,11 @@ $primary: #fff;
 $primary-offset: #ccc;
 $secondary: $royal-blue;
 $inverse: #000;
+$fcc-green: rgb(0,200,81);
 
 $body-color: $primary;
 $body-bg: $inverse;
+$border-color: $fcc-green;
 
 
 @import 'variables-v1';
