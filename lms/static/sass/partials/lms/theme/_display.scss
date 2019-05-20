@@ -217,7 +217,8 @@ $seq-nav-height: 50px;
   height: 100%;
   text-shadow: none; // overrides default button text-shadow
   background: none;  // overrides default button gradient
-  background-color: theme-color("inverse");
+  background-color: $inverse;
+  color: $primary;
   border-color: $seq-nav-border-color;
   box-shadow: none;
   font-size: inherit;
