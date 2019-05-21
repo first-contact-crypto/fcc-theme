@@ -166,7 +166,7 @@ from student.models import CourseEnrollment
           % for assertion in assertions:
               <li>
                 <!-- <img src="${assertion}" alt="Badge Achievement"> -->
-                <p>${assertion}</p>
+                <p>${assertion.image_url}</p>
               </li>
           % endfor
           </ul>
