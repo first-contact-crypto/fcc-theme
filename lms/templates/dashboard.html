@@ -143,44 +143,83 @@ from student.models import CourseEnrollment
 
 <main id="main" aria-label="Content" tabindex="-1">
 
-<!-- Collapse buttons -->
-<div>
-  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
-    aria-controls="multiCollapseExample1">Badges</a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
-    aria-expanded="false" aria-controls="multiCollapseExample2">Rewards</button>
-  <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> -->
-</div>
-<!--/ Collapse buttons -->
+  <!-- Collapse buttons -->
+  <div>
+    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
+      aria-controls="multiCollapseExample1">Course Completion Badges</a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+      aria-expanded="false" aria-controls="multiCollapseExample2">Epiphany Rewards</button>
+    <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+      aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> -->
+  </div>
+  <!--/ Collapse buttons -->
 
-<!-- Collapsible content -->
-<!-- <div class="row"> -->
-  <!-- <div class="col"> -->
-    <div class="collapse multi-collapse" id="multiCollapseExample1">
-      <div class="card card-body">
-        <p>Your <b>Badges</b> are displayed here!</p>
-        % if assertions:
-          <h3>Badges You've Earned</h3>
-          <ul>
-          % for assertion in assertions:
-              <li>
-                <img src="${assertion.image_url}" alt="Badge Achievement">
-                <p>The user is: ${assertion.user.username}</p>
-              </li>
-          % endfor
-          </ul>
-        % else:
-          <h4>No badges earned as yet..</h4>
-        % endif
+  <!-- Collapsible content -->
+  <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+  <div class="collapse multi-collapse" id="multiCollapseExample1">
+    <div class="card card-body" style="background-color:#111">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-4 mx-auto">
+            <!-- Card -->
+            <div class="card" style="background-color: #333">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="${assertion_image_url}" alt="Epiphany Badge Image">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Badges Received</a></h4>
+                <!-- Text -->
+                <p class="card-text" style="color:white">You currently have ${num_assertions} Badges!</p>
+                <!-- Button -->
+                <!-- <a href="https://lms.firstcontactcrypto.com/redemption/" class="btn btn-primary">!</a> -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
       </div>
+
     </div>
+  </div>
   <!-- </div> -->
   <!-- <div class="col"> -->
     <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="card card-body">
-        <p>Your <b>Rewards</b> are displayed here!</p>
+    <div class="card card-body" style="background-color:#111">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-4 mx-auto">
+            <!-- Card -->
+            <div class="card" style="background-color: #333">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="${assertion_image_url}" alt="Epiphany Badge Image">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Epiphany Points</a></h4>
+                <!-- Text -->
+                <p class="card-text" style="color:white">You currently have ${num_assertions} Epiphany Points!</p>
+                <!-- Button -->
+                <a href="https://lms.firstcontactcrypto.com/redemption/" class="btn btn-primary">Win a Prize!</a>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
       </div>
+
+    </div>
     </div>
   <!-- </div> -->
 <!-- </div> -->
