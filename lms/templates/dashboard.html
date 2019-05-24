@@ -144,48 +144,57 @@ from student.models import CourseEnrollment
 <main id="main" aria-label="Content" tabindex="-1">
 
   <!-- Collapse buttons -->
-  <div>
+  <div class="text-center">
     <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
-      aria-controls="multiCollapseExample1">View Course Badges and Achievements</a>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+      aria-controls="multiCollapseExample1">View your Badges and Epiphany Point Rewards</a>
+    <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
       aria-expanded="false" aria-controls="multiCollapseExample2">View Epiphany Rewards</button>
     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-      aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">View Courses</button>
+      aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">View Courses</button> -->
   </div>
   <!--/ Collapse buttons -->
 
   <!-- Collapsible content -->
   <!-- <div class="row"> -->
     <!-- <div class="col"> -->
-  <div class="collapse multi-collapse" id="multiCollapseExample1">
+  <div class="collapse" id="multiCollapseExample1">
     <div class="card card-body" style="background-color:#111">
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-4 mx-auto">
             <!-- Card -->
             <div class="card" style="background-color: #333">
-
               <!-- Card image -->
               <img class="card-img-top" src="https://media.us.badgr.io/uploads/badges/honor_qw5udTL.png" alt="Course Badge Image">
-
               <!-- Card content -->
               <div class="card-body">
-
                 <!-- Title -->
                 <h4 class="card-title"><a>Badges Received</a></h4>
                 <!-- Text -->
                 <p class="card-text" style="color:white">You currently have ${num_course_assertions} Badges!</p>
                 <!-- Button -->
                 <a href="https://firstcontactcrypto.com/openbadges.html" class="btn btn-primary">Visit your OpenBadges backpack!</a>
-
               </div>
-
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card" style="background-color: #333">
+              <!-- Card image -->
+              <img class="card-img-top" src="https://media.us.badgr.io/uploads/badges/epiphany-badge_ypJwm3t.png" alt="Epiphany Badge Image">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <h4 class="card-title"><a>Epiphany Points</a></h4>
+                <!-- Text -->
+                <p class="card-text" style="color:white">You currently have ${num_epiphany_assertions} Epiphany Points!</p>
+                <!-- Button -->
+                <a href="https://firstcontactcrypto.com/redemption.html" class="btn btn-primary">Planet Epiphany, win prize!</a>
+              </div>
             </div>
             <!-- Card -->
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <!-- </div> -->
@@ -197,22 +206,17 @@ from student.models import CourseEnrollment
           <div class="col-4 mx-auto">
             <!-- Card -->
             <div class="card" style="background-color: #333">
-
               <!-- Card image -->
               <img class="card-img-top" src="https://media.us.badgr.io/uploads/badges/epiphany-badge_ypJwm3t.png" alt="Epiphany Badge Image">
-
               <!-- Card content -->
               <div class="card-body">
-
                 <!-- Title -->
                 <h4 class="card-title"><a>Epiphany Points</a></h4>
                 <!-- Text -->
                 <p class="card-text" style="color:white">You currently have ${num_epiphany_assertions} Epiphany Points!</p>
                 <!-- Button -->
                 <a href="https://firstcontactcrypto.com/redemption.html" class="btn btn-primary">Planet Epiphany, win prize!</a>
-
               </div>
-
             </div>
             <!-- Card -->
           </div>
