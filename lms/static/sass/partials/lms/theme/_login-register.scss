@@ -674,9 +674,9 @@
       }
 
       &.success {
-        background-color: $palette-success-back;
+        background-color: $gray-800;
         border: $palette-success-border 1px solid;
-        color: $palette-success-text;
+        color: $fcc-green;
       }
 
       &.error {

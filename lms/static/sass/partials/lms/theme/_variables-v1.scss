@@ -558,6 +558,10 @@ $account-content-wrapper-bg: shade($body-bg, 2%) !default;
 $course-profile-bg: rgb(245, 245, 245) !default;
 $course-header-bg: rgba(255, 255, 255, 0.93) !default;
 
+// $account-content-wrapper-bg: $gray-800;
+$course-profile-bg: $gray-900;
+$course-header-bg: $gray-800;
+
 // search/listing results
 $result-highlight-color-base: rgba($highlight-color, 0.25) !default;
 
