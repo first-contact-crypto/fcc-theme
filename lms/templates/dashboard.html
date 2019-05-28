@@ -173,7 +173,7 @@ from student.models import CourseEnrollment
                 <!-- Title -->
                 <h4 class="card-title"><a>Badges Received</a></h4>
                 <!-- Text -->
-                <p class="card-text" style="color:white">You currently have ${num_course_assertions} Badges!</p>
+                <p class="card-text" style="color:white">You currently have ${pc_pkg['num_course_asserts']} Badges!</p>
                 <!-- Button -->
                 <a href="https://firstcontactcrypto.com/openbadges.html" class="btn btn-primary">Visit your OpenBadges backpack!</a>
               </div>
@@ -190,9 +190,13 @@ from student.models import CourseEnrollment
                 <!-- Title -->
                 <h4 class="card-title"><a>Epiphany Points</a></h4>
                 <!-- Text -->
-                <p class="card-text" style="color:white">You currently have ${num_epiphany_assertions} Epiphany Points!</p>
+                <p class="card-text" style="color:white">You currently have ${pc_pkg['num_epiph_asserts']} Epiphany Points!</p>
                 <!-- Button -->
-                <a href="https://firstcontactcrypto.com/redemption.html" class="btn btn-primary">Planet Epiphany, win prize!</a>
+                <!-- <a href="https://firstcontactcrypto.com/redemption.html" class="btn btn-primary">Planet Epiphany, win prize!</a> -->
+                <form action="https://firstcontactcrypto.com/redemption.html" method="post">
+                  <input type="hidden" id="pc_pkg_str" name="pc_pkg_str" value=${pc_pkg_str}>
+                  <button class="btn btn-primary">Planet Epiphany, win a prize!</button>
+                </form>
               </div>
             </div>
             <!-- Card -->
