@@ -143,17 +143,49 @@ from student.models import CourseEnrollment
 
 <main id="main" aria-label="Content" tabindex="-1">
 
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button> -->
+
   <!-- Collapse buttons -->
   <div class="btn-group" role="group" aria-label="Collapse Buttons">
     <!-- <div class="form-row text-center">
         <div class="col-12"> -->
-          <a href="#my-courses" class="btn btn-outline-success"></a>>View your Courses</button>
+          <!-- <a href="#my-courses" class="btn btn-outline-success"></a>>View your Courses</button> -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Welcome Video
+          </button>
           <a class="btn btn-outline-success" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
-          aria-controls="multiCollapseExample1">View your Badges and Epiphany Point Rewards</a>
       <!-- </div>
     </div> -->
   </div>
   <!--/ Collapse buttons -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://youtube.com/embed/pPZ9PTC39jY?rel=0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline-success">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal-->
+
 
   <!-- Collapsible content -->
   <!-- <div class="row"> -->
@@ -206,11 +238,7 @@ from student.models import CourseEnrollment
   </div>
 <!--/ Collapsible content -->
 
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://youtube.com/embed/pPZ9PTC39jY?rel=0" allowfullscreen></iframe>
-          </div>
 
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/pPZ9PTC39jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <div class="dashboard" id="dashboard-main">
       <div class="main-container">
