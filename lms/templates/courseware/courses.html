@@ -12,8 +12,7 @@
 
         % if course_discovery_enabled:
         <%block name="header_extras">
-          % for template_name in ["course_card", "filter_bar", "filter",
-          "facet", "facet_option"]:
+          % for template_name in ["course_card", "filter_bar", "filter", "facet", "facet_option"]:
           <script type="text/template" id="${template_name}-tpl">
       <%static:include path="discovery/${template_name}.underscore" />
   </script>
@@ -63,8 +62,7 @@
               </div>
               % endif
 
-              <div class="courses${'' if course_discovery_enabled else 'no-course-discovery'}" role="region" aria-label="${_('List of
-                Courses')}">
+              <div class="courses${'' if course_discovery_enabled else 'no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
                 <ul class="courses-listing journal-list">
                   % for bundle in journal_info.get('journal_bundles'):
                   <li class="courses-listing-item">

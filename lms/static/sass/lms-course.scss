@@ -3,5 +3,9 @@
 @import 'build-course'; // shared app style assets/rendering
 
 
+body {
+  background-color: $inverse;
+}
+
 @import 'partials/lms/theme/extras-course'
 
