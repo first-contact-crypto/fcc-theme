@@ -1508,8 +1508,8 @@ a.fade-cover {
 
   &.success {
     color: $palette-success-text;
-    background-color: $palette-success-back;
-    border: $palette-success-border 1px solid;
+    background-color: $inverse;
+    border: $palette-success-border 2px solid;
 
     &.aa-icon .message-copy::before {
       position: absolute;
