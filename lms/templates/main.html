@@ -151,6 +151,42 @@ from pipeline_mako import render_require_js_path_overrides
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date()); gtag('config', 'UA-133040802-1');
   </script>
+    <!-- Facebook Pixel Code -->
+  <script>
+          !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+              n.callMethod ?
+              n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+          }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '672217579861378');
+          fbq('track', 'PageView');
+      </script>
+      <noscript>
+        <img height="1" width="1"
+          src="https://www.facebook.com/tr?id=672217579861378&ev=PageView
+          &noscript=1" />
+      </noscript>
+      <!-- End Facebook Pixel Code -->
+      <!-- Chatra -->
+      <script>
+          (function(d, w, c) {
+                w.ChatraID = 'Fsd8dAcWeT5dRicjL';
+              var s = d.createElement('script');
+              w[c] = w[c] || function() {
+                (w[c].q = w[c].q || []).push(arguments);
+              };
+              s.async = true;
+              s.src = 'https://call.chatra.io/chatra.js';
+              if (d.head) d.head.appendChild(s);
+          })(document, window, 'Chatra');
+      </script>
+      <!-- End Chatra -->
 
 <% branch_key = static.get_value("BRANCH_IO_KEY", settings.BRANCH_IO_KEY) %>
 % if branch_key and not is_from_mobile_app:
@@ -158,6 +194,7 @@ from pipeline_mako import render_require_js_path_overrides
         (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
         branch.init('${branch_key | n, js_escaped_string}');
     </script>
+
 % endif
 
 </head>
