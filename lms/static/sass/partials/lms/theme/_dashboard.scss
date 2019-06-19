@@ -1122,8 +1122,9 @@
   }
 
   a.btn {
-    background-color: theme-color('primary');
-    border: 1px solid theme-color('primary');
+    // background-color: theme-color('success');
+    color: theme-color('success');
+    border: 1px solid theme-color('success');
     box-shadow: 0 1px 8px 0 $shadow-l1;
 
     @include box-sizing(border-box);
@@ -1137,7 +1138,7 @@
     padding: $baseline*0.75 $baseline;
 
     &:hover, &:focus {
-      background: theme-color('primary')-l2;
+      background: theme-color('secondary')-l2;
       text-decoration: none;
     }
   }
