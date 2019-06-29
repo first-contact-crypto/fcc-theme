@@ -144,7 +144,7 @@ from student.models import CourseEnrollment
 <main id="main" aria-label="Content" tabindex="-1">
 
   <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+<!-- <button type="button" class="btn btn-outline-success " data-toggle="modal" data-target="#exampleModalCenter">
   Launch demo modal
 </button> -->
 
@@ -212,7 +212,7 @@ from student.models import CourseEnrollment
                 <!-- Text -->
                 <p class="card-text" style="color:white">You currently have ${pc_pkg['num_course_asserts']} Badges!</p>
                 <!-- Button -->
-                <a href="https://firstcontactcrypto.com/openbadges.html" class="btn btn-primary">Visit your OpenBadges backpack!</a>
+                <a href="https://firstcontactcrypto.com/openbadges.html" class="btn btn-outline-success ">Visit your OpenBadges backpack!</a>
               </div>
             </div>
             <!-- Card -->
@@ -229,10 +229,10 @@ from student.models import CourseEnrollment
                 <!-- Text -->
                 <p class="card-text" style="color:white">You currently have ${pc_pkg['num_epiph_asserts']} Epiphany Points!</p>
                 <!-- Button -->
-                <a href="https://firstcontactcrypto.com/redemption.html?pc_pkg_str=${pc_pkg_str}" class="btn btn-primary">Planet Epiphany, win prize!</a>
+                <a href="https://firstcontactcrypto.com/redemption.html?pc_pkg_str=${pc_pkg_str}" class="btn btn-outline-success ">Planet Epiphany, win prize!</a>
                 <!-- <form action="https://firstcontactcrypto.com/redemption.html" method="post">
                   <input type="hidden" id="pc_pkg_str" name="pc_pkg_str" value=${pc_pkg_str}>
-                  <button class="btn btn-primary">Planet Epiphany, win a prize!</button>
+                  <button class="btn btn-outline-success ">Planet Epiphany, win a prize!</button>
                 </form> -->
               </div>
             </div>
@@ -327,7 +327,7 @@ from student.models import CourseEnrollment
                   <p class="custom-message">${empty_dashboard_message | n, decode.utf8}</p>
                 %endif
                 % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-                  <a class="btn btn-primary" href="${marketing_link('COURSES')}">
+                  <a class="btn btn-outline-success " href="${marketing_link('COURSES')}">
                     ${_("Explore courses")}
                   </a>
                 %endif
