@@ -397,7 +397,7 @@
 
           .enter-course {
             font: -apple-system-short-subheadline !important;
-            @extend %btn-pl-white-base;
+            @extend %btn-outline-success
 
             @include float(right);
 
@@ -813,7 +813,7 @@
       }
 
       .action-view-consent {
-        @extend %btn-pl-white-base;
+        @extend %btn-outline-success
 
         @include float(right);
 
