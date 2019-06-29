@@ -53,21 +53,21 @@ $theme-colors: map-merge(
 @import 'variables-v1';
 
 // // EDX-BOOTSTRAP
-// $primary:                 $blue !default;
-// $secondary:               $indigo !default;
-// $success:                 $green !default;
-// $info:                    $dark-blue !default;
-// $warning:                 $yellow !default;
-// $danger:                  $red !default;
-// $fill-success:              $light-green !default;
-// $fill-info:                 $light-blue !default;
-// $fill-danger:               $light-red !default;
-// $fill-warning:              $light-yellow !default;
-// $program-masters:         $slate !default;
-// $program-micro-masters:   $dark-blue !default;
-// $program-prof-cert:       $magenta !default;
-// $light:                   $gray-100 !default;
-// $dark:                    $gray-900 !default;
+// $primary:                 $blue;
+// $secondary:               $indigo;
+// $success:                 $green;
+// $info:                    $dark-blue;
+// $warning:                 $yellow;
+// $danger:                  $red;
+// $fill-success:              $light-green;
+// $fill-info:                 $light-blue;
+// $fill-danger:               $light-red;
+// $fill-warning:              $light-yellow;
+// $program-masters:         $slate;
+// $program-micro-masters:   $dark-blue;
+// $program-prof-cert:       $magenta;
+// $light:                   $gray-100;
+// $dark:                    $gray-900;
 // // END
 
 
@@ -75,20 +75,20 @@ $theme-colors: map-merge(
 
 
 // // action - primary
-// $action-primary-bg: $m-blue-d3 !default;
+// $action-primary-bg: $m-blue-d3;
 $action-primary-bg: $secondary;
-// $action-primary-fg: $white !default;
+// $action-primary-fg: $white;
 $action-primary-active-fg: $primary;
-// $action-primary-shadow: $m-blue-d4 !default;
-// $action-primary-focused-bg: $m-blue-d1 !default;
-// $action-primary-focused-fg: $white !default;
-// $action-primary-active-bg: $m-blue !default;
-// $action-primary-active-fg: $m-blue-d3 !default;
-// $action-primary-active-shadow: $m-blue-d2 !default;
-// $action-primary-active-focused-fg: $m-blue-d4 !default;
-// $action-primary-active-focused-shadow: $m-blue-d3 !default;
-// $action-primary-disabled-bg: $m-gray-d3 !default;
-// $action-prmary-disabled-fg: $white !default;
+// $action-primary-shadow: $m-blue-d4;
+// $action-primary-focused-bg: $m-blue-d1;
+// $action-primary-focused-fg: $white;
+// $action-primary-active-bg: $m-blue;
+// $action-primary-active-fg: $m-blue-d3;
+// $action-primary-active-shadow: $m-blue-d2;
+// $action-primary-active-focused-fg: $m-blue-d4;
+// $action-primary-active-focused-shadow: $m-blue-d3;
+// $action-primary-disabled-bg: $m-gray-d3;
+// $action-prmary-disabled-fg: $white;
 
 
 $form-bg-color: $inverse;
@@ -97,17 +97,17 @@ $container-bg: $inverse;
 // $gray-d1: $primary-offset;
 // $gray-d3: $primary-offset;
 
-$white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-$black: #000 !default;
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
 
 $gray:      $gray-400;
 $gray-l1:   $gray-400;
@@ -123,98 +123,98 @@ $gray-d3:   $gray-400;
 $gray-d4:   $gray-400;
 
 
-$uxpl-blue-hover-active: rgb(6, 86, 131) !default; // wcag2a compliant
-$uxpl-green-base: rgb(0, 129, 0) !default; // wcag2a compliant
-$uxpl-green-hover-active: rgb(0, 155, 0) !default; // wcag2a compliant
-$uxpl-pink-base: rgb(194, 56, 125) !default; // wcag2a compliant
+$uxpl-blue-hover-active: rgb(6, 86, 131); // wcag2a compliant
+$uxpl-green-base: rgb(0, 129, 0); // wcag2a compliant
+$uxpl-green-hover-active: rgb(0, 155, 0); // wcag2a compliant
+$uxpl-pink-base: rgb(194, 56, 125); // wcag2a compliant
 $m-pink: $uxpl-pink-base; // uxpl pink base
-$uxpl-pink-hover-active: lighten($uxpl-pink-base, 7%) !default; // wcag2a compliant
-$uxpl-grayscale-x-back: rgb(245, 245, 245) !default; // UXPL grayscale, x-back$m-pink: $uxpl-pink-base; // uxpl pink base
+$uxpl-pink-hover-active: lighten($uxpl-pink-base, 7%); // wcag2a compliant
+$uxpl-grayscale-x-back: rgb(245, 245, 245); // UXPL grayscale, x-back$m-pink: $uxpl-pink-base; // uxpl pink base
 
 
 // edx-specific: marketing site variables
 // DEPRECATED: Do not continue to use these colors, instead use pattern libary and base colors above.
-$m-gray: rgb(138, 140, 143) !default; //C8F
-$m-gray-l1: rgb(151, 153, 155) !default;
-$m-gray-l2: rgb(164, 166, 168) !default;
-$m-gray-l3: rgb(177, 178, 180) !default;
-$m-gray-l4: rgb(245, 245, 245) !default;
-$m-gray-d1: rgb(111, 112, 116) !default;
-$m-gray-d2: rgb(112, 114, 118) !default;
-$m-gray-d3: rgb(100, 102, 104) !default;
-$m-gray-d4: rgb(5, 5, 5) !default;
-$m-gray-t0: rgba($m-gray, 0.125) !default;
-$m-gray-t1: rgba($m-gray, 0.25) !default;
-$m-gray-t2: rgba($m-gray, 0.5) !default;
-$m-gray-t3: rgba($m-gray, 0.75) !default;
+$m-gray: rgb(138, 140, 143); //C8F
+$m-gray-l1: rgb(151, 153, 155);
+$m-gray-l2: rgb(164, 166, 168);
+$m-gray-l3: rgb(177, 178, 180);
+$m-gray-l4: rgb(245, 245, 245);
+$m-gray-d1: rgb(111, 112, 116);
+$m-gray-d2: rgb(112, 114, 118);
+$m-gray-d3: rgb(100, 102, 104);
+$m-gray-d4: rgb(5, 5, 5);
+$m-gray-t0: rgba($m-gray, 0.125);
+$m-gray-t1: rgba($m-gray, 0.25);
+$m-gray-t2: rgba($m-gray, 0.5);
+$m-gray-t3: rgba($m-gray, 0.75);
 
 
 
 $m-blue: $blue;  // uxpl blue base
-$m-blue-l1: rgb(43, 172, 230) !default;
-$m-blue-l2: rgb(66, 181, 233) !default;
-$m-blue-l3: rgb(89, 190, 236) !default;
-// $m-blue-l4: tint($m-blue, 90%) !default;
-$m-blue-l4: rgb(89, 190, 236) !default;
-// $m-blue-l5: tint($m-blue, 95%) !default;
-$m-blue-l5: rgb(89, 190, 236) !default;
-$m-blue-l6: #4bb4fb !default;
-$m-blue-d1: rgb(23, 144, 199) !default;
-$m-blue-d2: $blue !default;
-$m-blue-d3: rgb(18, 111, 154) !default;
-$m-blue-d4: rgb(10, 74, 103) !default;
-$m-blue-d5: rgb(0, 158, 231) !default;
-$m-blue-d6: #256a97 !default;
-$m-blue-t0: rgba($m-blue, 0.125) !default;
-$m-blue-t1: rgba($m-blue, 0.25) !default;
-$m-blue-t2: rgba($m-blue, 0.5) !default;
-$m-blue-t3: rgba($m-blue, 0.75) !default;
+$m-blue-l1: rgb(43, 172, 230);
+$m-blue-l2: rgb(66, 181, 233);
+$m-blue-l3: rgb(89, 190, 236);
+// $m-blue-l4: tint($m-blue, 90%);
+$m-blue-l4: rgb(89, 190, 236);
+// $m-blue-l5: tint($m-blue, 95%);
+$m-blue-l5: rgb(89, 190, 236);
+$m-blue-l6: #4bb4fb;
+$m-blue-d1: rgb(23, 144, 199);
+$m-blue-d2: $blue;
+$m-blue-d3: rgb(18, 111, 154);
+$m-blue-d4: rgb(10, 74, 103);
+$m-blue-d5: rgb(0, 158, 231);
+$m-blue-d6: #256a97;
+$m-blue-t0: rgba($m-blue, 0.125);
+$m-blue-t1: rgba($m-blue, 0.25);
+$m-blue-t2: rgba($m-blue, 0.5);
+$m-blue-t3: rgba($m-blue, 0.75);
 
-$m-pink-l1: rgb(202, 47, 115) !default;
-$m-pink-l2: rgb(211, 63, 128) !default;
-$m-pink-l3: rgb(215, 84, 142) !default;
-$m-pink-l4: tint($m-pink, 75%) !default;
-$m-pink-l5: tint($m-pink, 85%) !default;
-$m-pink-d1: rgb(160, 37, 91) !default;
-$m-pink-d2: rgb(140, 32, 79) !default;
-$m-pink-d3: rgb(119, 28, 68) !default;
+$m-pink-l1: rgb(202, 47, 115);
+$m-pink-l2: rgb(211, 63, 128);
+$m-pink-l3: rgb(215, 84, 142);
+$m-pink-l4: tint($m-pink, 75%);
+$m-pink-l5: tint($m-pink, 85%);
+$m-pink-d1: rgb(160, 37, 91);
+$m-pink-d2: rgb(140, 32, 79);
+$m-pink-d3: rgb(119, 28, 68);
 
 $m-green: $uxpl-green-base; // uxpl green base
-$m-green-s1: rgb(96, 188, 97) !default;
-$m-green-l1: tint($m-green, 20%) !default;
-$m-green-l2: tint($m-green, 40%) !default;
-$m-green-l3: tint($m-green, 60%) !default;
-$m-green-l4: tint($m-green, 90%) !default;
-$m-green-l5: tint($m-green, 95%) !default;
-$m-green-d1: shade($m-green, 20%) !default;
-$m-green-d2: shade($m-green, 40%) !default;
-$m-green-d3: shade($m-green, 60%) !default;
-$m-green-d4: shade($m-green, 90%) !default;
-$m-green-t0: rgba($m-green, 0.125) !default;
-$m-green-t1: rgba($m-green, 0.25) !default;
-$m-green-t2: rgba($m-green, 0.5) !default;
-$m-green-t3: rgba($m-green, 0.75) !default;
+$m-green-s1: rgb(96, 188, 97);
+$m-green-l1: tint($m-green, 20%);
+$m-green-l2: tint($m-green, 40%);
+$m-green-l3: tint($m-green, 60%);
+$m-green-l4: tint($m-green, 90%);
+$m-green-l5: tint($m-green, 95%);
+$m-green-d1: shade($m-green, 20%);
+$m-green-d2: shade($m-green, 40%);
+$m-green-d3: shade($m-green, 60%);
+$m-green-d4: shade($m-green, 90%);
+$m-green-t0: rgba($m-green, 0.125);
+$m-green-t1: rgba($m-green, 0.25);
+$m-green-t2: rgba($m-green, 0.5);
+$m-green-t3: rgba($m-green, 0.75);
 
 // edx-specific: verified
-$verified-color-lvl1: $m-green !default;
-$verified-color-lvl2: $m-green-l1 !default;
-$verified-color-lvl3: $m-green-l2 !default;
-$verified-color-lvl4: $m-green-l3 !default;
-$verified-color-lvl5: $m-green-l4 !default;
+$verified-color-lvl1: $m-green;
+$verified-color-lvl2: $m-green-l1;
+$verified-color-lvl3: $m-green-l2;
+$verified-color-lvl4: $m-green-l3;
+$verified-color-lvl5: $m-green-l4;
 
 // font colors
 $darkest-base-font-color: $white;
 $lighter-base-font-color: $gray-200;
 $lightest-base-font-color: $gray-500; // Lightest font that can be used on a white background
 $very-light-text: #000;
-$text-color: rgb(200, 200, 200) !default;
+$text-color: rgb(200, 200, 200);
 
-$m-blue-d5: rgb(0, 158, 231) !default;
-$m-gray-l1: rgb(151, 153, 155) !default;
-$light-gray1: rgb(242, 242, 242) !default;
-$lightGrey1: $gray-l3 !default;
-$m-blue-d3: rgb(18, 111, 154) !default;
-$transparent: rgba(0, 0, 0, 0) !default; // used when color value is needed for UI width/transitions but element is transparent
+$m-blue-d5: rgb(0, 158, 231);
+$m-gray-l1: rgb(151, 153, 155);
+$light-gray1: rgb(242, 242, 242);
+$lightGrey1: $gray-l3;
+$m-blue-d3: rgb(18, 111, 154);
+$transparent: rgba(0, 0, 0, 0); // used when color value is needed for UI width/transitions but element is transparent
 
 // social platforms
 $twitter-blue: #55acee;
@@ -236,59 +236,88 @@ $palette-success-text: #008100;
 
 
 // edx-specific: professional ed
-$professional-color-lvl1: $m-pink !default;
-$professional-color-lvl2: $m-pink-l1 !default;
-$professional-color-lvl3: $m-pink-l2 !default;
-$professional-color-lvl4: $m-pink-l3 !default;
-$professional-color-lvl5: $m-pink-l4 !default;
+$professional-color-lvl1: $m-pink;
+$professional-color-lvl2: $m-pink-l1;
+$professional-color-lvl3: $m-pink-l2;
+$professional-color-lvl4: $m-pink-l3;
+$professional-color-lvl5: $m-pink-l4;
 
 
 // edx-specific: honor code
-$honorcode-color-lvl1: $m-blue !default;
-$honorcode-color-lvl2: tint($honorcode-color-lvl1, 33%) !default;
+$honorcode-color-lvl1: $m-blue;
+$honorcode-color-lvl2: tint($honorcode-color-lvl1, 33%);
 
 // edx-specific: audit
-$audit-color-lvl1: rgb(221, 221, 221) !default;
-$audit-color-lvl2: tint($audit-color-lvl1, 33%) !default;
+$audit-color-lvl1: rgb(221, 221, 221);
+$audit-color-lvl2: tint($audit-color-lvl1, 33%);
 
 
 // borders
-$border-color-1: rgb(190, 190, 190) !default;
-$border-color-2: rgb(200, 200, 200) !default;
-$border-color-3: rgb(100, 100, 100) !default;
-$border-color-4: rgb(252, 252, 252) !default;
-$border-color-l1: $m-gray-l1 !default;
-$border-color-l2: $m-gray-l2 !default;
-$border-color-l3: $m-gray-l3 !default;
-$border-color-l4: $m-gray-l4 !default;
+$border-color-1: rgb(190, 190, 190);
+$border-color-2: rgb(200, 200, 200);
+$border-color-3: rgb(100, 100, 100);
+$border-color-4: rgb(252, 252, 252);
+$border-color-l1: $m-gray-l1;
+$border-color-l2: $m-gray-l2;
+$border-color-l3: $m-gray-l3;
+$border-color-l4: $m-gray-l4;
 
 // system feedback-based colors
-$error-color: rgb(203, 7, 18) !default;
-$warning-color: rgb(255, 192, 31) !default;
-$confirm-color: rgb(0, 132, 1) !default;
-$active-color: $blue !default;
-$highlight-color: rgb(255, 255, 0) !default;
-$alert-color: rgb(212, 64, 64) !default;
-$success-color-hover: darken($success, 15%) !default;
+$error-color: rgb(203, 7, 18);
+$warning-color: rgb(255, 192, 31);
+$confirm-color: rgb(0, 132, 1);
+$active-color: $blue;
+$highlight-color: rgb(255, 255, 0);
+$alert-color: rgb(212, 64, 64);
+$success-color-hover: darken($success, 15%);
 
 
 
 // From xmodule variables in common / lib / js 
 // brand button
-// $btn-brand-border-color:                  theme-color("primary") !default;
-// $btn-brand-background:                    theme-color("primary") !default;
-// $btn-brand-color:                         #fcfcfc !default;
-// $btn-brand-focus-color:                   $btn-brand-color !default;
-// $btn-brand-focus-border-color:            $uxpl-blue-hover-active !default;
-// $btn-brand-focus-background:              $uxpl-blue-hover-active !default;
-// $btn-brand-active-border-color:           theme-color("primary") !default;
-// $btn-brand-active-background:             theme-color("primary") !default;
-// $btn-brand-disabled-background:           #f2f3f3 !default;
-// $btn-brand-disabled-color:                #676666 !default;
+// $btn-brand-border-color:                  theme-color("primary");
+// $btn-brand-background:                    theme-color("primary");
+// $btn-brand-color:                         #fcfcfc;
+// $btn-brand-focus-color:                   $btn-brand-color;
+// $btn-brand-focus-border-color:            $uxpl-blue-hover-active;
+// $btn-brand-focus-background:              $uxpl-blue-hover-active;
+// $btn-brand-active-border-color:           theme-color("primary");
+// $btn-brand-active-background:             theme-color("primary");
+// $btn-brand-disabled-background:           #f2f3f3;
+// $btn-brand-disabled-color:                #676666;
 
 $btn-brand-background: $inverse;
 $btn-brand-color: $primary;
 
+
+
+$forum-color-primary: $primary;
+$forum-color-copy-light: rgb(185, 185, 185);
+$forum-color-background-light: rgb(11,11,11);
+
+// contextual color variables
+$forum-color-background: $inverse;
+$forum-color-active-thread: $forum-color-primary;
+$forum-color-hover: rgb(250, 170, 25);
+$forum-color-active-text: $white;
+$forum-color-pinned: rgb(152, 44, 98);
+$forum-color-reported: rgb(152, 44, 98);
+$forum-color-closed: $black;
+$forum-color-following: $forum-color-primary;
+$forum-color-staff: $forum-color-primary;
+$forum-color-community-ta: $green;
+$forum-color-marked-answer: theme-color("success");
+$forum-color-border: $gray-300;
+$forum-color-error: theme-color("danger");
+$forum-color-hover-thread: $forum-color-background-light;
+$forum-color-reading-thread: $forum-color-background-light;
+$forum-color-read-post: $forum-color-copy-light;
+$forum-color-never-read-post: $forum-color-primary;
+$forum-color-editor-preview-label: $forum-color-copy-light;
+$forum-color-response-count: $forum-color-copy-light;
+$forum-color-navigation-bar: $forum-color-background-light;
+$forum-color-count: $forum-color-copy-light;
+$forum-color-background-label: $gray-700;
 
 
 
