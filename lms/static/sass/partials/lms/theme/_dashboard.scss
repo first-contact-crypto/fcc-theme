@@ -3,6 +3,14 @@
 
 // +Dashboard
 // ====================
+
+%btn-outline-success {
+  color: $success;
+  border-color: $success;
+  opacity: 0.0;
+}
+
+
 .dashboard {
   @include clearfix();
 
