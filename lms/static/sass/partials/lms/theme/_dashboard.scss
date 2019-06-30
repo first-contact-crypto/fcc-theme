@@ -821,7 +821,10 @@
       }
 
       .action-view-consent {
-        @extend %btn-outline-success
+        // @extend %btn-outline-success
+        color: $success;
+        border-color: $success;
+        opacity: $success;
 
         @include float(right);
 
