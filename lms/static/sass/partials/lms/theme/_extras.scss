@@ -268,6 +268,12 @@ select {
     background-color: $gray-100;
 }
 
+%btn-outline-success {
+  color: $success;
+  border-color: $success;
+  opacity: 0.0;
+}
+
 @import 'mixins';
 @import 'button';
 @import 'dashboard';
