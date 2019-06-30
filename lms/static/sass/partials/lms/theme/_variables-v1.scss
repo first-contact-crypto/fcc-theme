@@ -1,3 +1,9 @@
+// ----------------------------
+// #CONFIG
+// ----------------------------
+$static-path: '..' !default;
+
+
 // Add percentage of white to a color
 @function tint($color, $percent) {
   @return mix(white, $color, $percent);
@@ -24,12 +30,53 @@
 // #APPLICATIONS:   Applying configuration
 // #DEPRECATED:     sunsetted and not to be used variables
 
+$blue: #0000FF;
+$royal-blue: #4169E1;
+$sky-blue: #87CEEB;
+$deep-sky-blue: #00BFFF;
+$light-sky-blue: #87CEFA;
+$medium-purple: #9370DB;
+
+$primary-offset: #ccc;
+$inverse: #000;
+
+$fcc-green: rgb(0,200,81);
+$fcc-blue: #6731b7;
+$orangered: #ff4500;
+$yelloworange: #ffae42;
+
+$body-color: $primary;
+$body-bg: $inverse;
+$border-color: $fcc-green;
+
+$primary: #fff;
+$secondary: $royal-blue;
+$success: $fcc-green;
+$info: $info;
+$warning: $yelloworange;
+$danger: $orangered;
+$light: $inverse;
+$dark: $primary;
+
 $link-color: $blue;
 
-// ----------------------------
-// #CONFIG
-// ----------------------------
-$static-path: '..' !default;
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+
 
 
 // FONTS
@@ -595,3 +642,18 @@ $darkGrey: rgb(136, 145, 161) !default;
 $extraDarkGrey: #3d4043 !default;
 $lightGrey1: $gray-l3 !default;
 $paleYellow: #fffcf1 !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

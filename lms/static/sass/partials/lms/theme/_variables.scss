@@ -2,52 +2,52 @@
 
 @import 'edx-bootstrap/sass/open-edx/theme';
 
-$blue: #0000FF;
-$royal-blue: #4169E1;
-$sky-blue: #87CEEB;
-$deep-sky-blue: #00BFFF;
-$light-sky-blue: #87CEFA;
-$medium-purple: #9370DB;
+// $blue: #0000FF;
+// $royal-blue: #4169E1;
+// $sky-blue: #87CEEB;
+// $deep-sky-blue: #00BFFF;
+// $light-sky-blue: #87CEFA;
+// $medium-purple: #9370DB;
 
-$primary-offset: #ccc;
-$inverse: #000;
+// $primary-offset: #ccc;
+// $inverse: #000;
 
-$fcc-green: rgb(0,200,81);
-$fcc-blue: #6731b7;
-$orangered: #ff4500;
-$yelloworange: #ffae42;
+// $fcc-green: rgb(0,200,81);
+// $fcc-blue: #6731b7;
+// $orangered: #ff4500;
+// $yelloworange: #ffae42;
 
-$body-color: $primary;
-$body-bg: $inverse;
-$border-color: $fcc-green;
+// $body-color: $primary;
+// $body-bg: $inverse;
+// $border-color: $fcc-green;
 
-$primary: #fff;
-$secondary: $royal-blue;
-$success: $fcc-green;
-$info: $info;
-$warning: $yelloworange;
-$danger: $orangered;
-$light: $inverse;
-$dark: $primary;
-
-
+// $primary: #fff;
+// $secondary: $royal-blue;
+// $success: $fcc-green;
+// $info: $info;
+// $warning: $yelloworange;
+// $danger: $orangered;
+// $light: $inverse;
+// $dark: $primary;
 
 
-$theme-colors: ();
-// stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-  ),
-  $theme-colors
-);
+
+
+// $theme-colors: ();
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $theme-colors: map-merge(
+//   (
+//     "primary":    $primary,
+//     "secondary":  $secondary,
+//     "success":    $success,
+//     "info":       $info,
+//     "warning":    $warning,
+//     "danger":     $danger,
+//     "light":      $light,
+//     "dark":       $dark
+//   ),
+//   $theme-colors
+// );
 
 
 @import 'variables-v1';
