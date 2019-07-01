@@ -1,5 +1,6 @@
 // // Default bootstrap theming
 
+@import "functions";
 
 $colors: ();
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -46,6 +47,21 @@ $theme-colors: map-merge(
   ),
   $theme-colors
 );
+
+$fcc-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$fcc-colors: map-merge(
+  (
+    "bg": $black,
+    "txt": $white,
+    "blue-accent": $blue,
+    "green-accent": $green,
+    "btn-bg": transparent,
+    "border": $green,
+    "btn-txt": $green,
+  ),
+  $fcc-colors
+)
 
 
 $body-bg:                   $black;
