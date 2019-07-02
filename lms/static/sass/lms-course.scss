@@ -1,0 +1,15 @@
+
+$inverse: black;
+$primary: white;
+$success: green;
+$accent: blue;
+
+
+.sr, .sr-only {
+	background: $inverse;
+	color: $primary;
+}
+
+@import 'bourbon/bourbon';
+@import 'vendor/bi-app/bi-app-ltr'; // set the layout for left to right languages
+@import 'build-course'; // shared app style assets/rendering

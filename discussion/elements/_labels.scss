@@ -55,6 +55,8 @@
 
 // Make post labels tighter when shown inside the left nav
 .forum-nav-thread-link {
+  background-color: $inverse;
+  color: $primary;
   .forum-nav-thread-labels {
     .post-label {
       .icon {
