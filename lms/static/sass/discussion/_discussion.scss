@@ -104,12 +104,16 @@
   top: 3px;
   font-size: $forum-base-font-size;
   text-align: center;
+  color: $success;
+  background-color: $transparent;
+  border-color: $success;
 
   &.shown {
     // background-color: theme-color("inverse");
     opacity: 0.0;
     color: $success;
     border-color: $success;
+    background-color: $inverse;
   }
 }
 
