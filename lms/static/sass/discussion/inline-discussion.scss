@@ -39,6 +39,29 @@ $success: green;
 	width: 100%;
 }
 
+.discussion-module .btn, .wmd-prompt-dialog .btn {
+	background-color: rgba(0,0,0,0);
+	color: green;
+	border-color: green;
+}
+
+.forum-nav-filter-main-control, .forum-nav-filter-cohort-control, .forum-nav-sort-control {
+	border: none;
+	max-width: 100%;
+	background-color: transparent;
+	color: $primary;
+}
+
+html, button, input, select, textarea {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: $primary;
+	background-color: $inverse;
+}
+
+.forum-nav-thread .forum-nav-thread-link {
+	color: $primary;
+}
+
 @import '../build-base-v1';
 
 // base - elements

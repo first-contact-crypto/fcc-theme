@@ -51,4 +51,10 @@ $primary: #fff;
 	text-shadow: none;
 }
 
+.wrapper-preview-menu .preview-actions .action-preview .action-preview-select {
+	margin-right: 20px;
+	background-color: black;
+	color: white;
+}
+
 @import "account-settings"

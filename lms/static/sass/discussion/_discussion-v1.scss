@@ -53,20 +53,24 @@
   }
 }
 
+$transparent: rgba(0,0,0,0)
+
 // Use pattern library buttons for discussion components
 .discussion-module, .wmd-prompt-dialog {
   .btn {
     @extend %pattern-library-btn;
 
-    background-color: $forum-color-background;
-    color: $forum-color-active-thread;
+    background-color: $transparent;
+    color: green;
+    border-color: green;
   }
 
   .btn-brand {
     @extend %pattern-library-btn;
 
-    background-color: $forum-color-active-thread;
-    color: $forum-color-active-text;
+    background-color: $transparent;
+    color: green;
+    border-color: green;
   }
 }
 
