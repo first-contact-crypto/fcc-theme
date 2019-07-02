@@ -5,6 +5,8 @@
 $inverse: black;
 $primary: white;
 $success: green;
+$accent: blue;
+$transparent: rgba(0,0,0,0)
 
 .discussion-module .btn, .wmd-prompt-dialog .btn {
 	background-color: $inverse;
@@ -59,6 +61,26 @@ html, button, input, select, textarea {
 }
 
 .forum-nav-thread .forum-nav-thread-link {
+	color: $primary;
+}
+
+.forum-nav-refine-bar {
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-topleft-radius: 3px;
+	border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-topright-radius: 3px;
+	border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-bottomright-radius: 0;
+	border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-bottomleft-radius: 0;
+	border-bottom-left-radius: 0;
+	font-size: 12px;
+	border-bottom: 1px solid $success;
+	background-color: $inverse;
+	padding: 5px 10px;
 	color: $primary;
 }
 
