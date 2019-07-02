@@ -57,4 +57,16 @@ $primary: #fff;
 	color: white;
 }
 
+.modal, .leanModal_box, .entitlement-unenrollment-modal {
+	display: none;
+	position: absolute;
+	left: 50%;
+	padding: 8px;
+	width: 480px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+	background: black;
+	color: #fff;
+}
+
 @import "account-settings"
