@@ -69,4 +69,16 @@ $primary: #fff;
 	color: #fff;
 }
 
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .action-more, .entitlement-actions-wrapper .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .entitlement-action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .entitlement-action-more {
+	font-size: 14px;
+	font-size: 1.4rem;
+	box-shadow: none;
+	background: #000;
+	background-image: none;
+	color: #00c851;
+	border-color: #00c851;
+	line-height: 16px;
+	text-shadow: none;
+}
+
 @import "account-settings"
