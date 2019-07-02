@@ -196,10 +196,21 @@ from pipeline_mako import render_require_js_path_overrides
     </script>
 
 % endif
-
+<style> 
+  .bg {
+    background-image: url('https://learn.firstcontactcrypto.com/static/fcc-theme/images/loopable-stars-4096x2304.png')
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* https://learn.firstcontactcrypto.com/static/fcc-theme/images/logo.9342854f957f.png */
+</style>
 </head>
 
 <body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
+<div class="bg"></div>
 
 <%static:optional_include_mako file="body-initial.html" is_theming_enabled="True" />
 <div id="page-prompt"></div>
