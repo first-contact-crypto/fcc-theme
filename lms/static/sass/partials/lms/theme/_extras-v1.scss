@@ -1,3 +1,7 @@
+
+$inverse: #000;
+$primary: #fff;
+
 .wmd-input {
 	-webkit-border-top-left-radius: 3px;
 	-moz-border-topleft-radius: 3px;
@@ -34,6 +38,17 @@
 .discussion-module .btn, .wmd-prompt-dialog .btn {
 	background-color: $inverse;
 	color: $primary;
+}
+
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .action-more, .entitlement-actions-wrapper .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .entitlement-action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .entitlement-action-more {
+	font-size: 14px;
+	font-size: 1.4rem;
+	box-shadow: none;
+	background: $inverse;
+	background-image: none;
+  color: $primary;
+	line-height: 16px;
+	text-shadow: none;
 }
 
 @import "account-settings"
