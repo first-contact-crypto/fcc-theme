@@ -1,0 +1,104 @@
+.login-register-content {
+	box-sizing: border-box;
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	justify-content: center;
+	margin-top: 20px;
+	background: $bg1-l1;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+}
+
+.btn-blue, .dashboard-banner .wrapper-msg .msg.has-actions .donate-actions .action-donate, .account-settings-sections .section .account-deletion-details .paragon__modal-open .paragon__btn:not(.cancel-btn), .login-register .action-primary, .financial-assistance-wrapper .financial-assistance-form .action-primary, .verification-process .action-primary-blue, .verification-process .carousel .wrapper-task .controls .control .action, .verification-process .carousel .wrapper-task .controls .control .entitlement-actions-wrapper .entitlement-action, .entitlement-actions-wrapper .verification-process .carousel .wrapper-task .controls .control .entitlement-action, .verification-process .carousel .wrapper-task .msg .list-actions .action-retakephotos a, .verification-process .carousel #wrapper-review .review-task-name .list-actions .action-editname a, .verification-process.step-select-track .register-choice-audit .action-select input, .verification-process.step-confirmation .course-info .options .action-course, .verification-process.step-confirmation .course-info .course-actions .action-dashboard, .reverify-blocked .action-primary, .wrapper-authorize .btn-authorization-allow, .wrapper-msg.wrapper-auto-cert .auto-cert-message .has-actions .msg-actions .btn, .text-me-fragment form .form-field .action-primary, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy .btn-change-privacy {
+  background: transparent;
+  border: 1px solid $btn1;
+	color: $btn1;
+}
+
+.login-register, .financial-assistance-wrapper .financial-assistance-form {
+	background: $bg1;
+	min-height: 100%;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	max-width: 500px;
+}
+.login-register .form-field label, .financial-assistance-wrapper .financial-assistance-form .form-field label {
+	display: block;
+	margin: 0;
+	color: $t1;
+}
+
+.login-register .form-field .field-link, .financial-assistance-wrapper .financial-assistance-form .form-field .field-link {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	border: none;
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+	text-transform: initial;
+	letter-spacing: normal;
+	color: $l1;
+	font-weight: 400;
+	text-decoration: none;
+	text-shadow: none;
+	font-family: cursive;
+}
+
+.login-register-content h2, .login-register-content .home > header .title > .heading-group p, .home > header .title > .heading-group .login-register-content p, .login-register-content section.outside-app h1, section.outside-app .login-register-content h1 {
+	margin-top: 20px;
+	letter-spacing: normal;
+	font-family: cursive;
+	color: $t1-d1;
+}
+
+.login-register .form-field .tip, .financial-assistance-wrapper .financial-assistance-form .form-field .tip, .login-register .form-field .label-optional, .financial-assistance-wrapper .financial-assistance-form .form-field .label-optional {
+	color: $t1-d1;
+}
+
+.window-wrap {
+	background: #000;
+	background-image: url("https://firstcontactcrypto.com/img/loopable-stars-4096x2304.png");
+}
+
+.login-register-content {
+	box-sizing: border-box;
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	justify-content: center;
+	margin-top: 20px;
+	background: #1a1a1a;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	background-image: url("https://firstcontactcrypto.com/img/loopable-stars-4096x2304.png");
+}
+
+.form-wrapper {
+	border: 1px solid blue;
+	padding: 10px;
+}
+
+textarea, input[type="text"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"] {
+	background: transparent;
+	border-bottom: $bdr1 !important;
+	border: 1px solid $bdr1 !important;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 0 rgba(255,255,255,0.6),inset 0 0 3px 0 rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	font: italic 300 1rem/1.6rem Georgia,Cambria,"Times New Roman",Times,serif;
+	height: 35px;
+	padding: 5px 12px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	
+}

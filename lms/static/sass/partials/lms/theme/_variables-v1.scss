@@ -1,19 +1,3 @@
-// ----------------------------
-// #CONFIG
-// ----------------------------
-$static-path: '..' !default;
-
-
-// Add percentage of white to a color
-@function tint($color, $percent) {
-  @return mix(white, $color, $percent);
-}
-
-// Add percentage of black to a color
-@function shade($color, $percent) {
-  @return mix(black, $color, $percent);
-}
-
 // lms - utilities - variables
 // ====================
 
@@ -30,62 +14,16 @@ $static-path: '..' !default;
 // #APPLICATIONS:   Applying configuration
 // #DEPRECATED:     sunsetted and not to be used variables
 
-$blue: #0000FF;
-$royal-blue: #4169E1;
-$sky-blue: #87CEEB;
-$deep-sky-blue: #00BFFF;
-$light-sky-blue: #87CEFA;
-$medium-purple: #9370DB;
+// ----------------------------
+// #CONFIG
+// ----------------------------
+$static-path: '..' !default;
 
-$primary-offset: #ccc;
-$inverse: #000;
-
-$fcc-green: rgb(0,200,81);
-$fcc-blue: #6731b7;
-$orangered: #ff4500;
-$yelloworange: #ffae42;
-
-$body-color: $primary;
-$body-bg: $inverse;
-$border-color: $fcc-green;
-
-$primary: #fff;
-$secondary: $royal-blue;
-$success: $fcc-green;
-$info: $info;
-$warning: $yelloworange;
-$danger: $orangered;
-$light: $inverse;
-$dark: $primary;
-
-$link-color: $blue;
-
-$theme-colors: ();
-// stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-  ),
-  $theme-colors
-);
-
-
-
-
-// FONTS
 $georgia: Georgia, Cambria, "Times New Roman", Times, serif;
 $helvetica: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 $monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
 $verdana: Verdana, Geneva, sans-serif;
-
 
 // ----------------------------
 // #UNITS
@@ -107,6 +45,13 @@ $fg-min-width: 810px !default;
 // ----------------------------
 // #COLORS
 // ----------------------------
+
+$google-focus-blue: #0000ff;
+$facebook-focus-blue: #0000ff;
+$google-blue: #0000ff;
+$microsoft-focus-blue: #0000ff;
+$microsoft-focus-black: #000;
+
 $transparent: rgba(0, 0, 0, 0) !default; // used when color value is needed for UI width/transitions but element is transparent
 
 $black-t0:  rgba($black, 0.125) !default;
@@ -253,13 +198,10 @@ $ui-notification-height: ($baseline*10);
 
 // social platforms
 $twitter-blue: #55acee;
-$facebook-blue: #4267b2;
-$facebook-focus-blue: #29487d;
+$facebook-blue: #3b5998;
 $linkedin-blue: #0077b5;
-$google-blue: #4285f4;
-$google-focus-blue: #287ae6;
-$microsoft-black: #2f2f2f;
-$microsoft-focus-black: #000;
+$google-red: #d73924;
+$microsoft-black: #000;
 
 // shadows
 $shadow: rgba(0, 0, 0, 0.2) !default;
@@ -471,8 +413,6 @@ $border-color-l2: $m-gray-l2 !default;
 $border-color-l3: $m-gray-l3 !default;
 $border-color-l4: $m-gray-l4 !default;
 
-
-
 // visual horizontal rules
 $faded-hr-image-1: linear-gradient(180deg, rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 1) 50%, rgba(200, 200, 200, 0)) !default;
 $faded-hr-image-2: linear-gradient(180deg, rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 1)) !default;
@@ -542,8 +482,6 @@ $header-graphic-sub-color: $m-gray-d2 !default;
 $header-sans-serif: 'Open Sans', Arial, Helvetica, sans-serif !default;
 $header_image_margin: -69px !default;
 
-$header-bg: $inverse;
-
 // footer
 $footer_margin: ($baseline/4) 0 ($baseline*1.5) 0 !default;
 
@@ -592,7 +530,7 @@ $palette-info-text: #0075b4;
 $palette-error-border: #ebccd1;
 $palette-error-back: #feeced;
 $palette-error-text: #b20610;
-$palette-success-border: #00c851;
+$palette-success-border: #b9edb9;
 $palette-success-back: #ecfaec;
 $palette-success-text: #008100;
 
@@ -604,10 +542,6 @@ $course-bg-color: $uxpl-grayscale-x-back !default;
 $account-content-wrapper-bg: shade($body-bg, 2%) !default;
 $course-profile-bg: rgb(245, 245, 245) !default;
 $course-header-bg: rgba(255, 255, 255, 0.93) !default;
-
-// $account-content-wrapper-bg: $gray-800;
-$course-profile-bg: $gray-900;
-$course-header-bg: $gray-800;
 
 // search/listing results
 $result-highlight-color-base: rgba($highlight-color, 0.25) !default;
@@ -634,7 +568,6 @@ $border-color: rgb(200, 200, 200) !default;
 $sidebar-color: rgb(246, 246, 246) !default;
 $outer-border-color: $gray-l3 !default;
 
-
 // used by descriptor css
 $lightGrey: rgb(237, 241, 245) !default;
 $mediumGrey: #ced2db !default;
@@ -642,18 +575,3 @@ $darkGrey: rgb(136, 145, 161) !default;
 $extraDarkGrey: #3d4043 !default;
 $lightGrey1: $gray-l3 !default;
 $paleYellow: #fffcf1 !default;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -119,9 +119,9 @@
 
   font-size: $forum-small-font-size;
   border-bottom: 1px solid $forum-color-border;
-  background-color: theme-color("light");
+  background-color: $bg1-l2;
   padding: ($baseline/4) ($baseline/2);
-  color: $black;
+  color: $t1;
 }
 
 .forum-nav-filter-main {

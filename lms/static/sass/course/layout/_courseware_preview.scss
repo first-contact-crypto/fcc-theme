@@ -3,7 +3,8 @@
 
   margin: 0 auto;
   padding: ($baseline*0.75);
-  background-color: theme-color("primary");
+  background-color: $bg1-l1;
+  opacity: .85;
   box-sizing: border-box;
 
   @media print {

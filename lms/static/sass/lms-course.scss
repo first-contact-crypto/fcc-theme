@@ -1,71 +1,161 @@
-
-$inverse: black;
-$primary: white;
-$success: green;
-$accent: blue;
-$transparent: rgba(0,0,0,0);
+@import 'overrides';
 
 
-.sr, .sr-only {
-	background: $inverse;
-	color: $primary;
-}
-
-textarea, form#wiki_revision .CodeMirror, input[type="text"], input[type="email"], input[type="password"] {
-	background: $inverse;
-	border: 1px solid $success;
-	border-radius: 0;
-	box-shadow: 0 1px 0 0 rgba(255,255,255,0.6),inset 0 0 3px 0 rgba(0,0,0,0.1);
-	box-sizing: border-box;
-	font: normal 1em "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	height: 35px;
-	padding: 5px 12px;
-	vertical-align: top;
-	-webkit-font-smoothing: antialiased;
-	color: $primary;
-}
-
-.light-button, div.history-controls input[type="submit"], a.light-button, .gray-button, input[type="reset"], input[type="submit"], input[type="button"], button, .button, form input[type="reset"], form input[type="submit"], form input[type="button"], form button, form .button, .xmodule_display.xmodule_LTIModule div.lti .wrapper-lti-link .lti-link .link_lti_new_window {
-	border: 1px solid #242c34;
-	border-radius: 3px;
-	// box-shadow: inset 0 1px 0 0 #;
-	color: #fff;
-	display: inline-block;
-	font-size: inherit;
-	font-weight: bold;
-	background-color: #495057;
-	background-image: -webkit-linear-gradient(#495057,#2b343d);
-	background-image: linear-gradient(#495057,#2b343d);
-	padding: 7px 18px;
-	text-decoration: none;
-	text-shadow: 0 1px 0 #1a222a;
-	background-clip: padding-box;
-	font-size: 0.8125em;
-}
-
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
-	display: block;
-	top: 0;
-	min-width: 40px;
-	max-width: 40px;
-	height: 100%;
-	text-shadow: none;
-	background: none;
-	background-color: #000;
-	border-color: green;
-	color: green;
-	box-shadow: none;
-	font-size: inherit;
-	font-weight: normal;
-	padding: 0;
-	white-space: nowrap;
-	overflow-x: hidden;
-}
-
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
-	color: white;
-}
-
+// @import 'lms/static/sass/lms-course';
 @import 'bourbon/bourbon';
 @import 'vendor/bi-app/bi-app-ltr'; // set the layout for left to right languages
 @import 'build-course'; // shared app style assets/rendering
+
+
+// @import 'fcc-bootstrap';
+// @import 'fcc-mdb';
+// @import 'fcc-footer';
+
+
+// @import 'build-course';
+
+// @import 'main';
+
+// html, button, input, select, textarea, form#wiki_revision .CodeMirror {
+// 	font-family: cursive;
+// 	color: $t1;
+// }
+
+html {
+	color: $t1;
+}
+
+h1 {
+  color: $t1;
+}
+
+h2 {
+  color: $t1;
+}
+
+button {
+  color: $btn1;
+  background: transparent;
+  border: 1px solid $btn1;
+}
+
+body {
+  background-image: url("https://firstcontactcrypto.com/img/loopable-stars-4096x2304.png");
+  background-color: #000;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: $t1;
+}
+
+.container > div {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid #c8c8c8;
+	background: $bg1;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  opacity: .9;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+// 	display: block;
+// 	top: 0;
+// 	min-width: 40px;
+// 	max-width: 40px;
+// 	height: 100%;
+// 	text-shadow: none;
+// 	background: transparent;
+//   border: 1px solid $btn1;
+  color: $btn1;
+// 	box-shadow: none;
+// 	font-size: inherit;
+// 	font-weight: normal;
+// 	padding: 0;
+// 	white-space: nowrap;
+// 	overflow-x: hidden;
+}
+
+// .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button {
+// 	width: 100%;
+// 	height: 49px;
+// 	position: relative;
+// 	margin: 0;
+// 	padding: 0;
+// 	display: block;
+// 	text-align: center;
+// 	// border-color: #e7e7e7;
+// 	// border-width: 1px;
+// 	// border-bottom-style: solid;
+// 	box-sizing: border-box;
+//   overflow: visible;
+//   border: none;
+// }
+
+.wrapper-course-material .course-tabs .tab a, .wrapper-course-material .course-tabs .tab a:visited {
+  color: $t1-d1;
+}
+
+.wrapper-preview-menu .preview-actions .action-preview .action-preview-label {
+  color: $t1;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
+  color: $t1;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
+  color: $a1;
+}
+
+// .xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active .icon, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active .icon {
+
+// }
+
+.xmodule_display.xmodule_HtmlModule p {
+  color: $t1-d1;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-next {
+  border: 1px solid $btn1;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+  border: 1px solid $btn1;
+}
+
+.xblock .xblock h2 {
+  color: $t1;
+}
+
+.xmodule_display.xmodule_VideoModule .video {
+  background: $bg1-l2;
+}
+
+.hd-1, .hd-2, .hd-3, .hd-4, .hd-5, .hd-6, .hd-7, .hd-8 {
+	color: $t1;
+}
+
+.fcc-logo {
+  width: 175px;
+}
+
+
+// .wrapper wrapper-footer {
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   height: 2.5rem;
+// }
+
+// .content-wrap {
+//   padding-bottom: 2.5rem;
+// }
+
+// .window-wrap {
+//   position: relative;
+//   min-height: 100vh;
+// }

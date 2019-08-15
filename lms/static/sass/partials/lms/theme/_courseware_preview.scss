@@ -3,7 +3,7 @@
 
   margin: 0 auto;
   padding: ($baseline*0.75);
-  background-color: $gray-900;
+  background-color: $bg1-l2;
   box-sizing: border-box;
 
   @media print {
@@ -31,12 +31,11 @@
         display: inline-block;
         margin-bottom: 0;
         vertical-align: middle;
-        color: theme-color("inverse");
+        color: $t1-d1;
       }
 
       .action-preview-select {
         @include margin-right($baseline);
-        background-color: $gray-900;
       }
 
       .action-preview-username-container {

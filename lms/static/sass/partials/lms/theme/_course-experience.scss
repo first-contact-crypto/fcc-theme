@@ -466,7 +466,7 @@ button.accordion-trigger, button.prerequisite-button {
       font: -apple-system-body;
       line-height: 1;
       font-weight: $font-bold;
-      color: $inverse;
+      color: $t1-d1;
     }
 
     .description {
@@ -485,7 +485,7 @@ button.accordion-trigger, button.prerequisite-button {
     }
 
     .date {
-      color: $inverse;
+      color: theme-color("dark");
       font: -apple-system-body;
     }
 

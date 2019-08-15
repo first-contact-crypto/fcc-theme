@@ -1,94 +1,32 @@
-// Discussions - CSS application architecture
-// Version 1 styling (pre-Pattern Library)
-// ====================
 
-$inverse: black;
-$primary: white;
-$success: green;
-$accent: blue;
-$transparent: rgba(0,0,0,0);
 
-.discussion-module .btn, .wmd-prompt-dialog .btn {
-	background-color: $inverse;
-	color: #fff;
+@import 'lms/theme/variables';
+@import 'lms/theme/variables-v1';
+@import 'discussion/utilities/variables-bootstrap';
+@import 'discussion/inline-discussion.scss';
+
+@import 'discussion-v1';
+@import 'discussion/elements/editor';
+
+.discussion-module .forum-new-post-form {
+  background: transparent;
 }
 
-.wmd-input {
-	-webkit-border-top-left-radius: 3px;
-	-moz-border-topleft-radius: 3px;
-	border-top-left-radius: 3px;
-	-webkit-border-top-right-radius: 3px;
-	-moz-border-topright-radius: 3px;
-	border-top-right-radius: 3px;
-	-webkit-border-bottom-right-radius: 0;
-	-moz-border-bottomright-radius: 0;
-	border-bottom-right-radius: 0;
-	-webkit-border-bottom-left-radius: 0;
-	-moz-border-bottomleft-radius: 0;
-	border-bottom-left-radius: 0;
-	box-sizing: border-box;
-	margin-top: 0;
-	border: 1px solid #00c851;
-	padding: 10px;
-	width: 100%;
-	height: 125px;
-  background: $inverse;
-  color: $primary;
-	font-size: 14px;
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	line-height: 1.6;
-	box-sizing: border-box;
-	width: 100%;
+h4 {
+  color: $t1-d2;
 }
 
-.discussion-module .btn, .wmd-prompt-dialog .btn {
-	background-color: rgba(0,0,0,0);
-	color: green;
-	border-color: green;
+label {
+  color: $t1-d2;
 }
 
-.forum-nav-filter-main-control, .forum-nav-filter-cohort-control, .forum-nav-sort-control {
-	border: none;
-	max-width: 100%;
-	background-color: transparent;
-	color: $primary;
+
+.wmd-button {
+  background: $t1;
+  color: none !important;
+  background-image: url("../../images/wmd-buttons-transparent.png")
 }
 
-html, button, input, select, textarea {
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: $primary;
-	background-color: $inverse;
-}
+// .wmd-button > span {
 
-.forum-nav-thread .forum-nav-thread-link {
-	color: $primary;
-}
-
-.forum-nav-refine-bar {
-	-webkit-border-top-left-radius: 3px;
-	-moz-border-topleft-radius: 3px;
-	border-top-left-radius: 3px;
-	-webkit-border-top-right-radius: 3px;
-	-moz-border-topright-radius: 3px;
-	border-top-right-radius: 3px;
-	-webkit-border-bottom-right-radius: 0;
-	-moz-border-bottomright-radius: 0;
-	border-bottom-right-radius: 0;
-	-webkit-border-bottom-left-radius: 0;
-	-moz-border-bottomleft-radius: 0;
-	border-bottom-left-radius: 0;
-	font-size: 12px;
-	border-bottom: 1px solid $success;
-	background-color: $inverse;
-	padding: 5px 10px;
-	color: $primary;
-}
-
-@import '../build-base-v1';
-
-// base - elements
-@import '../elements/typography';
-
-// app - discussion
-@import 'build-discussion';
-@import 'views/inline';
+// }

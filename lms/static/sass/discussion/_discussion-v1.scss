@@ -53,24 +53,26 @@
   }
 }
 
-$transparent: rgba(0,0,0,0);
-
 // Use pattern library buttons for discussion components
 .discussion-module, .wmd-prompt-dialog {
   .btn {
-    @extend %pattern-library-btn;
+    @extend %btn-outline-green;
 
-    background-color: $transparent;
-    color: green;
-    border-color: green;
+    background-color: transparent;
+    color: $btn1;
+    border: 1px solid $btn1;
+    &:hover {
+      background-color: $bg1-l2;
+      color: $btn1;
+      border: 1px solid $bdr1;
+    }
   }
 
   .btn-brand {
     @extend %pattern-library-btn;
 
-    background-color: $transparent;
-    color: green;
-    border-color: green;
+    background-color: $forum-color-active-thread;
+    color: $forum-color-active-text;
   }
 }
 
