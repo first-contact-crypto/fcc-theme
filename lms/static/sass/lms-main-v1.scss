@@ -31,6 +31,14 @@ h1 {
   color: $t1;
 }
 
+h2 {
+	color: $t1;
+}
+
+p {
+	color: $t1-d2;
+}
+
 // .btn-blue, .dashboard-banner .wrapper-msg .msg.has-actions .donate-actions .action-donate, .account-settings-sections .section .account-deletion-details .paragon__modal-open .paragon__btn:not(.cancel-btn), .login-register .action-primary, .financial-assistance-wrapper .financial-assistance-form .action-primary, .financial-assistance-wrapper .financial-assistance-form .action-primary, .verification-process .action-primary-blue, .verification-process .carousel .wrapper-task .controls .control .action, .verification-process .carousel .wrapper-task .controls .control .entitlement-actions-wrapper .entitlement-action, .entitlement-actions-wrapper .verification-process .carousel .wrapper-task .controls .control .entitlement-action, .verification-process .carousel .wrapper-task .controls .control .entitlement-actions-wrapper .entitlement-action, .entitlement-actions-wrapper .verification-process .carousel .wrapper-task .controls .control .entitlement-action, .verification-process .carousel .wrapper-task .msg .list-actions .action-retakephotos a, .verification-process .carousel #wrapper-review .review-task-name .list-actions .action-editname a, .verification-process.step-select-track .register-choice-audit .action-select input, .verification-process.step-confirmation .course-info .options .action-course, .verification-process.step-confirmation .course-info .course-actions .action-dashboard, .reverify-blocked .action-primary, .wrapper-authorize .btn-authorization-allow, .wrapper-msg.wrapper-auto-cert .auto-cert-message .has-actions .msg-actions .btn, .text-me-fragment form .form-field .action-primary, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy .btn-change-privacy {
 // 	background: transparent;
 // 	border-color: $btn1 !important;
@@ -113,3 +121,352 @@ html {
   border: 1px solid $bdr1;
   color: $t1-d2;
 }
+
+.global-header .nav-links .secondary a.register-btn {
+  padding: 5px 20px !important;
+}
+
+
+.home > header .title .course-search .search-button {
+  color: $btn1;
+}
+
+label {
+  color: $t1-d2;
+}
+
+.dashboard .main-container .my-courses .listing-courses .course-item:last-of-type {
+	margin-bottom: 0;
+	border-bottom: none;
+  padding-bottom: 0;
+  background-color: $bg1;
+}
+
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
+	border: 1px solid $btn1;
+	color: $btn1;
+	background-color: transparent;
+}
+
+
+.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item:hover {
+	color: $btn1;
+	background-color: $bg1-l1;
+	border: 1px solid $bdr1;
+}
+
+.find-courses .courses .course:hover {
+	background: $bg1-l1;
+	border-color: #bebebe;
+	box-shadow: 0 1px 4px 0 rgba(0,0,255,0.4);
+}
+
+.courses-container .courses .course {
+	background: $bg1-ll;
+
+}
+
+.find-courses .discovery-input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	padding-right: 55px;
+	border: 2px solid #c8c8c8;
+	width: 100%;
+	height: 55px;
+	color: $t1-d2;
+	font-style: normal;
+}
+
+.global-header .nav-links .secondary .nav-item a {
+	color: $btn1 !important;
+	font-weight: 400;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register {
+	border: 1px solid $btn1 !important;
+	border-top-color: $btn1 !important;
+	background: transparent !important;
+	color: $btn1;
+	box-sizing: border-box;
+	border-radius: 3px;
+	display: block;
+	font: normal 1.2rem/1.6rem cursive;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	text-align: center;
+	width: 48.82117%;
+	&:hover {
+		color: $btn1;
+		background: $bg1-l2;
+		border: 1px solid $bdr1;
+	}
+}
+
+
+.course-info .details {
+	float: left;
+	margin-right: 2.35765%;
+	width: 65.88078%;
+	background-color: $bg1;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register {
+	border: 1px solid $btn1;
+	color: $btn1;
+	box-shadow: none;
+	margin-bottom: 350px;
+
+	&:hover {
+		background: $bg1-l1 !important;
+		border: 1px solid $bdr1 !important;
+		color: $btn1 !important;
+	}
+}
+
+.course-info header.course-profile {
+	background: #111;
+	background-image: none;
+	background-size: cover;
+	border-bottom: 1px solid $bdr1;
+	height: 280px;
+	padding-top: 150px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	padding: 20px;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .media .hero {
+	border: 1px solid #646464;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	margin: 20px;
+}
+
+.login-register .action-primary {
+	box-shadow: none !important;
+	border: 1px solid $btn1;
+	border-radius: 5px;
+	background: transparent;
+	color: $btn1;
+	&:hover {
+		box-shadow: none !important;
+		border: 1px solid $bdr1;
+		background: $bg1-l2;
+		color: $btn1;
+		border-radius: 5px;
+	}
+}
+
+.form-wrapper {
+	border-radius: 5px;
+}
+
+.login-register .form-field input {
+	border-radius: 5px;
+	box-shadow: none;
+}
+
+.dashboard .main-container .my-courses .listing-courses .course-item .course-container {
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+
+.search-bar .search-button {
+	color: $btn1 !important;
+	border: 1px solid $btn1 !important;
+	background: $bg1 !important;
+	box-shadow: none !important;
+	&:hover {
+		color: $btn1 !important;
+		border: 1px solid $btn1 !important;
+		background: $bg1-l1 !important;
+		box-shadow: none !important;
+	}
+}
+
+.dashboard-search-bar .search-field {
+	box-shadow: none !important;
+	background: $bg1 !important;
+	&:hover {
+		background: $bg1-l1 !important;
+		color: $btn1 !important;
+		border: 1px solid $bdr1 !important;
+		box-shadow: none !important;
+	}
+}
+
+.dashboard .main-container .my-courses .course .details .enter-course {
+	border-radius: 5px !important;
+}
+
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more {
+	border-radius: 5px;
+}
+
+.global-header .nav-links .main .nav-tab a {
+	color: $l1 !important;
+	&:hover {
+		color: $bdr1 !important;
+	}
+	&:active {
+		color: $t1 !important;
+	}
+}
+
+.view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
+	border-radius: 5px !important;
+}
+
+.view-profile .profile-header .header {
+	color: $t1 !important;
+}
+
+.view-profile .wrapper-profile-sections {
+	background: $bg1 !important;
+	width: 70% !important;
+}
+
+.view-profile .profile-header {
+	background: $bg1 !important;
+	width: 60% !important;
+}
+
+.view-profile .profile-self .wrapper-profile-field-account-privacy {
+	background-color: transparent !important;
+	opacity: none !important;
+	// &:after {
+	// 	margin-bottom: 200px !important;
+	// 	background-color: transparent !important;
+	// }
+}
+
+// .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy {
+// 	background-color: $bg1-ll !important;
+// 	width: 90% !important;
+// }
+
+// .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-message .u-field-message-notification {
+// 	background-color: #ff0000 !important;
+// 	opacity: .4;
+// }
+
+.view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-title {
+	color: $t1 !important;
+}
+
+.wrapper-account-settings .wrapper-header .account-nav button.active {
+	color: $l1 !important;
+	border-bottom-color: $bdr1 !important;
+	&:hover {
+		color: $bdr1 !important;
+		border-bottom-color: $bdr1 !important;
+	}
+}
+
+.wrapper-account-settings .wrapper-header .account-nav .account-nav-link {
+	color: $l1 !important;
+	&:hover {
+		color: $bdr1 !important;
+		border-bottom-color: $bdr1 !important;
+	}
+}
+
+.wrapper-account-settings .wrapper-header {
+	border-bottom: none !important;
+}
+
+.wrapper-account-settings {
+	width: 70% !important;
+	margin: auto !important;
+	// box-shadow: 5px 5px 20px 6px $bdr1;
+	box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
+	// border: 1px solid rgba(0, 0, 255, .3) !important;
+	border-radius: 7px;
+}
+
+// .dashboard {
+// 	width: 70% !important;
+// 	margin: auto !important;
+// 	// box-shadow: 5px 5px 20px 6px $bdr1;
+// 	box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
+// 	border: 1px solid rgba(0, 0, 255, .3) !important;
+// 	border-radius: 7px;
+// 	background-color: $bg1;
+// }
+
+#main {
+	width: 70% !important;
+	margin: auto !important;
+	// box-shadow: 5px 5px 20px 6px $bdr1;
+	box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
+	// border: 1px solid rgba(0, 0, 255, .1) !important;
+	border-radius: 7px;
+	background-color: $bg1 !important;
+	margin-top: 50px !important;
+}
+
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
+	color: inherit !important;
+}
+
+.wrapper-footer footer#footer-openedx .copyright {
+	color: $t1 !important;
+}
+
+.dashboard .main-container .my-courses .wrapper-header-courses .header-courses {
+	font-weight: bold !important;
+}
+
+.course-info {
+	color: $t1-d2 !important;
+	font-weight: bold !important;
+}
+
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
+	color: inherit !important;
+}
+
+.my-button-group {
+	width: 100%;
+	margin: auto !important;
+}
+
+.my-button {
+	color: $btn1 !important;
+	background: transparent !important;
+	border: 1px solid $btn1 !important;
+	box-shadow: none !important;
+	&:hover {
+		color: $btn1 !important;
+		background: $bg1-l2;
+		border: 1px solid $bdr1 !important;
+		box-shadow: none !important;
+	}
+	&.activated {
+		border: 1px solid $btn1 !important;
+		box-shadow: none !important;
+	}
+}
+
+
+
+
+// html, body {
+// 	height: 100%;
+// 	margin: 0;
+// }
+
+// #content {
+// 	min-height: 100%;
+// 	margin-bottom: -250px;
+// }
+
+// .footer, .my-push {
+// 	height: 250px;
+// }

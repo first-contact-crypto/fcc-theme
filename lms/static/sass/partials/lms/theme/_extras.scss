@@ -134,3 +134,59 @@ body, html, h1 {
 	border-bottom-color: transparent;
 	color: $t1-d2;
 }
+
+
+
+
+.btn-outline-success:hover, .btn-primary:hover, .btn-outline-primary:hover {
+	background: #444;
+	border: 1px solid blue;
+	color: #00c851;
+}
+
+.btn-outline-success, .btn-primary, .btn-outline-primary {
+	color: $btn1;
+	border: 1px solid $btn1;
+	background-color: $bg1;
+}
+
+.global-header .header-logo .course-header {
+	font-size: 0.875rem;
+	color: $t1;
+	line-height: 1em;
+}
+
+.global-header .nav-links .main .nav-tab a {
+	color: $l1;
+	padding: 7px 25px 19px;
+	font-weight: 400;
+	display: inline-block;
+	margin-bottom: -10px;
+	border-bottom: 4px solid transparent;
+	cursor: pointer;
+}
+
+.global-header .nav-links .secondary .nav-item a {
+	color: $t1-d1 !important;
+	font-weight: 400;
+}
+
+.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item:hover {
+	color: $t1;
+	background-color: $bg1-l1;
+}
+
+.global-header .nav-links .secondary .dropdown-user-menu {
+	border: 1px solid $btn1;
+	position: absolute;
+	background-color: $bg1;
+	color: $btn1;
+	right: 30px;
+	top: 55px;
+	z-index: 10;
+	&:hover {
+		color: $btn1;
+		background-color: $bg1-l2;
+		border: 1px solid $bdr1;
+	}
+}

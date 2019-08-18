@@ -18,7 +18,9 @@
     @include box-sizing(border-box);
     @include outer-container;
 
-    margin: 0 auto;
+    // margin: 0 auto;
+    height: 250px;
+    margin: -250px;
 
     p, ol, ul {
       font-family: $font-family-sans-serif;

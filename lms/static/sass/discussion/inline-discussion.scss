@@ -6,27 +6,147 @@
 @import 'discussion/inline-discussion.scss';
 
 @import 'discussion-v1';
-@import 'discussion/elements/editor';
+@import 'elements/editor';
 
 .discussion-module .forum-new-post-form {
   background: transparent;
 }
 
-h4 {
+h4, h5 {
   color: $t1-d2;
 }
+
 
 label {
   color: $t1-d2;
 }
 
-
-.wmd-button {
-  background: $t1;
-  color: none !important;
-  background-image: url("../../images/wmd-buttons-transparent.png")
+button {
+  color: $btn1;
+  border: 1px solid $btn1;
+  background: transparent;
 }
 
-// .wmd-button > span {
+.forum-nav-refine-bar {
+  color: $t1;
+  background-color: $bg1-l2;
+}
 
-// }
+.forum-nav-thread .forum-nav-thread-link {
+	color: $t1;
+}
+
+.forum-nav-thread .forum-nav-thread-link:hover {
+  background-color: $bg1-l2;
+}
+
+.forum-nav-thread-list .thread-preview-body {
+	margin-top: 5px;
+	color: $t1 !important;
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.discussion-module .btn:hover {
+  border-color: $bdr1 !important;
+  background-color: $bg1-l2 !important;
+  color: $btn1 !important;
+}
+
+.form-nav-filter-main-control {
+  color: $t1 !important;
+}
+
+.discussion .action-button .action-icon {
+	display: inline-block;
+	font-size: 12px;
+	height: 20px;
+	width: 20px;
+	border: 1px solid $btn1;
+	border-radius: 3px;
+	text-align: center;
+  color: $btn1;
+  background: transparent;
+}
+
+.response-count {
+	color: $t1-d1;
+}
+
+.response-pagination .response-display-count {
+  color: $t1-d1;
+}
+
+
+.discussion .comments {
+  background: $bg1-l1;
+}
+
+
+.wmd-preview-label {
+	color: $t1-d2;
+}
+
+.discussion-article .posted-details {
+	color: $t1-d1;
+}
+
+.discussion .action-button.action-more:hover .action-icon, .discussion .action-button.action-more:focus .action-icon {
+	border: 1px solid $bdr1 !important;
+	background-color: $bg1-l2 !important;
+	color: $btn1 !important;
+}
+
+.discussion .action-button.action-vote:hover .action-label, .discussion .action-button.action-vote:focus .action-label {
+  color: $btn1 !important;
+  border: 1px solid $bdr1 !important;
+  background: $bg1-l2 !important;
+}
+
+.discussion .action-button.action-follow:hover .action-icon {
+  background-color: $bg1-l2 !important;
+	border: 1px solid $bdr1 !important;
+	color: $btn1 !important;
+}
+
+.discussion .action-button.action-vote:hover .action-icon {
+  background-color: $bg1-l2 !important;
+  color: $btn1 !important;
+  border: 1px solid $bdr1 !important;
+}
+
+.discussion .action-button.action-more:hover {
+	border: 1px solid $bdr1 !important;
+  background-color: $bg1-l2 !important;
+  color: $btn1 !important;
+}
+
+.discussion .action-button.action-follow .action-label {
+  color: $btn1 !important;
+  background-color: $bg1-l2 !important;
+}
+
+.discussion .action-button.action-more:hover .action-label {
+  color: $btn1 !important;
+  background-color: $bg1-l2 !important;
+  border: 1px solid $bdr1 !important;
+}
+
+.textarea {
+  color: $t1-d1 !important;
+  background-color: $bg1-l2 !important;
+}
+
+.discussion .comments > li {
+	border-top: 1px solid green;
+	padding: 10px 20px;
+  position: relative;
+  background-color: $bg1-l1 !important;
+}
+
+html, button, input, select, textarea {
+	font-family: cursive;
+	color: $t1;
+}

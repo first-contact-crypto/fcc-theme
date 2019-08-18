@@ -153,12 +153,12 @@
             margin: 0;
           }
 
-          a {
-            @extend %btn-outline-green;
+          // a {
+            // @extend %btn-outline-green;
             // color: $btn1 !important;
             // font-weight: $font-weight-normal;
             // border: 1px solid $btn1;
-          }
+          // }
         }
 
         // Sign in, Register and Shopping Cart buttons
@@ -211,7 +211,7 @@
           padding: $baseline/2;
           text-decoration: none;
           cursor: pointer;
-          color: $btn1;
+          color: $t1;
         }
 
         .dropdown-user-menu {

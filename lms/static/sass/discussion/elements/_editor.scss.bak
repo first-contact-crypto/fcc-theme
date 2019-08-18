@@ -29,8 +29,6 @@
   }
 }
 
-
-
 .wmd-preview-label {
   @include discussion-wmd-preview-label;
 }
@@ -41,6 +39,7 @@
 
 .wmd-button {
   background: none;
+  color: $t1;
 }
 
 .wmd-button-bar  {
@@ -64,7 +63,7 @@
   display: inline-block;
   width: 1px;
   height: 20px;
-  background-color: Silver;
+  background-color: $bg1-l1 !important;
   list-style: none;
 }
 
@@ -89,7 +88,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url('#{$static-path}/images/wmd-buttons-transparent.png');
+  background-image: url('#{$static-path}/images/wmd-buttons-transparent.png') !important;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -111,10 +110,10 @@
 
 .wmd-input {
   @include discussion-wmd-input;
-
   box-sizing: border-box;
   width: 100%;
-  background: $forum-color-background;
+  background: $bg1-l1 !important;
+  color: $t1 !important;
 }
 
 .wmd-prompt-background {

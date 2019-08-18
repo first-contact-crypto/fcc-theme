@@ -33,6 +33,14 @@ h2 {
   color: $t1;
 }
 
+h3 {
+  color: $t1-d2;
+}
+
+h4 {
+  color: $t1-d2;
+}
+
 button {
   color: $btn1;
   background: transparent;
@@ -58,7 +66,7 @@ body {
 	border: 1px solid #c8c8c8;
 	background: $bg1;
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-  opacity: .9;
+  // opacity: .9;
 }
 
 .xmodule_display.xmodule_SequenceModule .sequence-nav-button {
@@ -140,22 +148,126 @@ body {
 }
 
 .fcc-logo {
-  width: 175px;
+	width: 175px;
+	float: right;
 }
 
 
-// .wrapper wrapper-footer {
-//   position: absolute;
-//   bottom: 0;
-//   width: 100%;
-//   height: 2.5rem;
-// }
+.idash-section .no-pending-tasks-message p {
+  color: $t1-d2;
+}
 
-// .content-wrap {
-//   padding-bottom: 2.5rem;
-// }
+.xmodule_display.xmodule_CapaModule div.problem-progress {
+  color: $t1-d2;
+}
 
-// .window-wrap {
-//   position: relative;
-//   min-height: 100vh;
-// }
+.xmodule_display.xmodule_CapaModule div.problem .action .submission-feedback {
+  color: $t1-d2;
+}
+
+button {
+  box-shadow: none;
+  font-weight: none;
+  text-shadow: none;
+  color: $btn1 !important;
+  border: 1px solid $btn1;
+  background: transparent;
+}
+
+.light-button:hover:not(:disabled), div.history-controls input[type="submit"]:hover:not(:disabled), a.light-button:hover:not(:disabled), div.info-wrapper section.handouts ol li div.hitarea:hover + h4.light-button:not(:disabled), div.info-wrapper section.handouts ol li div.hitarea:focus + h4.light-button:not(:disabled), .gray-button:hover:not(:disabled), input[type="reset"]:hover:not(:disabled), input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disabled), button:hover:not(:disabled), .button:hover:not(:disabled), .xmodule_display.xmodule_LTIModule div.lti .wrapper-lti-link .lti-link .link_lti_new_window:hover:not(:disabled) {
+	box-shadow: none;
+	cursor: pointer;
+	background-color: $bg1-l2;
+	background-image: none;
+  background-image: none;
+  border-color: $bdr1;
+}
+
+.sr, .sr-only {
+	background: $bg1-l2 !important;
+	color: $t1 !important;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover, .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active, .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active, .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused, .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover, .xmodule_display.xmodule_SequenceModule .sequence-nav button:active, .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+  border: none;
+	background-color: transparent;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav {
+	margin: 0 auto 20px;
+	position: relative;
+	border-bottom: none;
+	z-index: 0;
+	height: 50px;
+	display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li {
+	box-sizing: border-box;
+	min-width: 40px;
+	flex-grow: 1;
+  border: none;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav {
+	margin: 30px 30px 70px 30px;
+	position: relative;
+	border-bottom: none;
+	z-index: 0;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	border: none;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.tickLabel {
+  color: $t1;
+}
+
+.profile-wrapper .course-info > .chapters > section .sections > div p {
+	margin: 0.70788em 0;
+	color: #5e5e5e;
+	font-size: 0.875em;
+	font-weight: 600;
+}
+
+.profile-wrapper .course-info > .chapters > section .sections > div .hd span {
+	color: $t1-d1;
+	font-size: 0.875em;
+	font-weight: 100;
+}
+
+.profile-wrapper .course-info > .chapters > section .sections > div p {
+	margin: 0.70788em 0;
+	color: $t1-d2;
+	font-size: 0.875em;
+	font-weight: 600;
+}
+
+.profile-wrapper .course-info > .chapters > section .sections > div .hd {
+	color: $t1-d1;
+}
+
+.profile-wrapper .course-info > .chapters > section .sections > div .scores dd {
+	display: inline-block;
+	margin: 0;
+	margin-right: 20px;
+	padding-right: 1em;
+	font-size: 0.875em;
+	font-weight: normal;
+	color: $t1-d2;
+}
+
+.wrapper-course-material .course-tabs .tab a:hover, .wrapper-course-material .course-tabs .tab div.info-wrapper section.handouts ol li div.hitarea:hover + h4, div.info-wrapper section.handouts ol li .wrapper-course-material .course-tabs .tab div.hitarea:hover + h4, .wrapper-course-material .course-tabs .tab div.info-wrapper section.handouts ol li div.hitarea:focus + h4, div.info-wrapper section.handouts ol li .wrapper-course-material .course-tabs .tab div.hitarea:focus + h4, .wrapper-course-material .course-tabs .tab a:focus, .wrapper-course-material .course-tabs .tab a.active, .wrapper-course-material .course-tabs .tab a:visited:hover, .wrapper-course-material .course-tabs .tab div.info-wrapper section.handouts ol li div.hitarea:hover + h4:visited, div.info-wrapper section.handouts ol li .wrapper-course-material .course-tabs .tab div.hitarea:hover + h4:visited, .wrapper-course-material .course-tabs .tab div.info-wrapper section.handouts ol li div.hitarea:focus + h4:visited, div.info-wrapper section.handouts ol li .wrapper-course-material .course-tabs .tab div.hitarea:focus + h4:visited, .wrapper-course-material .course-tabs .tab a:visited:focus, .wrapper-course-material .course-tabs .tab a:visited.active {
+	color: $l1;
+	border-bottom-style: solid;
+	background-color: transparent;
+}
