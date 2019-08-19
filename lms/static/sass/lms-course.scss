@@ -183,6 +183,7 @@ button {
   border-color: $bdr1;
 }
 
+
 .sr, .sr-only {
 	background: $bg1-l2 !important;
 	color: $t1 !important;
@@ -270,4 +271,65 @@ button {
 	color: $l1;
 	border-bottom-style: solid;
 	background-color: transparent;
+}
+
+.window-wrap {
+	min-height: calc(100vh - 250px);
+}
+
+.window-wrap {
+	min-height: calc(100vh - 250px);
+}
+
+.grid-container {
+	height: 230px;
+}
+
+// .profile-wrapper .course-info {
+// 	width: 90% !important;
+// }
+
+// body.view-in-course .profile-wrapper {
+// 	width: 90% !important;
+// }
+
+// body.view-in-course .container {
+// 	width: 90% !important;
+// }
+
+
+body.view-in-course .container {
+	width: 100% !important;
+	border: none !important;
+}
+
+// .profile-wrapper .course-info {
+// 	width: 90% !important;
+// }
+
+.container > div {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.wrapper-course-material .course-tabs .tab a {
+	color: $l1 !important;
+}
+
+.wrapper-course-material .course-tabs .tab a:visited {
+	color: $bdr1;
+}
+
+.bookmark-text {
+	color: $l1 !important;
+}
+
+.discussion-body, .discussion-module {
+	border: 1px solid $bdr1 !important;
+	border-radius: 7px !important;
+	padding: 35px !important;
+}
+
+.btn-link {
+	color: $l1 !important;
 }

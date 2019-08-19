@@ -150,3 +150,7 @@ html, button, input, select, textarea {
 	font-family: cursive;
 	color: $t1;
 }
+
+.breadcrumbs .nav-item a, .breadcrumbs .nav-item a:visited {
+  color: $l1;
+}

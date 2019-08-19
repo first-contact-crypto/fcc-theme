@@ -80,9 +80,14 @@ html {
 	color: $l1;
 }
 
+.wrapper-footer footer {
+	height: 250px;
+}
+
 
 .fcc-logo {
-  width: 175px;
+	width: 175px;
+	float: right;
 }
 
 .account-settings-sections .section .account-settings-section-body .u-field .field .field-input {
@@ -401,14 +406,15 @@ label {
 // }
 
 #main {
-	width: 70% !important;
+	width: 90% !important;
 	margin: auto !important;
 	// box-shadow: 5px 5px 20px 6px $bdr1;
-	box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
+	// box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
 	// border: 1px solid rgba(0, 0, 255, .1) !important;
 	border-radius: 7px;
 	background-color: $bg1 !important;
 	margin-top: 50px !important;
+	border: none !important;
 }
 
 .dashboard .main-container .my-courses .course .details .wrapper-course-details .course-info [class*="info-"] {
@@ -470,3 +476,25 @@ label {
 // .footer, .my-push {
 // 	height: 250px;
 // }
+
+.window-wrap {
+	min-height: calc(100vh - 250px) !important;
+}
+
+.grid-container {
+	height: 230px !important;
+}
+
+.wrapper-footer footer#footer-openedx {
+	// box-sizing: border-box;
+	// max-width: 1920px;
+	// margin-left: auto;
+	// margin-right: auto;
+	// margin: 0 auto;
+	height: 150px !important;
+}
+
+.wrapper-footer footer#footer-openedx .copyright {
+	margin: auto !important;
+	text-align: center !important;
+}

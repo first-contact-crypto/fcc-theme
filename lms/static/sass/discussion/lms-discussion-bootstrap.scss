@@ -8,6 +8,10 @@ body {
   background-color: $bg1;
 }
 
+h2 {
+	color: $t1 !important;
+}
+
 .page-content-container {
 	border: none;
 	background-color: transparent;
@@ -241,3 +245,20 @@ button {
 .field-label .field-input:checked + .field-input-label {
 	color: $l1;
 }
+
+.content-wrapper .course-tabs .nav-item .nav-link
+ {
+	 color: $l1 !important;
+ }
+
+ .forum-nav-refine-bar {
+	 background: $bg1-l1 !important;
+ }
+
+ .view-discussion-home .home-title {
+	 color: $t1-d1 !important;
+ }
+
+ .label {
+	 text-decoration: underline !important;
+ }

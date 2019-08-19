@@ -3,3 +3,10 @@
 @import 'shared/footer';
 
 
+.window-wrap {
+	min-height: calc(100vh - 250px);
+}
+
+.grid-container {
+	height: 230px;
+}

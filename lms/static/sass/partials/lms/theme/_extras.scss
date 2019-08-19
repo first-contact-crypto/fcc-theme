@@ -190,3 +190,72 @@ body, html, h1 {
 		border: 1px solid $bdr1;
 	}
 }
+
+.course-outline .block-tree .section ol.outline-item .subsection .subsection-text .details {
+	font-size: 1rem;
+	color: $t1-d2;
+}
+
+.global-header .nav-links .secondary .nav-item a {
+	color: $btn1 !important;
+
+}
+
+.content-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	box-shadow: 0 0 100px 10px rgba(0,0,255,.175) !important; 
+	border-radius: 7px;
+	margin-top: 100px !important;
+	margin-bottom: 100px !important;
+	// -webkit-box-shadow: -50px -50px 200px 0px rgba(0,0,255,0.32);
+	// -moz-box-shadow: -50px -50px 200px 0px rgba(0,0,255,0.32);
+	// box-shadow: -50px -50px 200px 0px rgba(0,0,255,0.32);
+	// -webkit-box-shadow: 50px 50px 200px 0px rgba(0,0,255,0.32);
+	// -moz-box-shadow: 50px 50px 200px 0px rgba(0,0,255,0.32);
+	// box-shadow: 50px 50px 200px 0px rgba(0,0,255,0.32);
+	background-color: $bg1 !important;
+}
+
+.page-content-container {
+	border: none !important;
+	background-color: $bg1 !important;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+	// width: 70% !important;
+	// margin: auto !important;
+	// // box-shadow: 5px 5px 20px 6px $bdr1;
+	// box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
+	// // border: 1px solid rgba(0, 0, 255, .1) !important;
+	// border-radius: 7px;
+	// background-color: $bg1 !important;
+	// margin-top: 50px !important;
+
+
+.content-wrapper .course-tabs .nav-item .nav-link {
+	color: $l1;
+}
+
+.input-group .form-control:not(:first-child):not(:last-child) {
+	border: 1px solid $bdr1 !important;
+	border-radius: 5px !important;
+	&:hover {
+		border-color: $bdr1;
+		background: $bg1-l1;
+	}
+}
+
+.content-wrapper .course-tabs {
+	box-shadow: none !important;
+}
+
+select {
+	background: $bg1 !important;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
+	border: none !important;
+}
