@@ -259,3 +259,7 @@ select {
 .xmodule_display.xmodule_CapaModule div.problem .choicegroup label, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
 	border: none !important;
 }
+
+button.accordion-trigger .fa, button.prerequisite-button .fa {
+	color: $l1 !important;
+}
