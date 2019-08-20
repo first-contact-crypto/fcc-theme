@@ -412,7 +412,7 @@ label {
 	// box-shadow: 0 30px 40px 40px rgba(0,0,255,.1) !important;
 	// border: 1px solid rgba(0, 0, 255, .1) !important;
 	border-radius: 7px;
-	background-color: $bg1 !important;
+	background-color: transparent !important;
 	margin-top: 50px !important;
 	border: none !important;
 }
@@ -444,13 +444,15 @@ label {
 }
 
 .my-button {
+	margin-top: -25px !important;
+	margin-bottom: 50px !important;
 	color: $btn1 !important;
-	background: transparent !important;
+	background: $bg1 !important;
 	border: 1px solid $btn1 !important;
 	box-shadow: none !important;
 	&:hover {
 		color: $btn1 !important;
-		background: $bg1-l2;
+		background: $bg1-l1;
 		border: 1px solid $bdr1 !important;
 		box-shadow: none !important;
 	}
@@ -498,3 +500,36 @@ label {
 	margin: auto !important;
 	text-align: center !important;
 }
+
+.wrapper-footer {
+	padding: 25px 10px 30px 10px;
+}
+
+.login-register-content {
+	background: transparent !important;
+}
+
+.content-wrapper {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+.login-register {
+	box-shadow: 0 0 100px 10px rgba(0,0,255,.175) !important;
+}
+
+.form-wrapper {
+	border: none !important;
+	border-radius: 7px !important;
+}
+
+.login-register {
+	border-radius: 7px !important;
+}
+
+#dashboard-main {
+	background: $bg1 !important;
+	box-shadow: 0 0 100px 10px rgba(0,0,255,.175) !important;
+	margin-bottom: 100px !important;
+}
+

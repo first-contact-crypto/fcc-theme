@@ -262,3 +262,51 @@ button {
  .label {
 	 text-decoration: underline !important;
  }
+
+ .forum-nav-thread .forum-nav-thread-link.is-active {
+	 background: $bg1-l1 !important;
+	 color: $t1-d1 !important;
+ }
+
+ .forum-nav-refine-bar {
+	background: $bg1-ll !important;
+ }
+
+ .forum-nav-thread-list .thread-preview-body {
+	color: $t1-d2;
+}
+
+// .forum-nav-sort-control {
+// 	background-color: $bg1 !important;
+// }
+
+.forum-nav-thread .forum-nav-thread-link {
+	color: $t1-dd;
+}
+
+.discussion .responses .forum-response {
+	border-color: $bdr1 !important;
+	border-radius: 7px !important;
+}
+
+.discussion .comments > li {
+	border-top: none !important;
+}
+
+.wmd-input {
+	border-color: $bdr1 !important;
+	border-bottom: none !important;
+	border-radius: 7px !important;
+}
+
+.discussion .comments {
+	background-color: $bg1-ll !important;
+}
+
+.wmd-preview-container {
+	border-top: none !important;
+}
+
+.forum-nav-browse-submenu li .forum-nav-browse-title {
+	color: $l1 !important;
+}

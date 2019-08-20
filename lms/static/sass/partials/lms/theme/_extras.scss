@@ -263,3 +263,11 @@ select {
 button.accordion-trigger .fa, button.prerequisite-button .fa {
 	color: $l1 !important;
 }
+
+.mb-4, .my-4 {
+	margin-bottom: 1px !important;
+}
+
+select { 
+	background: $bg1-ll !important;
+}
