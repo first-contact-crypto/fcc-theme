@@ -26,19 +26,23 @@ from pipeline_mako import render_require_js_path_overrides
 %>
 <!DOCTYPE html>
 <!--[if lte IE 9]><html class="ie ie9 lte9" lang="${LANGUAGE_CODE}"><![endif]-->
-<!--[if !IE]><!--><html lang="${LANGUAGE_CODE}"><!--<![endif]-->
-<head dir="${static.dir_rtl()}">
+<!--[if !IE]><!-->
+<html lang="${LANGUAGE_CODE}">
+  <!--<![endif]-->
+
+  <head dir="${static.dir_rtl()}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-## Define a couple of helper functions to make life easier when
-## embedding theme conditionals into templates. All inheriting
-## templates have access to these functions, and we can import these
-## into non-inheriting templates via the %namespace tag.
+    ## Define a couple of helper functions to make life easier when
+    ## embedding theme conditionals into templates. All inheriting
+    ## templates have access to these functions, and we can import these
+    ## into non-inheriting templates via the %namespace tag.
 
-## this needs to be here to prevent the title from mysteriously appearing in the body, in one case
-<%def name="pagetitle()" />
+    ## this needs to be here to prevent the title from mysteriously appearing
+    ## in the boin the body, in one case
+    <%def name="pagetitle()" />
   <%block name="title">
       <title>
        ${static.get_page_title_breadcrumbs(self.pagetitle())}
@@ -61,7 +65,7 @@ from pipeline_mako import render_require_js_path_overrides
     ie11_fix_path = "js/ie11_find_array.js"
   %>
 
-  % if getattr(settings, 'CAPTURE_CONSOLE_LOG', False):
+    % if getattr(settings, 'CAPTURE_CONSOLE_LOG', False):
     <script type="text/javascript">
       var oldOnError = window.onerror;
       window.localStorage.setItem('console_log_capture', JSON.stringify([]));
@@ -71,28 +75,34 @@ from pipeline_mako import render_require_js_path_overrides
           oldOnError.apply(this, arguments);
         }
 
-        var messages = JSON.parse(window.localStorage.getItem('console_log_capture'));
+        var messages = JSON.parse(window.localStorage.getItem(
+          'console_log_capture'));
         messages.push([message, url, lineno, colno, (error || {}).stack]);
-        window.localStorage.setItem('console_log_capture', JSON.stringify(messages));
+        window.localStorage.setItem('console_log_capture', JSON.stringify(
+          messages));
       }
+
     </script>
-  % endif
-  <script type="text/javascript" src="${static.url(jsi18n_path)}"></script>
-  <script type="text/javascript" src="${static.url(ie11_fix_path)}"></script>
+    % endif
+    <script type="text/javascript" src="${static.url(jsi18n_path)}"></script>
+    <script type="text/javascript" src="${static.url(ie11_fix_path)}"></script>
 
-  <link rel="icon" type="image/x-icon" href="${static.url(static.get_value('favicon_path', settings.FAVICON_PATH))}" />
+    <link rel="icon" type="image/x-icon"
+      href="${static.url(static.get_value('favicon_path', settings.FAVICON_PATH))}" />
 
-  <%static:css group='style-vendor'/>
+    <%static:css group='style-vendor'/>
   % if '/' in self.attr.main_css:
     % if get_language_bidi():
       <%
       rtl_css_file = self.attr.main_css.replace('.css', '-rtl.css')
       %>
-      <link rel="stylesheet" href="${unicode(static.url(rtl_css_file))}" type="text/css" media="all" />
+    <link rel="stylesheet" href="${unicode(static.url(rtl_css_file))}"
+      type="text/css" media="all" />
     % else:
-      <link rel="stylesheet" href="${static.url(self.attr.main_css)}" type="text/css" media="all" />
+    <link rel="stylesheet" href="${static.url(self.attr.main_css)}"
+      type="text/css" media="all" />
     % endif
-  % else:
+    % else:
     <%static:css group='${self.attr.main_css}'/>
   % endif
 
@@ -137,36 +147,62 @@ from pipeline_mako import render_require_js_path_overrides
   <meta name="path_prefix" content="${EDX_ROOT_URL}">
   
   <% google_site_verification_id = configuration_helpers.get_value('GOOGLE_SITE_VERIFICATION_ID', settings.GOOGLE_SITE_VERIFICATION_ID) %>
-  % if google_site_verification_id:
-    <meta name="google-site-verification" content="${google_site_verification_id}" />
-  % endif
+    % if google_site_verification_id:
+    <meta name="google-site-verification"
+      content="${google_site_verification_id}" />
+    % endif
 
-  <meta name="openedx-release-line" content="${RELEASE_LINE}" />
+    <meta name="openedx-release-line" content="${RELEASE_LINE}" />
 
-<% ga_acct = static.get_value("GOOGLE_ANALYTICS_ACCOUNT", settings.GOOGLE_ANALYTICS_ACCOUNT) %>
-% if ga_acct:
+    <% ga_acct = static.get_value("GOOGLE_ANALYTICS_ACCOUNT", settings.GOOGLE_ANALYTICS_ACCOUNT) %>
+    % if ga_acct:
     <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '${ga_acct | n, js_escaped_string}']);
-    _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '${ga_acct | n, js_escaped_string}']);
+      _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+      (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+          'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
     </script>
-% endif
+    % endif
 
-<% branch_key = static.get_value("BRANCH_IO_KEY", settings.BRANCH_IO_KEY) %>
-% if branch_key and not is_from_mobile_app:
+    <% branch_key = static.get_value("BRANCH_IO_KEY", settings.BRANCH_IO_KEY) %>
+    % if branch_key and not is_from_mobile_app:
     <script type="text/javascript">
-        (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
-        branch.init('${branch_key | n, js_escaped_string}');
-    </script>
-% endif
+      (function (b, r, a, n, c, h, _, s, d, k) {
+        if (!b[n] || !b[n]._q) {
+          for (; s < _.length;) c(h, _[s++]);
+          d = r.createElement(a);
+          d.async = 1;
+          d.src = "https://cdn.branch.io/branch-latest.min.js";
+          k = r.getElementsByTagName(a)[0];
+          k.parentNode.insertBefore(d, k);
+          b[n] = h
+        }
+      })(window, document, "script", "branch", function (b, r) {
+          b[r] = function () {
+            b._q.push([r, arguments])
+          }
+        }, {
+          _q: [],
+          _v: 1
+        },
+        "addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode"
+        .split(" "), 0);
+      branch.init('${branch_key | n, js_escaped_string}');
 
-<!-- <style>
+    </script>
+    % endif
+
+    <!-- <style>
   body {
   background-image: url("https://firstcontactcrypto.com/img/loopable-stars-4096x2304.png");
   background-color: #000;
@@ -179,9 +215,20 @@ from pipeline_mako import render_require_js_path_overrides
 }
 </style> -->
 
-</head>
 
-<body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
+    <script type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js">
+    </script>
+    <script nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js">
+    </script>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css" />
+
+
+  </head>
+
+  <body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
 <!-- <h1>
   This is a test 
 </h1> -->
