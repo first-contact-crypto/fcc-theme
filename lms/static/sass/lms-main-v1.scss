@@ -9,7 +9,6 @@
 @import 'views/account-settings';
 
 
-
 body {
   background-image: url("https://firstcontactcrypto.com/img/loopable-stars-4096x2304.png");
   background-color: #000;
@@ -584,8 +583,151 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+}
+
+// ion-button.button-clear {
+// 	background: $bg1-l1;
+// 	color: $btn1;
+// 	border-color: $btn1;
+// 	box-shadow: none;
+// 	// --background: $bg1-l1;
+// 	// background-color: var(--background);
+// }
+
+
+
+// ion-toolbar {
+// 	--background: $bg1-l2;
+// 	background-color: var(--background);
+// }
+
+// ion-title.title-md {
+// 	--color: $t1;
+// 	color: var(--color);
+// }
+
+
+// ion-tool-bar.my-ion-toolbar {
+// 	background-color: var(--fcc-bg1);
+// }
+
+// ion-button.button-clear {
+// 	background-color: var(--fcc-bg1);
+// }
+
+// .sc-ion-buttons-md-s .button-clear {
+// 	background: transparent;
+// 	border: none;
+// 	box-shadow: none;
+// 	color: var(--fcc-t1);
+// 	&:hover, &:focus {
+// 		background-color: var(--fcc-bg1-l1);
+// 	}
+// }
+// input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disabled), button:hover:not(:disabled), .button:hover:not(:disabled) {
+// 	background-image: none !important;
+// }
+
+// .my-logo-title {
+// 	color: var(--fcc-t1);
+// 	&:hover {
+// 		border: none !important;
+// 		border-color: none !important;
+// 	}
+// }
+
+// a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
+// 	text-decoration: none !important;
+// }
+
+// ion-button.my-ion-button {
+// 	background: transparent !important;
+// 	&:hover {
+// 		background: var(--fcc-bg1-l1);
+// 	}
+// }
+
+// ion-button.button {
+// 	background-image: none !important;
+// 	background-color: transparent !important;
+// 	border: none !important;
+// 	box-shadow: none !important;
+// 	&:hover {
+// 		background: var(--fcc-bg1-l1);
+// 	}
+// }
+
+// ion-row.my-ion-row {
+// 	background: var(--fcc-bg1);
+// 	margin-top: -5px;
+// }
+
+// ion-button.button-solid {
+// 	&:hover {
+// 		background: var(--fcc-bg1-l1);
+// 	}
+// }
+
+// ion-button.button-native {
+// 	background: var(--fcc-bg1-l1);
+// }
+
+// :root {
+// 	--fcc-bg1: $bg1;
+// 	--fcc-bg1-l1: $bg1-l1;
+// 	--fcc-btn1: $btn1;
+// 	--fcc-bdr1: $bdr1;
+// 	--fcc-t1: $t1;
+// 	--ion-toolbar-background: $bg1;
+// 	--ion-toolbar-color: $t1;
+// 	--ion-color-primary: $bg1;
+// 	--color: $t1;
+// 	--background-hover: $bg1-l2;
+// }
+
+.fcc-header-button {
+	color: $t1 !important;
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	font-size: small;
+	font-weight: none;
+	--background: transparent;
+	--background-hover: $bg1-l2;
+}
+
+.fcc-logo-title {
+	color: $t1;
+}
+
+.fcc-header {
+	background: $bg1;
+}
+
+// .button-solid {
+// 	--background: transparent;
+// }
+
+// input[type="submit"], input[type="button"], button, .button {
+// 	color: #fff;
+// 	font-size: inherit;
+// 	font-weight: bold;
+// 	text-align: center;
+// 	text-shadow: 0 -1px 1px #00008d;
+// 	font: normal 1.2rem/1.6rem cursive;
+// 	letter-spacing: 1px;
+// }
+
+
+
+.button-native {
+	font-family: var(--ion-font-family) !important;
+	font-size: 14px !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
 }
