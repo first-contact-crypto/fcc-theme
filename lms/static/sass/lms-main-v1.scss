@@ -117,10 +117,13 @@ html {
 //   padding-bottom: 2.5rem;
 // }
 
-// .window-wrap {
-//   position: relative;
-//   min-height: 100vh;
-// }
+.window-wrap {
+  // position: relative;
+	// min-height: 100vh;
+	background-image: none !important;
+	background: transparent;
+	height: 0px;
+}
 
 
 .account-settings-sections .section .account-settings-section-body .u-field .field select {
@@ -481,9 +484,9 @@ label {
 // 	height: 250px;
 // }
 
-.window-wrap {
-	min-height: calc(100vh - 250px) !important;
-}
+// .window-wrap {
+// 	min-height: calc(100vh - 250px) !important;
+// }
 
 .grid-container {
 	height: 230px !important;
@@ -589,3 +592,67 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+
+.fcc-header {
+	background: green;
+}
+
+.fcc-grid-item {
+	background: red;
+}
+
+.fcc-row {
+	background: $bg1;
+	color: $t1;
+}
+
+.fcc-header-title {
+	display: inline !important;
+	color: $t1 !important;
+	&:hover {
+		border: none !important;
+		box-shadow: none !important;
+	}
+}
+
+.fcc-header-button-group {
+	flex-basis: 80%;
+	display: inline;
+}
+
+.fcc-header-button {
+	background: transparent;
+	color: $t1;
+	border: none;
+	box-shadow: none;
+	&:hover {
+		background: $bg1-l2;
+	}
+}
+
+a:not(.btn) {
+	color: $t1;
+	font: inherit;
+}
+
+input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disabled), button:hover:not(:disabled), .button:hover:not(:disabled) {
+	background: $bg1-l2;
+}
+
+.fcc-row {
+	background: $bg1-l1;
+	color: $t1;
+	position: fixed; /* Set the navbar to fixed position */
+  top: -2; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */ 
+}
+
+.fcc-header-title {
+	display: inline !important;
+	color: $t1 !important;
+	&:hover {
+		border: none !important;
+		box-shadow: none !important;
+	}
+}
+

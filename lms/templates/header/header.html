@@ -35,45 +35,95 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
   unsupported_browser_alert_versions = configuration_helpers.get_value('UNSUPPORTED_BROWSER_ALERT_VERSIONS', settings.FEATURES.get('UNSUPPORTED_BROWSER_ALERT_VERSIONS'))
 %>
 % if waffle.switch_is_active('enable_unsupported_browser_alert'):
-  <script>
+<script>
     var $buoop = {
-        notify:${unsupported_browser_alert_versions | n, decode.utf8},
-        api:5,
-        reminder:0
+        notify: $ {
+            unsupported_browser_alert_versions | n, decode.utf8
+        },
+        api: 5,
+        reminder: 0
     };
+
     function $buo_f() {
         var e = document.createElement("script");
         e.src = "//browser-update.org/update.min.js";
         document.body.appendChild(e);
     };
-    try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-    catch(e){window.attachEvent("onload", $buo_f)}
-  </script>
+    try {
+        document.addEventListener("DOMContentLoaded", $buo_f, false)
+    } catch (e) {
+        window.attachEvent("onload", $buo_f)
+    }
+
+</script>
 % endif
 
-<header class="global-header ${'slim' if course else ''}">
-    % if use_cookie_banner:
-        ${static.renderReact(
-            component="CookiePolicyBanner",
-            id="cookie-policy-banner",
-            props={}
-        )}
-    % endif
-    <div class="main-header">
-        <%include file="navbar-logo-header.html" args="online_help_token=online_help_token"/>
-        <div class="hamburger-menu" role="button" aria-label=${_("Options Menu")} aria-expanded="false" aria-controls="mobile-menu" tabindex="0">
+<!-- <header class="global-header ${'slim' if course else ''}"> -->
+<%doc>
+        % if use_cookie_banner:
+            ${static.renderReact(
+                component="CookiePolicyBanner",
+                id="cookie-policy-banner",
+                props={}
+            )}
+        % endif
+    </%doc>
+    <!-- <div class="main-header"> -->
+        ## <%include file="navbar-logo-header.html" args="online_help_token=online_help_token"/>
+        <!-- <div class="hamburger-menu" role="button" aria-label=${_("Options Menu")} aria-expanded="false" aria-controls="mobile-menu" tabindex="0">
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
+        </div> -->
+        <%doc> 
+            % if user.is_authenticated:
+                <%include file="navbar-authenticated.html" args="online_help_token=online_help_token"/>
+            % else:
+                <%include file="navbar-not-authenticated.html" args="online_help_token=online_help_token"/>
+            % endif
+        </%doc>
+    <!-- </div>
+    <div class="mobile-menu hidden" aria-label=${_("More Options")} role="menu" id="mobile-menu"></div> -->
+<!-- 
+<header>
+    <div class="fcc-header">
+        <div class="flow">
+            <div class="fcc-grid-item">
+                <div class="grid-example-square">
+                    Ello Mate
+                </div>
+            </div>
+            <div class="fcc-grid-item"></div>
+                <div class="grid-example-square">
+                    Ello Mate
+                </div>
         </div>
+                <div class="fcc-grid-item"></div>
+            <div class="grid-example-square">
+                Ello Mate
+            </div>
+    </div>
+        </div>
+    </div>
+</header> -->
+
+<header>
+    <div class="row fcc-row">
+        <div class="col-xs-3">
+
+                <a href="https://learn.firstcontactcrypto.com/dashboard">
+                    <img src="https://firstcontactcrypto.com/img/logo.png" width="64">
+                    <div class="fcc-header-title">First Contact Crypto</div>
+                </a>
+        </div>
+
         % if user.is_authenticated:
-            <%include file="navbar-authenticated.html" args="online_help_token=online_help_token"/>
-        % else:
-            <%include file="navbar-not-authenticated.html" args="online_help_token=online_help_token"/>
+                <%include file="navbar-authenticated.html" args="online_help_token=online_help_token"/>
+            % else:
+                <%include file="navbar-not-authenticated.html" args="online_help_token=online_help_token"/>
         % endif
     </div>
-    <div class="mobile-menu hidden" aria-label=${_("More Options")} role="menu" id="mobile-menu"></div>
 </header>
 
 % if course:
@@ -91,27 +141,4 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
   <%include file="../widgets/cookie-consent.html" />
 % endif
 
-% if header_language_selector_is_enabled():
-    <% languages = released_languages() %>
-    % if len(languages) > 1:
-        <form action="/i18n/setlang/" method="post" class="settings-language-form" id="language-settings-form">
-            <input type="hidden" id="csrf_token" name="csrfmiddlewaretoken" value="${csrf_token}">
-            % if user.is_authenticated:
-                <input title="preference api" type="hidden" class="url-endpoint" value="${reverse('preferences_api', kwargs={'username': user.username})}" data-user-is-authenticated="true">
-            % else:
-                <input title="session update url" type="hidden" class="url-endpoint" value="${reverse('session_language')}" data-user-is-authenticated="false">
-            % endif
-            <label><span class="sr">${_("Choose Language")}</span>
-            <select class="input select language-selector" id="settings-language-value" name="language">
-                % for language in languages:
-                    % if language[0] == LANGUAGE_CODE:
-                        <option value="${language[0]}" selected="selected">${language[1]}</option>
-                    % else:
-                        <option value="${language[0]}" >${language[1]}</option>
-                    % endif
-                % endfor
-            </select>
-            </label>
-        </form>
-    % endif
-% endif
+

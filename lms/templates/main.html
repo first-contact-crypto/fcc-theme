@@ -214,18 +214,18 @@ from pipeline_mako import render_require_js_path_overrides
   background-size: cover;
 }
 </style> -->
+<style>
+  /* .window-wrap {
+    min-height: calc(100vh - 900px) !important;
+  } */
+</style>
 
 
-    <script type="module"
-      src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js">
-    </script>
-    <script nomodule
-      src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js">
-    </script>
+    <!-- <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/frow@3/dist/frow.min.css"> -->
     <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css" />
-
-
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css">
   </head>
 
   <body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
