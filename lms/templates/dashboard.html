@@ -201,19 +201,28 @@ from student.models import CourseEnrollment
   <!-- <div class="row"> -->
     <!-- <div class="col"> -->
   <div class="collapse" id="multiCollapseExample1">
-    <div class="card">
+    <div class="card fcc-card">
       <div class="card-img-top" src="" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some example of text.. blah blah blah blah blah blah blah blah
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhr</a>
+          <h4 class="card-title" style="color:white; background-color: #111"><a>Epiphany Points</a></h4>
+          <div class="text-center">
+            
+
+            
+          <p class="card-text"  >You currently have <span class="my-num-epiph-asserts">${pc_pkg['num_epiph_asserts']}</span> Epiphany Points!</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhr</a> -->
+            <form action="https://firstcontactcrypto.com/redemption.html" method="get">
+              <input type="hidden" id="pc_pkg_str" name="pc_pkg_str" value=${pc_pkg_str}>
+              <button class="my-button my-redemption-button">Go to Planet Epiphany, win a prize!</button>
+          </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
 <!--/ Collapsible content -->
+
+
 
 
 

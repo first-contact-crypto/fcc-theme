@@ -452,7 +452,7 @@ label {
 	box-shadow: none !important;
 	&:hover {
 		color: $btn1 !important;
-		background: $bg1-l1;
+		background: $bg1-l1 !important;
 		border: 1px solid $bdr1 !important;
 		box-shadow: none !important;
 	}
@@ -460,6 +460,10 @@ label {
 		border: 1px solid $btn1 !important;
 		box-shadow: none !important;
 	}
+}
+
+.my-redemption-button {
+	margin-top: 20px !important;
 }
 
 
@@ -535,4 +539,14 @@ label {
 
 .login-register .form-field label {
 	color: $t1-d2;
+}
+
+.fcc-card {
+	background: $bg1 !important;
+	box-shadow: 0 0 100px 10px rgba(0,0,255,0.175) !important;
+}
+
+.my-num-epiph-asserts {
+	color: orangered !important;
+	text-decoration: underline !important;
 }

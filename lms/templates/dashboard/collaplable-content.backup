@@ -1,0 +1,50 @@
+  <!-- Collapsible content -->
+  <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+  <div class="collapse" id="multiCollapseExample1">
+    <div class="card-body" style="background-color: #111" >
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-4 mx-auto">
+            <!-- Card -->
+            <div class="card"  style="background-color: #111">
+              <!-- Card image -->
+              <img class="card-img-top" src="https://media.us.badgr.io/uploads/badges/issuer_badgeclass_63237c1a-3f3d-40b7-9e48-085658d2799f.png" alt="Course Badge Image">
+              <!-- Card content -->
+              <div class="card-body" style="background-color: #111">
+                <!-- Title -->
+                <h4 class="card-title"><a>Badges Received</a></h4>
+                <!-- Text -->
+                <p class="card-text"  >You currently have ${pc_pkg['num_course_asserts']} Badges!</p>
+                <!-- Button -->
+                <a href="https://firstcontactcrypto.com/openbadges.html" class="btn btn-outline-success ">Visit your OpenBadges backpack!</a>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-4 mx-auto">
+            <!-- Card -->
+            <div class="card" style="background-color: #252525">
+              <!-- Card image -->
+              <img class="card-img-top" src="https://media.us.badgr.io/uploads/badges/issuer_badgeclass_efc20af1-7d43-4d1e-877e-447244ea3fd3.png" alt="Epiphany Badge Image">
+              <!-- Card content -->
+              <div class="card-body" style="background-color: #111">
+                <!-- Title -->
+                <h4 class="card-title" style="color:white; background-color: #111"><a>Epiphany Points</a></h4>
+                <!-- Text -->
+                <p class="card-text"  >You currently have ${pc_pkg['num_epiph_asserts']} Epiphany Points!</p>
+                <!-- Button -->
+                <a href="https://firstcontactcrypto.com/redemption.html?pc_pkg_str=${pc_pkg_str}" class="btn btn-outline-success ">Planet Epiphany, win prize!</a>
+                <!-- <form action="https://firstcontactcrypto.com/redemption.html" method="post">
+                  <input type="hidden" id="pc_pkg_str" name="pc_pkg_str" value=${pc_pkg_str}>
+                  <button class="btn btn-outline-success ">Planet Epiphany, win a prize!</button>
+                </form> -->
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--/ Collapsible content -->
